@@ -1,22 +1,6 @@
-## brew-cask
-
-### 安装示例(Google Chrome)：
-1. 打开终端`Terminal.app`或`iTerm.app`;
-2. 安装Homebrew;
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-3. 安装Chrome:`brew cask install google-chrome`;
-
-注：如果已经安装过`Homebrew`，可直接执行第3步！一行搞定！So easy!
-
-### 官方链接：
-* homebrew:`https://brew.sh`
-* homebrew-cask: `https://caskroom.github.io`
-* GitHub: `https://github.com/caskroom/homebrew-cask`
-
 ### Cask列表
-注：最后更新于2018-03-06,持续更新中...
+
+注：更新于2018-03-06,持续更新中...
 
 |分类|名称| 包名|命令|
 |---|---|---|---|
