@@ -4,1534 +4,3947 @@
 1. 打开终端`Terminal.app`或`iTerm.app`;
 2. 安装Homebrew;
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 3. 安装Chrome:`brew cask install google-chrome`;
 
 注：如果已经安装过`Homebrew`，可直接执行第3步！一行搞定！So easy!
 
 ### 官方链接：
-homebrew:`https://brew.sh`
-homebrew-cask: `https://caskroom.github.io`
-GitHub: `https://github.com/caskroom/homebrew-cask`
+* homebrew:`https://brew.sh`
+* homebrew-cask: `https://caskroom.github.io`
+* GitHub: `https://github.com/caskroom/homebrew-cask`
 
 ### Cask列表
 注：最后更新于2018-03-06,持续更新中...
 
-|名称| 包名|命令|
-|---|---|---|
-|   |0ad |brew cask install 0ad|
-|   |0xed  |brew cask install 0xed|
-|   |1clipboard  |brew cask install 1clipboard|
-|   |1password-cli  |brew cask install 1password-cli|
-|   |1password  |brew cask install 1password|
-|   |3cxphone  |brew cask install 3cxphone|
-|   |4k-slideshow-maker  |brew cask install 4k-slideshow-maker|
-|   |4k-stogram  |brew cask install 4k-stogram|
-|   |4k-video-downloader  |brew cask install 4k-video-downloader|
-|   |4k-video-to-mp3  |brew cask install 4k-video-to-mp3|
-|   |4k-youtube-to-mp3  |brew cask install 4k-youtube-to-mp3|
-|   |4peaks  |brew cask install 4peaks|
-|   |5kplayer  |brew cask install 5kplayer|
-|   |8bitshaper  |brew cask install 8bitshaper|
-|   |8tracksradiohelper  |brew cask install 8tracksradiohelper|
-|   |010-editor  |brew cask install 010-editor|
-|   |33-rpm  |brew cask install 33-rpm|
-|   |115browser  |brew cask install 115browser|
-|   |360safe  |brew cask install 360safe|
-|   |a-better-finder-attributes  |brew cask install a-better-finder-attributes|
-|   |a-better-finder-rename  |brew cask install a-better-finder-rename|
-|   |a-slower-speed-of-light  |brew cask install a-slower-speed-of-light|
-|   |ableton-live-intro  |brew cask install ableton-live-intro|
-|   |ableton-live-lite  |brew cask install ableton-live-lite|
-|   |ableton-live-standard  |brew cask install ableton-live-standard|
-|   |ableton-live-suite  |brew cask install ableton-live-suite|
-|   |ableton-live  |brew cask install ableton-live|
-|   |abricotine  |brew cask install abricotine|
-|   |abscissa  |brew cask install abscissa|
-|   |abstract  |brew cask install abstract|
-|   |abyss-web-server  |brew cask install abyss-web-server|
-|   |accessmenubarapps  |brew cask install accessmenubarapps|
-|   |acorn  |brew cask install acorn|
-|   |acousticbrainz-gui  |brew cask install acousticbrainz-gui|
-|   |acquia-dev  |brew cask install acquia-dev|
-|   |acronis-true-image  |brew cask install acronis-true-image|
-|   |across-lite  |brew cask install across-lite|
-|   |acslogo  |brew cask install acslogo|
-|   |actions-server  |brew cask install actions-server|
-|   |activity-audit  |brew cask install activity-audit|
-|   |actprinter  |brew cask install actprinter|
-|   |actual-odbc-pack  |brew cask install actual-odbc-pack|
-|   |adafruit-arduino  |brew cask install adafruit-arduino|
-|   |adapter  |brew cask install adapter|
-|   |addaps  |brew cask install addaps|
-|   |adguard  |brew cask install adguard|
-|   |adium  |brew cask install adium|
-|   |adobe-acrobat-pro  |brew cask install adobe-acrobat-pro|
-|   |adobe-acrobat-reader  |brew cask install adobe-acrobat-reader|
-|   |adobe-air-sdk  |brew cask install adobe-air-sdk|
-|   |adobe-air  |brew cask install adobe-air|
-|   |adobe-arh  |brew cask install adobe-arh|
-|   |adobe-connect  |brew cask install adobe-connect|
-|   |adobe-creative-cloud-cleaner-tool  |brew cask install adobe-creative-cloud-cleaner-tool|
-|   |adobe-creative-cloud  |brew cask install adobe-creative-cloud|
-|   |adobe-digital-editions  |brew cask install adobe-digital-editions|
-|   |adobe-dng-converter  |brew cask install adobe-dng-converter|
-|   |adobe-photoshop-lightroom  |brew cask install adobe-photoshop-lightroom|
-|   |advancedcolors  |brew cask install advancedcolors|
-|   |adventure  |brew cask install adventure|
-|   |adware-removal-tool  |brew cask install adware-removal-tool|
-|   |aegisub  |brew cask install aegisub|
-|   |aerial  |brew cask install aerial|
-|   |aether  |brew cask install aether|
-|   |affinic-debugger  |brew cask install affinic-debugger|
-|   |after-dark-classic  |brew cask install after-dark-classic|
-|   |agenda  |brew cask install agenda|
-|   |aimersoft-video-converter-ultimate  |brew cask install aimersoft-video-converter-ultimate|
-|   |air-connect  |brew cask install air-connect|
-|   |air-video-server-hd  |brew cask install air-video-server-hd|
-|   |air-video-server  |brew cask install air-video-server|
-|   |aircall  |brew cask install aircall|
-|   |airdisplay  |brew cask install airdisplay|
-|   |airdroid  |brew cask install airdroid|
-|   |airflick  |brew cask install airflick|
-|   |airflow  |brew cask install airflow|
-|   |airfoil  |brew cask install airfoil|
-|   |airmedia  |brew cask install airmedia|
-|   |airparrot  |brew cask install airparrot|
-|   |airserver  |brew cask install airserver|
-|   |airtable  |brew cask install airtable|
-|   |airtame  |brew cask install airtame|
-|   |airtool  |brew cask install airtool|
-|   |airy  |brew cask install airy|
-|   |aja-system-test  |brew cask install aja-system-test|
-|   |aladin  |brew cask install aladin|
-|   |alcatraz  |brew cask install alcatraz|
-|   |alchemy  |brew cask install alchemy|
-|   |alfred  |brew cask install alfred|
-|   |algodoo  |brew cask install algodoo|
-|   |alib1  |brew cask install alib1|
-|   |alice  |brew cask install alice|
-|   |aliedit  |brew cask install aliedit|
-|   |alinof-timer  |brew cask install alinof-timer|
-|   |aliwangwang  |brew cask install aliwangwang|
-|   |aliworkbench  |brew cask install aliworkbench|
-|   |altair  |brew cask install altair|
-|   |alternote  |brew cask install alternote|
-|   |aluxian-messenger  |brew cask install aluxian-messenger|
-|   |alva  |brew cask install alva|
-|   |amadeus-pro  |brew cask install amadeus-pro|
-|   |amanote  |brew cask install amanote|
-|   |amazon-chime  |brew cask install amazon-chime|
-|   |amazon-drive  |brew cask install amazon-drive|
-|   |amazon-music  |brew cask install amazon-music|
-|   |amazon-workdocs  |brew cask install amazon-workdocs|
-|   |amazon-workspaces  |brew cask install amazon-workspaces|
-|   |amethyst  |brew cask install amethyst|
-|   |amidst  |brew cask install amidst|
-|   |amm  |brew cask install amm|
-|   |ammonite  |brew cask install ammonite|
-|   |amorphousdiskmark  |brew cask install amorphousdiskmark|
-|   |ampps  |brew cask install ampps|
-|   |anaconda  |brew cask install anaconda|
-|   |android-file-transfer  |brew cask install android-file-transfer|
-|   |android-ndk  |brew cask install android-ndk|
-|   |android-platform-tools  |brew cask install android-platform-tools|
-|   |android-sdk  |brew cask install android-sdk|
-|   |android-studio  |brew cask install android-studio|
-|   |androidtool  |brew cask install androidtool|
-|   |angband  |brew cask install angband|
-|   |angry-ip-scanner  |brew cask install angry-ip-scanner|
-|   |anka-flow  |brew cask install anka-flow|
-|   |anki  |brew cask install anki|
-|   |annotation-edit  |brew cask install annotation-edit|
-|   |anonvpn  |brew cask install anonvpn|
-|   |anonym  |brew cask install anonym|
-|   |anonymousvpn  |brew cask install anonymousvpn|
-|   |ansible-dk  |brew cask install ansible-dk|
-|   |antconc  |brew cask install antconc|
-|   |antetype  |brew cask install antetype|
-|   |antfileconverter  |brew cask install antfileconverter|
-|   |antpconc  |brew cask install antpconc|
-|   |antwordprofiler  |brew cask install antwordprofiler|
-|   |anvil  |brew cask install anvil|
-|   |anybar  |brew cask install anybar|
-|   |anydesk  |brew cask install anydesk|
-|   |anyipsum  |brew cask install anyipsum|
-|   |anylist  |brew cask install anylist|
-|   |anylogic  |brew cask install anylogic|
-|   |anytrans  |brew cask install anytrans|
-|   |apache-couchdb  |brew cask install apache-couchdb|
-|   |apache-directory-studio  |brew cask install apache-directory-studio|
-|   |apm-planner  |brew cask install apm-planner|
-|   |app-tamer  |brew cask install app-tamer|
-|   |appcleaner  |brew cask install appcleaner|
-|   |appcode  |brew cask install appcode|
-|   |appdelete  |brew cask install appdelete|
-|   |appearin  |brew cask install appearin|
-|   |appgate-client  |brew cask install appgate-client|
-|   |appgate-sdp-client  |brew cask install appgate-sdp-client|
-|   |appgrid  |brew cask install appgrid|
-|   |appium  |brew cask install appium|
-|   |apple-events  |brew cask install apple-events|
-|   |apple-juice  |brew cask install apple-juice|
-|   |applepi-baker  |brew cask install applepi-baker|
-|   |application-loader  |brew cask install application-loader|
-|   |apppolice  |brew cask install apppolice|
-|   |appserver  |brew cask install appserver|
-|   |appshelf  |brew cask install appshelf|
-|   |appstore-quickview  |brew cask install appstore-quickview|
-|   |appstudio  |brew cask install appstudio|
-|   |apptivate  |brew cask install apptivate|
-|   |apptrans  |brew cask install apptrans|
-|   |apptrap  |brew cask install apptrap|
-|   |appzapper  |brew cask install appzapper|
-|   |aptanastudio  |brew cask install aptanastudio|
-|   |aptible  |brew cask install aptible|
-|   |aqua-data-studio  |brew cask install aqua-data-studio|
-|   |aquamacs  |brew cask install aquamacs|
-|   |aquaskk  |brew cask install aquaskk|
-|   |aquaterm  |brew cask install aquaterm|
-|   |araxis-merge  |brew cask install araxis-merge|
-|   |archi  |brew cask install archi|
-|   |archiver  |brew cask install archiver|
-|   |arduino  |brew cask install arduino|
-|   |argouml  |brew cask install argouml|
-|   |aria-maestosa  |brew cask install aria-maestosa|
-|   |aria2gui  |brew cask install aria2gui|
-|   |arkclient  |brew cask install arkclient|
-|   |armitage  |brew cask install armitage|
-|   |armory  |brew cask install armory|
-|   |arq  |brew cask install arq|
-|   |arranger  |brew cask install arranger|
-|   |arrsync  |brew cask install arrsync|
-|   |art-directors-toolkit  |brew cask install art-directors-toolkit|
-|   |art-of-illusion  |brew cask install art-of-illusion|
-|   |artpip  |brew cask install artpip|
-|   |ascension  |brew cask install ascension|
-|   |asciidocfx  |brew cask install asciidocfx|
-|   |aseprite  |brew cask install aseprite|
-|   |aspera-connect  |brew cask install aspera-connect|
-|   |asset-catalog-tinkerer  |brew cask install asset-catalog-tinkerer|
-|   |astah-community  |brew cask install astah-community|
-|   |astah-professional  |brew cask install astah-professional|
-|   |astah-sysml  |brew cask install astah-sysml|
-|   |astrill  |brew cask install astrill|
-|   |astro  |brew cask install astro|
-|   |astroguider  |brew cask install astroguider|
-|   |astroimager  |brew cask install astroimager|
-|   |astromenace  |brew cask install astromenace|
-|   |astrometry  |brew cask install astrometry|
-|   |astropad-studio  |brew cask install astropad-studio|
-|   |astropad  |brew cask install astropad|
-|   |astrotelescope  |brew cask install astrotelescope|
-|   |atext  |brew cask install atext|
-|   |atlantis  |brew cask install atlantis|
-|   |atlauncher  |brew cask install atlauncher|
-|   |atok  |brew cask install atok|
-|   |atom  |brew cask install atom|
-|   |atraci  |brew cask install atraci|
-|   |au-lab  |brew cask install au-lab|
-|   |audio-editor  |brew cask install audio-editor|
-|   |audio-hijack  |brew cask install audio-hijack|
-|   |audio-notetaker  |brew cask install audio-notetaker|
-|   |audiobook-builder  |brew cask install audiobook-builder|
-|   |audiobookbinder  |brew cask install audiobookbinder|
-|   |audiomate  |brew cask install audiomate|
-|   |audioscrobbler  |brew cask install audioscrobbler|
-|   |audioslicer  |brew cask install audioslicer|
-|   |audirvana-plus  |brew cask install audirvana-plus|
-|   |auftakt  |brew cask install auftakt|
-|   |auganizer  |brew cask install auganizer|
-|   |auristor-client  |brew cask install auristor-client|
-|   |aurora  |brew cask install aurora|
-|   |authbuddy  |brew cask install authbuddy|
-|   |authoxy  |brew cask install authoxy|
-|   |authy  |brew cask install authy|
-|   |autobeat-player  |brew cask install autobeat-player|
-|   |autodmg  |brew cask install autodmg|
-|   |autofirma  |brew cask install autofirma|
-|   |automatic  |brew cask install automatic|
-|   |automute  |brew cask install automute|
-|   |autopano-giga  |brew cask install autopano-giga|
-|   |autopano-pro  |brew cask install autopano-pro|
-|   |autopkgr  |brew cask install autopkgr|
-|   |avast-secureline-vpn  |brew cask install avast-secureline-vpn|
-|   |avast-security  |brew cask install avast-security|
-|   |avg-antivirus  |brew cask install avg-antivirus|
-|   |avibrazil-rdm  |brew cask install avibrazil-rdm|
-|   |avidcodecsle  |brew cask install avidcodecsle|
-|   |avidemux  |brew cask install avidemux|
-|   |avira-antivirus  |brew cask install avira-antivirus|
-|   |avira-vpn  |brew cask install avira-vpn|
-|   |avocode  |brew cask install avocode|
-|   |avogadro  |brew cask install avogadro|
-|   |awa  |brew cask install awa|
-|   |aware  |brew cask install aware|
-|   |awareness  |brew cask install awareness|
-|   |awips-python  |brew cask install awips-python|
-|   |aws-vault  |brew cask install aws-vault|
-|   |axoloti-runtime  |brew cask install axoloti-runtime|
-|   |axoloti  |brew cask install axoloti|
-|   |axure-rp  |brew cask install axure-rp|
-|   |back-in-time  |brew cask install back-in-time|
-|   |backblaze-downloader  |brew cask install backblaze-downloader|
-|   |backblaze  |brew cask install backblaze|
-|   |background-music  |brew cask install background-music|
-|   |backuploupe  |brew cask install backuploupe|
-|   |backwords  |brew cask install backwords|
-|   |baiducloud  |brew cask install baiducloud|
-|   |baiduhi  |brew cask install baiduhi|
-|   |baiduinput  |brew cask install baiduinput|
-|   |baidumusic  |brew cask install baidumusic|
-|   |baidunetdisk  |brew cask install baidunetdisk|
-|   |balsamiq-mockups  |brew cask install balsamiq-mockups|
-|   |bandage  |brew cask install bandage|
-|   |bankid  |brew cask install bankid|
-|   |banktivity  |brew cask install banktivity|
-|   |banshee  |brew cask install banshee|
-|   |baretorrent  |brew cask install baretorrent|
-|   |barmaid  |brew cask install barmaid|
-|   |barsoom  |brew cask install barsoom|
-|   |bartender  |brew cask install bartender|
-|   |barxtemp  |brew cask install barxtemp|
-|   |base  |brew cask install base|
-|   |basecamp  |brew cask install basecamp|
-|   |baseelements  |brew cask install baseelements|
-|   |basictex  |brew cask install basictex|
-|   |bassshapes  |brew cask install bassshapes|
-|   |batchmod  |brew cask install batchmod|
-|   |bathyscaphe  |brew cask install bathyscaphe|
-|   |battery-guardian  |brew cask install battery-guardian|
-|   |battery-report  |brew cask install battery-report|
-|   |battery-time-remaining  |brew cask install battery-time-remaining|
-|   |battle-net  |brew cask install battle-net|
-|   |baudline  |brew cask install baudline|
-|   |baygenie  |brew cask install baygenie|
-|   |bbc-iplayer-downloads  |brew cask install bbc-iplayer-downloads|
-|   |bbedit  |brew cask install bbedit|
-|   |bdash  |brew cask install bdash|
-|   |bdinfo  |brew cask install bdinfo|
-|   |beacon-scanner  |brew cask install beacon-scanner|
-|   |beaker-browser  |brew cask install beaker-browser|
-|   |beaker-electron  |brew cask install beaker-electron|
-|   |beaker  |brew cask install beaker|
-|   |beamdog-client  |brew cask install beamdog-client|
-|   |beamer  |brew cask install beamer|
-|   |bean  |brew cask install bean|
-|   |beardedspice  |brew cask install beardedspice|
-|   |bearychat  |brew cask install bearychat|
-|   |beatport-pro  |brew cask install beatport-pro|
-|   |beatunes  |brew cask install beatunes|
-|   |beautune  |brew cask install beautune|
-|   |bee  |brew cask install bee|
-|   |beersmith2  |brew cask install beersmith2|
-|   |beesoft  |brew cask install beesoft|
-|   |beoplay-software-update  |brew cask install beoplay-software-update|
-|   |beotsmusic  |brew cask install beotsmusic|
-|   |bestres  |brew cask install bestres|
-|   |betaflight-configurator  |brew cask install betaflight-configurator|
-|   |better-window-manager  |brew cask install better-window-manager|
-|   |bettertouchtool  |brew cask install bettertouchtool|
-|   |betterzip  |brew cask install betterzip|
-|   |between  |brew cask install between|
-|   |betwixt  |brew cask install betwixt|
-|   |beyerdynamicvs  |brew cask install beyerdynamicvs|
-|   |beyond-compare  |brew cask install beyond-compare|
-|   |bezel  |brew cask install bezel|
-|   |bfxr  |brew cask install bfxr|
-|   |biba  |brew cask install biba|
-|   |bibdesk  |brew cask install bibdesk|
-|   |big-mean-folder-machine  |brew cask install big-mean-folder-machine|
-|   |biicode  |brew cask install biicode|
-|   |bilibili  |brew cask install bilibili|
-|   |bill  |brew cask install bill|
-|   |bime  |brew cask install bime|
-|   |binary-ninja  |brew cask install binary-ninja|
-|   |bink-player  |brew cask install bink-player|
-|   |bino  |brew cask install bino|
-|   |birdfont  |brew cask install birdfont|
-|   |bisq  |brew cask install bisq|
-|   |bit-slicer  |brew cask install bit-slicer|
-|   |bitbar  |brew cask install bitbar|
-|   |bitcoin-classic  |brew cask install bitcoin-classic|
-|   |bitcoin-core  |brew cask install bitcoin-core|
-|   |bitcoin-unlimited  |brew cask install bitcoin-unlimited|
-|   |bitcoin-xt  |brew cask install bitcoin-xt|
-|   |bitdock  |brew cask install bitdock|
-|   |bitkeeper  |brew cask install bitkeeper|
-|   |bitlord  |brew cask install bitlord|
-|   |bitmessage  |brew cask install bitmessage|
-|   |bitpay  |brew cask install bitpay|
-|   |bitpim  |brew cask install bitpim|
-|   |bitpost  |brew cask install bitpost|
-|   |bitrix24  |brew cask install bitrix24|
-|   |bitscope-chart  |brew cask install bitscope-chart|
-|   |bitscope-dso  |brew cask install bitscope-dso|
-|   |bitscope-logic  |brew cask install bitscope-logic|
-|   |bitscope-meter  |brew cask install bitscope-meter|
-|   |bitshares  |brew cask install bitshares|
-|   |bittorrent  |brew cask install bittorrent|
-|   |bitwarden  |brew cask install bitwarden|
-|   |bitwig-studio  |brew cask install bitwig-studio|
-|   |black-ink  |brew cask install black-ink|
-|   |black-light  |brew cask install black-light|
-|   |blackscreen-screensaver  |brew cask install blackscreen-screensaver|
-|   |blast2go  |brew cask install blast2go|
-|   |blender  |brew cask install blender|
-|   |blink1control  |brew cask install blink1control|
-|   |blisk  |brew cask install blisk|
-|   |blobby-volley2  |brew cask install blobby-volley2|
-|   |blockblock  |brew cask install blockblock|
-|   |blockstack  |brew cask install blockstack|
-|   |blocs  |brew cask install blocs|
-|   |bloodhound  |brew cask install bloodhound|
-|   |bloom  |brew cask install bloom|
-|   |blu-ray-player-pro  |brew cask install blu-ray-player-pro|
-|   |blu-ray-player  |brew cask install blu-ray-player|
-|   |blue-jeans-browser-plugin  |brew cask install blue-jeans-browser-plugin|
-|   |blue-jeans  |brew cask install blue-jeans|
-|   |bluefish  |brew cask install bluefish|
-|   |bluegriffon  |brew cask install bluegriffon|
-|   |blueharvest  |brew cask install blueharvest|
-|   |bluej  |brew cask install bluej|
-|   |bluesense  |brew cask install bluesense|
-|   |blueservice  |brew cask install blueservice|
-|   |bluestacks  |brew cask install bluestacks|
-|   |bmglyph  |brew cask install bmglyph|
-|   |bob  |brew cask install bob|
-|   |boc-security-plugin  |brew cask install boc-security-plugin|
-|   |boinc  |brew cask install boinc|
-|   |bonitastudiocommunity  |brew cask install bonitastudiocommunity|
-|   |bonjeff  |brew cask install bonjeff|
-|   |bonjour-browser  |brew cask install bonjour-browser|
-|   |bookends  |brew cask install bookends|
-|   |bookmacster  |brew cask install bookmacster|
-|   |bookscan-downloader  |brew cask install bookscan-downloader|
-|   |bookwright  |brew cask install bookwright|
-|   |boom-3d  |brew cask install boom-3d|
-|   |boom-recorder  |brew cask install boom-recorder|
-|   |boom  |brew cask install boom|
-|   |boonzi  |brew cask install boonzi|
-|   |boostnote  |brew cask install boostnote|
-|   |bootchamp  |brew cask install bootchamp|
-|   |bootxchanger  |brew cask install bootxchanger|
-|   |bordertool  |brew cask install bordertool|
-|   |bordertool2  |brew cask install bordertool2|
-|   |borgbackup  |brew cask install borgbackup|
-|   |bossman  |brew cask install bossman|
-|   |botframework-emulator  |brew cask install botframework-emulator|
-|   |bowtie  |brew cask install bowtie|
-|   |box-edit  |brew cask install box-edit|
-|   |box-sync  |brew cask install box-sync|
-|   |boxcryptor  |brew cask install boxcryptor|
-|   |boxer  |brew cask install boxer|
-|   |boxofsnoo-fairmount  |brew cask install boxofsnoo-fairmount|
-|   |brackets  |brew cask install brackets|
-|   |brain-workshop  |brew cask install brain-workshop|
-|   |brauhelfer  |brew cask install brauhelfer|
-|   |brave  |brew cask install brave|
-|   |breakaway  |brew cask install breakaway|
-|   |breeze  |brew cask install breeze|
-|   |brewtarget  |brew cask install brewtarget|
-|   |bricklink-studio  |brew cask install bricklink-studio|
-|   |bricksmith  |brew cask install bricksmith|
-|   |brightness  |brew cask install brightness|
-|   |brisk  |brew cask install brisk|
-|   |brl-cad-mged  |brew cask install brl-cad-mged|
-|   |brogue  |brew cask install brogue|
-|   |broomstick  |brew cask install broomstick|
-|   |brow  |brew cask install brow|
-|   |browser-chooserx  |brew cask install browser-chooserx|
-|   |browserstacklocal  |brew cask install browserstacklocal|
-|   |brushviewql  |brew cask install brushviewql|
-|   |buddi  |brew cask install buddi|
-|   |budget  |brew cask install budget|
-|   |buildasaur  |brew cask install buildasaur|
-|   |burn  |brew cask install burn|
-|   |burp-suite  |brew cask install burp-suite|
-|   |busycal  |brew cask install busycal|
-|   |busycontacts  |brew cask install busycontacts|
-|   |butler  |brew cask install butler|
-|   |butt  |brew cask install butt|
-|   |butter  |brew cask install butter|
-|   |buttercup  |brew cask install buttercup|
-|   |bwana  |brew cask install bwana|
-|   |byteball  |brew cask install byteball|
-|   |bytecoinwallet  |brew cask install bytecoinwallet|
-|   |bzflag  |brew cask install bzflag|
-|   |c0  |brew cask install c0|
-|   |c3  |brew cask install c3|
-|   |cacher  |brew cask install cacher|
-|   |cacoo-ninja  |brew cask install cacoo-ninja|
-|   |cactus  |brew cask install cactus|
-|   |caffeine  |brew cask install caffeine|
-|   |cajviewer  |brew cask install cajviewer|
-|   |cakebrew  |brew cask install cakebrew|
-|   |calcservice  |brew cask install calcservice|
-|   |calendly-click  |brew cask install calendly-click|
-|   |calibre  |brew cask install calibre|
-|   |callnote-premium  |brew cask install callnote-premium|
-|   |calq  |brew cask install calq|
-|   |camed  |brew cask install camed|
-|   |camerabag-photo  |brew cask install camerabag-photo|
-|   |camranger  |brew cask install camranger|
-|   |camtasia  |brew cask install camtasia|
-|   |camtwist  |brew cask install camtwist|
-|   |camunda-modeler  |brew cask install camunda-modeler|
-|   |canary  |brew cask install canary|
-|   |candybar  |brew cask install candybar|
-|   |cantata  |brew cask install cantata|
-|   |caprine  |brew cask install caprine|
-|   |captain  |brew cask install captain|
-|   |captin  |brew cask install captin|
-|   |caption  |brew cask install caption|
-|   |capto  |brew cask install capto|
-|   |captur  |brew cask install captur|
-|   |capture-one  |brew cask install capture-one|
-|   |carbon-copy-cloner  |brew cask install carbon-copy-cloner|
-|   |card  |brew cask install card|
-|   |cardhop  |brew cask install cardhop|
-|   |caret  |brew cask install caret|
-|   |carlson-minot  |brew cask install carlson-minot|
-|   |carmaintenance  |brew cask install carmaintenance|
-|   |carmetal  |brew cask install carmetal|
-|   |cartographica  |brew cask install cartographica|
-|   |cashculator  |brew cask install cashculator|
-|   |casparcg-client  |brew cask install casparcg-client|
-|   |castbridge  |brew cask install castbridge|
-|   |catch  |brew cask install catch|
-|   |cathode  |brew cask install cathode|
-|   |catlight  |brew cask install catlight|
-|   |cave-story  |brew cask install cave-story|
-|   |cave  |brew cask install cave|
-|   |ccleaner  |brew cask install ccleaner|
-|   |ccmenu  |brew cask install ccmenu|
-|   |cctalk  |brew cask install cctalk|
-|   |cd-to  |brew cask install cd-to|
-|   |ceceree  |brew cask install ceceree|
-|   |celestia  |brew cask install celestia|
-|   |cellprofiler  |brew cask install cellprofiler|
-|   |cellular  |brew cask install cellular|
-|   |cerebro  |brew cask install cerebro|
-|   |cevelop  |brew cask install cevelop|
-|   |cfxr  |brew cask install cfxr|
-|   |cgoban  |brew cask install cgoban|
-|   |chainsaw  |brew cask install chainsaw|
-|   |chalk  |brew cask install chalk|
-|   |chameleon-ssd-optimizer  |brew cask install chameleon-ssd-optimizer|
-|   |championify  |brew cask install championify|
-|   |changes  |brew cask install changes|
-|   |charles  |brew cask install charles|
-|   |charlessoft-timetracker  |brew cask install charlessoft-timetracker|
-|   |chat  |brew cask install chat|
-|   |chatmate-for-facebook  |brew cask install chatmate-for-facebook|
-|   |chatmate-for-whatsapp  |brew cask install chatmate-for-whatsapp|
-|   |chatology  |brew cask install chatology|
-|   |chatty  |brew cask install chatty|
-|   |chatwork  |brew cask install chatwork|
-|   |cheatsheet  |brew cask install cheatsheet|
-|   |cheetah3d  |brew cask install cheetah3d|
-|   |chefdk  |brew cask install chefdk|
-|   |chemdoodle  |brew cask install chemdoodle|
-|   |chessx  |brew cask install chessx|
-|   |chicken  |brew cask install chicken|
-|   |chikoo  |brew cask install chikoo|
-|   |chitchat  |brew cask install chitchat|
-|   |chocolat  |brew cask install chocolat|
-|   |choose-wisely  |brew cask install choose-wisely|
-|   |choosy  |brew cask install choosy|
-|   |chromatic  |brew cask install chromatic|
-|   |chrome-devtools  |brew cask install chrome-devtools|
-|   |chrome-remote-desktop-host  |brew cask install chrome-remote-desktop-host|
-|   |chromium  |brew cask install chromium|
-|   |chronicle  |brew cask install chronicle|
-|   |chronoagent  |brew cask install chronoagent|
-|   |chronocube  |brew cask install chronocube|
-|   |chronosync  |brew cask install chronosync|
-|   |chronycontrol  |brew cask install chronycontrol|
-|   |chunkulus  |brew cask install chunkulus|
-|   |chunky  |brew cask install chunky|
-|   |cinch  |brew cask install cinch|
-|   |cinder  |brew cask install cinder|
-|   |cineplay  |brew cask install cineplay|
-|   |circle-wavetable-generator  |brew cask install circle-wavetable-generator|
-|   |cisco-proximity  |brew cask install cisco-proximity|
-|   |cisco-spark  |brew cask install cisco-spark|
-|   |cisdem-document-reader  |brew cask install cisdem-document-reader|
-|   |cisdem-pdfmanagerultimate  |brew cask install cisdem-pdfmanagerultimate|
-|   |cisdem-pdftoolkit  |brew cask install cisdem-pdftoolkit|
-|   |citrix-receiver  |brew cask install citrix-receiver|
-|   |cityofzion-neon  |brew cask install cityofzion-neon|
-|   |ckan-app  |brew cask install ckan-app|
-|   |ckb  |brew cask install ckb|
-|   |clamxav  |brew cask install clamxav|
-|   |classeur  |brew cask install classeur|
-|   |clean-me  |brew cask install clean-me|
-|   |cleanapp  |brew cask install cleanapp|
-|   |cleanmymac  |brew cask install cleanmymac|
-|   |cleartext  |brew cask install cleartext|
-|   |clementine  |brew cask install clementine|
-|   |clickcharts  |brew cask install clickcharts|
-|   |clion  |brew cask install clion|
-|   |clip-studio-paint  |brew cask install clip-studio-paint|
-|   |clipbuddy  |brew cask install clipbuddy|
-|   |clipgrab  |brew cask install clipgrab|
-|   |clipy  |brew cask install clipy|
-|   |cliqz  |brew cask install cliqz|
-|   |clix  |brew cask install clix|
-|   |clock  |brew cask install clock|
-|   |clocker  |brew cask install clocker|
-|   |clonk  |brew cask install clonk|
-|   |cloudapp  |brew cask install cloudapp|
-|   |cloudcompare  |brew cask install cloudcompare|
-|   |cloudera-hive-odbc  |brew cask install cloudera-hive-odbc|
-|   |cloudera-impala-odbc  |brew cask install cloudera-impala-odbc|
-|   |cloudlibrary  |brew cask install cloudlibrary|
-|   |cloudmounter  |brew cask install cloudmounter|
-|   |cloudtv  |brew cask install cloudtv|
-|   |cloudup  |brew cask install cloudup|
-|   |cloudy  |brew cask install cloudy|
-|   |cloudytabs  |brew cask install cloudytabs|
-|   |clover-configurator  |brew cask install clover-configurator|
-|   |clusters  |brew cask install clusters|
-|   |clyang-welly  |brew cask install clyang-welly|
-|   |cmake  |brew cask install cmake|
-|   |cmb-security-plugin  |brew cask install cmb-security-plugin|
-|   |cmd-eikana  |brew cask install cmd-eikana|
-|   |cmdtap  |brew cask install cmdtap|
-|   |cmpl  |brew cask install cmpl|
-|   |cmucl  |brew cask install cmucl|
-|   |cn3d  |brew cask install cn3d|
-|   |cobalt  |brew cask install cobalt|
-|   |coccinellida  |brew cask install coccinellida|
-|   |coccoc  |brew cask install coccoc|
-|   |cockatrice  |brew cask install cockatrice|
-|   |cocktail  |brew cask install cocktail|
-|   |cocoapacketanalyzer  |brew cask install cocoapacketanalyzer|
-|   |cocoapods-app  |brew cask install cocoapods-app|
-|   |cocoarestclient  |brew cask install cocoarestclient|
-|   |cocoaspell  |brew cask install cocoaspell|
-|   |cocoasplit  |brew cask install cocoasplit|
-|   |coconutbattery  |brew cask install coconutbattery|
-|   |cocos-code-ide  |brew cask install cocos-code-ide|
-|   |cocoscreator  |brew cask install cocoscreator|
-|   |coda  |brew cask install coda|
-|   |codeblocks  |brew cask install codeblocks|
-|   |codekit  |brew cask install codekit|
-|   |codelite  |brew cask install codelite|
-|   |coderunner  |brew cask install coderunner|
-|   |cog  |brew cask install cog|
-|   |coinpricebar  |brew cask install coinpricebar|
-|   |cold-turkey-blocker  |brew cask install cold-turkey-blocker|
-|   |colloquy  |brew cask install colloquy|
-|   |color-oracle  |brew cask install color-oracle|
-|   |colorado  |brew cask install colorado|
-|   |colormunki-display  |brew cask install colormunki-display|
-|   |colormunki-photo  |brew cask install colormunki-photo|
-|   |colorpicker-antetype  |brew cask install colorpicker-antetype|
-|   |colorpicker-developer  |brew cask install colorpicker-developer|
-|   |colorpicker-materialdesign  |brew cask install colorpicker-materialdesign|
-|   |colorpicker-propicker  |brew cask install colorpicker-propicker|
-|   |colorpicker-rcwebcolorpicker  |brew cask install colorpicker-rcwebcolorpicker|
-|   |colorpicker-skalacolor  |brew cask install colorpicker-skalacolor|
-|   |colorport  |brew cask install colorport|
-|   |colorsnapper  |brew cask install colorsnapper|
-|   |colortester  |brew cask install colortester|
-|   |colour-contrast-analyser  |brew cask install colour-contrast-analyser|
-|   |colwiz  |brew cask install colwiz|
-|   |combine-pdfs  |brew cask install combine-pdfs|
-|   |comic-life  |brew cask install comic-life|
-|   |comictagger  |brew cask install comictagger|
-|   |comma-chameleon  |brew cask install comma-chameleon|
-|   |command-tab-plus  |brew cask install command-tab-plus|
-|   |commander-one  |brew cask install commander-one|
-|   |commandq  |brew cask install commandq|
-|   |comparemerge  |brew cask install comparemerge|
-|   |composercat  |brew cask install composercat|
-|   |compositor  |brew cask install compositor|
-|   |conductor  |brew cask install conductor|
-|   |configure-application-dock-tile  |brew cask install configure-application-dock-tile|
-|   |connectiq  |brew cask install connectiq|
-|   |connector  |brew cask install connector|
-|   |console  |brew cask install console|
-|   |consul-cli  |brew cask install consul-cli|
-|   |context-free  |brew cask install context-free|
-|   |contexts  |brew cask install contexts|
-|   |continuity-activation-tool  |brew cask install continuity-activation-tool|
-|   |controllermate  |brew cask install controllermate|
-|   |controlplane  |brew cask install controlplane|
-|   |cookie  |brew cask install cookie|
-|   |cool-retro-term  |brew cask install cool-retro-term|
-|   |coolterm  |brew cask install coolterm|
-|   |cooviewer  |brew cask install cooviewer|
-|   |copay  |brew cask install copay|
-|   |copper  |brew cask install copper|
-|   |copy  |brew cask install copy|
-|   |copyq  |brew cask install copyq|
-|   |coqide  |brew cask install coqide|
-|   |cord  |brew cask install cord|
-|   |core-data-editor  |brew cask install core-data-editor|
-|   |corectl-app  |brew cask install corectl-app|
-|   |corelocationcli  |brew cask install corelocationcli|
-|   |coreos  |brew cask install coreos|
-|   |cornerstone  |brew cask install cornerstone|
-|   |coronasdk  |brew cask install coronasdk|
-|   |coteditor  |brew cask install coteditor|
-|   |couchbase-server-community  |brew cask install couchbase-server-community|
-|   |couchbase-server-enterprise  |brew cask install couchbase-server-enterprise|
-|   |couchpotato  |brew cask install couchpotato|
-|   |couleurs  |brew cask install couleurs|
-|   |covered  |brew cask install covered|
-|   |coverload  |brew cask install coverload|
-|   |coyim  |brew cask install coyim|
-|   |cpuinfo  |brew cask install cpuinfo|
-|   |craftmanager  |brew cask install craftmanager|
-|   |craftstudio  |brew cask install craftstudio|
-|   |crashcrier  |brew cask install crashcrier|
-|   |crashplan  |brew cask install crashplan|
-|   |create-recovery-partition-installer  |brew cask install create-recovery-partition-installer|
-|   |createuserpkg  |brew cask install createuserpkg|
-|   |creepy  |brew cask install creepy|
-|   |cronnix  |brew cask install cronnix|
-|   |crosscloud  |brew cask install crosscloud|
-|   |crossover  |brew cask install crossover|
-|   |crosspack-avr  |brew cask install crosspack-avr|
-|   |crunch  |brew cask install crunch|
-|   |crushftp  |brew cask install crushftp|
-|   |crypho  |brew cask install crypho|
-|   |crypt  |brew cask install crypt|
-|   |crypter  |brew cask install crypter|
-|   |cryptomator  |brew cask install cryptomator|
-|   |crystax-ndk  |brew cask install crystax-ndk|
-|   |cscreen  |brew cask install cscreen|
-|   |ctivo  |brew cask install ctivo|
-|   |cubicsdr  |brew cask install cubicsdr|
-|   |cuda-z  |brew cask install cuda-z|
-|   |cumulus  |brew cask install cumulus|
-|   |cuppa  |brew cask install cuppa|
-|   |cura-lulzbot  |brew cask install cura-lulzbot|
-|   |curb  |brew cask install curb|
-|   |curio  |brew cask install curio|
-|   |cursorcerer  |brew cask install cursorcerer|
-|   |cursorsense  |brew cask install cursorsense|
-|   |cuteclips  |brew cask install cuteclips|
-|   |cutesdr  |brew cask install cutesdr|
-|   |cutter  |brew cask install cutter|
-|   |cuttle  |brew cask install cuttle|
-|   |cvmfs  |brew cask install cvmfs|
-|   |cyberduck  |brew cask install cyberduck|
-|   |cyberghost  |brew cask install cyberghost|
-|   |cycling74-max  |brew cask install cycling74-max|
-|   |dabble  |brew cask install dabble|
-|   |daedalus  |brew cask install daedalus|
-|   |daemon-tools  |brew cask install daemon-tools|
-|   |daisydisk  |brew cask install daisydisk|
-|   |darktable  |brew cask install darktable|
-|   |darwiinremoteosc  |brew cask install darwiinremoteosc|
-|   |darwindumper  |brew cask install darwindumper|
-|   |dash-dash  |brew cask install dash-dash|
-|   |dash  |brew cask install dash|
-|   |dashcam-viewer  |brew cask install dashcam-viewer|
-|   |dashlane  |brew cask install dashlane|
-|   |dat  |brew cask install dat|
-|   |data-integration  |brew cask install data-integration|
-|   |data-rescue  |brew cask install data-rescue|
-|   |data-science-studio  |brew cask install data-science-studio|
-|   |datadog-agent  |brew cask install datadog-agent|
-|   |datagraph  |brew cask install datagraph|
-|   |datagrip  |brew cask install datagrip|
-|   |dataurlmaker  |brew cask install dataurlmaker|
-|   |datazenit  |brew cask install datazenit|
-|   |datovka  |brew cask install datovka|
-|   |davmail  |brew cask install davmail|
-|   |dawn  |brew cask install dawn|
-|   |dawnlabs-alchemy  |brew cask install dawnlabs-alchemy|
-|   |day-o  |brew cask install day-o|
-|   |daylite  |brew cask install daylite|
-|   |dayone-cli  |brew cask install dayone-cli|
-|   |db-browser-for-sqlite  |brew cask install db-browser-for-sqlite|
-|   |dbeaver-community  |brew cask install dbeaver-community|
-|   |dbeaver-enterprise  |brew cask install dbeaver-enterprise|
-|   |dbgl  |brew cask install dbgl|
-|   |dbglass  |brew cask install dbglass|
-|   |dbschema  |brew cask install dbschema|
-|   |dbvisualizer  |brew cask install dbvisualizer|
-|   |dcommander  |brew cask install dcommander|
-|   |dd-utility  |brew cask install dd-utility|
-|   |ddnet  |brew cask install ddnet|
-|   |deathtodsstore  |brew cask install deathtodsstore|
-|   |debookee  |brew cask install debookee|
-|   |debt-quencher  |brew cask install debt-quencher|
-|   |decitime  |brew cask install decitime|
-|   |deckhub  |brew cask install deckhub|
-|   |deco  |brew cask install deco|
-|   |decrediton  |brew cask install decrediton|
-|   |deegain  |brew cask install deegain|
-|   |deep-dreamer  |brew cask install deep-dreamer|
-|   |deepanpot  |brew cask install deepanpot|
-|   |deeper  |brew cask install deeper|
-|   |deepstream  |brew cask install deepstream|
-|   |deepvacuum  |brew cask install deepvacuum|
-|   |deespeaker  |brew cask install deespeaker|
-|   |deezer  |brew cask install deezer|
-|   |default-folder-x  |brew cask install default-folder-x|
-|   |delayedlauncher  |brew cask install delayedlauncher|
-|   |delibar  |brew cask install delibar|
-|   |delicious-library  |brew cask install delicious-library|
-|   |delta  |brew cask install delta|
-|   |deltamodulator  |brew cask install deltamodulator|
-|   |deltawalker  |brew cask install deltawalker|
-|   |deluge  |brew cask install deluge|
-|   |dendroscope  |brew cask install dendroscope|
-|   |deploymate  |brew cask install deploymate|
-|   |deploystudio  |brew cask install deploystudio|
-|   |deskfun  |brew cask install deskfun|
-|   |desktop-log  |brew cask install desktop-log|
-|   |desktoputility  |brew cask install desktoputility|
-|   |desmume  |brew cask install desmume|
-|   |detectx  |brew cask install detectx|
-|   |detexify  |brew cask install detexify|
-|   |devdocs  |brew cask install devdocs|
-|   |devdogs  |brew cask install devdogs|
-|   |devonthink-pro-office  |brew cask install devonthink-pro-office|
-|   |devonthink-pro  |brew cask install devonthink-pro|
-|   |devonthink  |brew cask install devonthink|
-|   |devrant  |brew cask install devrant|
-|   |devrantron  |brew cask install devrantron|
-|   |dext  |brew cask install dext|
-|   |dfontsplitter  |brew cask install dfontsplitter|
-|   |dhs  |brew cask install dhs|
-|   |dia  |brew cask install dia|
-|   |dialpad  |brew cask install dialpad|
-|   |diashapes  |brew cask install diashapes|
-|   |dictater  |brew cask install dictater|
-|   |dictcc-en-de-dictionary-plugin  |brew cask install dictcc-en-de-dictionary-plugin|
-|   |dictionaries  |brew cask install dictionaries|
-|   |dictunifier  |brew cask install dictunifier|
-|   |diddumsdeux  |brew cask install diddumsdeux|
-|   |difffork  |brew cask install difffork|
-|   |diffmerge  |brew cask install diffmerge|
-|   |digikam  |brew cask install digikam|
-|   |digital-power-station  |brew cask install digital-power-station|
-|   |digital  |brew cask install digital|
-|   |dimensionexpander  |brew cask install dimensionexpander|
-|   |dingtalk  |brew cask install dingtalk|
-|   |diptrace  |brew cask install diptrace|
-|   |disablemonitor  |brew cask install disablemonitor|
-|   |discord  |brew cask install discord|
-|   |disk-arbitrator  |brew cask install disk-arbitrator|
-|   |disk-drill  |brew cask install disk-drill|
-|   |disk-inventory-x  |brew cask install disk-inventory-x|
-|   |disk-sensei  |brew cask install disk-sensei|
-|   |diskcatalogmaker  |brew cask install diskcatalogmaker|
-|   |diskmaker-x  |brew cask install diskmaker-x|
-|   |diskwave  |brew cask install diskwave|
-|   |displaperture  |brew cask install displaperture|
-|   |displaycal  |brew cask install displaycal|
-|   |diumoo  |brew cask install diumoo|
-|   |divvy  |brew cask install divvy|
-|   |djay-pro  |brew cask install djay-pro|
-|   |djmfilter  |brew cask install djmfilter|
-|   |djv  |brew cask install djv|
-|   |djview  |brew cask install djview|
-|   |dmhy  |brew cask install dmhy|
-|   |dmm-player-for-chrome  |brew cask install dmm-player-for-chrome|
-|   |dmm-player  |brew cask install dmm-player|
-|   |dmmbookviewer  |brew cask install dmmbookviewer|
-|   |dnscrypt  |brew cask install dnscrypt|
-|   |docear  |brew cask install docear|
-|   |docker-toolbox  |brew cask install docker-toolbox|
-|   |docker  |brew cask install docker|
-|   |dockstation  |brew cask install dockstation|
-|   |dofus  |brew cask install dofus|
-|   |dogecoin  |brew cask install dogecoin|
-|   |dogestry  |brew cask install dogestry|
-|   |doitim  |brew cask install doitim|
-|   |dollydrive  |brew cask install dollydrive|
-|   |dolphin  |brew cask install dolphin|
-|   |domainbrain  |brew cask install domainbrain|
-|   |domino-cli  |brew cask install domino-cli|
-|   |donut  |brew cask install donut|
-|   |doomrl  |brew cask install doomrl|
-|   |doomsday-engine  |brew cask install doomsday-engine|
-|   |dosbox  |brew cask install dosbox|
-|   |doteditor  |brew cask install doteditor|
-|   |dotnet-sdk  |brew cask install dotnet-sdk|
-|   |dotnet  |brew cask install dotnet|
-|   |douban-fm  |brew cask install douban-fm|
-|   |double-commander  |brew cask install double-commander|
-|   |doublecommand  |brew cask install doublecommand|
-|   |doubletwist  |brew cask install doubletwist|
-|   |downie  |brew cask install downie|
-|   |doxie  |brew cask install doxie|
-|   |doxygen  |brew cask install doxygen|
-|   |dradio  |brew cask install dradio|
-|   |dragand  |brew cask install dragand|
-|   |dragondisk  |brew cask install dragondisk|
-|   |dragthing  |brew cask install dragthing|
-|   |drawbot  |brew cask install drawbot|
-|   |drawdown  |brew cask install drawdown|
-|   |drawio  |brew cask install drawio|
-|   |dreampages-plus  |brew cask install dreampages-plus|
-|   |dripcap  |brew cask install dripcap|
-|   |drivedx  |brew cask install drivedx|
-|   |droidid  |brew cask install droidid|
-|   |drop-to-gif  |brew cask install drop-to-gif|
-|   |dropbox-encore  |brew cask install dropbox-encore|
-|   |dropbox  |brew cask install dropbox|
-|   |dropdmg  |brew cask install dropdmg|
-|   |dropletmanager  |brew cask install dropletmanager|
-|   |droplr  |brew cask install droplr|
-|   |dropshare  |brew cask install dropshare|
-|   |dropzone  |brew cask install dropzone|
-|   |dsp-radio  |brew cask install dsp-radio|
-|   |duckietv  |brew cask install duckietv|
-|   |duet  |brew cask install duet|
-|   |dukto  |brew cask install dukto|
-|   |dump-truck  |brew cask install dump-truck|
-|   |dungeon-crawl-stone-soup-console  |brew cask install dungeon-crawl-stone-soup-console|
-|   |dungeon-crawl-stone-soup-tiles  |brew cask install dungeon-crawl-stone-soup-tiles|
-|   |dupeguru  |brew cask install dupeguru|
-|   |dupin  |brew cask install dupin|
-|   |duplicate-annihilator  |brew cask install duplicate-annihilator|
-|   |duplicati  |brew cask install duplicati|
-|   |dupscanub  |brew cask install dupscanub|
-|   |dusty  |brew cask install dusty|
-|   |dvdstyler  |brew cask install dvdstyler|
-|   |dwarf-fortress-lnp  |brew cask install dwarf-fortress-lnp|
-|   |dwarf-fortress  |brew cask install dwarf-fortress|
-|   |dwihn0r-keepassx  |brew cask install dwihn0r-keepassx|
-|   |dyn-updater  |brew cask install dyn-updater|
-|   |dynalist  |brew cask install dynalist|
-|   |dynamiclyrics  |brew cask install dynamiclyrics|
-|   |dynamite  |brew cask install dynamite|
-|   |dynamodb-local  |brew cask install dynamodb-local|
-|   |eagle  |brew cask install eagle|
-|   |eaglefiler  |brew cask install eaglefiler|
-|   |ealeksandrov-cd-to  |brew cask install ealeksandrov-cd-to|
-|   |earthcoin  |brew cask install earthcoin|
-|   |earthdeskprefpane  |brew cask install earthdeskprefpane|
-|   |easy-move-plus-resize  |brew cask install easy-move-plus-resize|
-|   |easycrop  |brew cask install easycrop|
-|   |easyfig  |brew cask install easyfig|
-|   |easyfind  |brew cask install easyfind|
-|   |easytax-ag  |brew cask install easytax-ag|
-|   |easytether  |brew cask install easytether|
-|   |easyvpn  |brew cask install easyvpn|
-|   |ebmac  |brew cask install ebmac|
-|   |eclipse-cpp  |brew cask install eclipse-cpp|
-|   |eclipse-ide  |brew cask install eclipse-ide|
-|   |eclipse-installer  |brew cask install eclipse-installer|
-|   |eclipse-java  |brew cask install eclipse-java|
-|   |eclipse-jee  |brew cask install eclipse-jee|
-|   |eclipse-modeling  |brew cask install eclipse-modeling|
-|   |eclipse-php  |brew cask install eclipse-php|
-|   |eclipse-platform  |brew cask install eclipse-platform|
-|   |eclipse-ptp  |brew cask install eclipse-ptp|
-|   |eclipse-rcp  |brew cask install eclipse-rcp|
-|   |eclipse-smarthome-designer  |brew cask install eclipse-smarthome-designer|
-|   |eddie  |brew cask install eddie|
-|   |editready  |brew cask install editready|
-|   |edm  |brew cask install edm|
-|   |edrawmax  |brew cask install edrawmax|
-|   |eggplant  |brew cask install eggplant|
-|   |eim  |brew cask install eim|
-|   |eintopf  |brew cask install eintopf|
-|   |eiskaltdcpp  |brew cask install eiskaltdcpp|
-|   |ejector  |brew cask install ejector|
-|   |el34-eddie  |brew cask install el34-eddie|
-|   |elan  |brew cask install elan|
-|   |elasticwolf  |brew cask install elasticwolf|
-|   |electorrent  |brew cask install electorrent|
-|   |electric-sheep  |brew cask install electric-sheep|
-|   |electron-api-demos  |brew cask install electron-api-demos|
-|   |electron-cash  |brew cask install electron-cash|
-|   |electron  |brew cask install electron|
-|   |electronic-wechat  |brew cask install electronic-wechat|
-|   |electrum-ltc  |brew cask install electrum-ltc|
-|   |electrum  |brew cask install electrum|
-|   |elektriktrick  |brew cask install elektriktrick|
-|   |elm-platform  |brew cask install elm-platform|
-|   |elmedia-player  |brew cask install elmedia-player|
-|   |eloquent  |brew cask install eloquent|
-|   |eloston-chromium  |brew cask install eloston-chromium|
-|   |elyse  |brew cask install elyse|
-|   |emacs  |brew cask install emacs|
-|   |emacsclient  |brew cask install emacsclient|
-|   |emailchemy  |brew cask install emailchemy|
-|   |emby-server  |brew cask install emby-server|
-|   |emercoin  |brew cask install emercoin|
-|   |emin-webpquicklook  |brew cask install emin-webpquicklook|
-|   |emojify  |brew cask install emojify|
-|   |emojipedia  |brew cask install emojipedia|
-|   |encryptme  |brew cask install encryptme|
-|   |encryptr  |brew cask install encryptr|
-|   |endicia  |brew cask install endicia|
-|   |endlesssky  |brew cask install endlesssky|
-|   |endnote  |brew cask install endnote|
-|   |endurance  |brew cask install endurance|
-|   |enews  |brew cask install enews|
-|   |enfusegui  |brew cask install enfusegui|
-|   |enjoy  |brew cask install enjoy|
-|   |enjoyable  |brew cask install enjoyable|
-|   |enolsoft-chm-view  |brew cask install enolsoft-chm-view|
-|   |enpass  |brew cask install enpass|
-|   |entonnoir  |brew cask install entonnoir|
-|   |entropy  |brew cask install entropy|
-|   |envkey  |brew cask install envkey|
-|   |epic-games  |brew cask install epic-games|
-|   |epic  |brew cask install epic|
-|   |epichrome  |brew cask install epichrome|
-|   |epoch-flip-clock  |brew cask install epoch-flip-clock|
-|   |epub-to-pdf  |brew cask install epub-to-pdf|
-|   |epubmdimporter  |brew cask install epubmdimporter|
-|   |epubquicklook  |brew cask install epubquicklook|
-|   |eqmac  |brew cask install eqmac|
-|   |espionage  |brew cask install espionage|
-|   |espresso  |brew cask install espresso|
-|   |etcher  |brew cask install etcher|
-|   |ethereum-wallet  |brew cask install ethereum-wallet|
-|   |etrecheck  |brew cask install etrecheck|
-|   |eudic  |brew cask install eudic|
-|   |eurkey  |brew cask install eurkey|
-|   |eve-launcher  |brew cask install eve-launcher|
-|   |eve  |brew cask install eve|
-|   |eventstore  |brew cask install eventstore|
-|   |evergreen  |brew cask install evergreen|
-|   |evernote  |brew cask install evernote|
-|   |everweb  |brew cask install everweb|
-|   |evom  |brew cask install evom|
-|   |exante-atp  |brew cask install exante-atp|
-|   |excalibur  |brew cask install excalibur|
-|   |exfalso  |brew cask install exfalso|
-|   |exhaust  |brew cask install exhaust|
-|   |exifrenamer  |brew cask install exifrenamer|
-|   |exist-db  |brew cask install exist-db|
-|   |exnihilo  |brew cask install exnihilo|
-|   |exodus  |brew cask install exodus|
-|   |expandrive  |brew cask install expandrive|
-|   |explorer  |brew cask install explorer|
-|   |expo-xde  |brew cask install expo-xde|
-|   |expressions  |brew cask install expressions|
-|   |expressscribe  |brew cask install expressscribe|
-|   |expressvpn  |brew cask install expressvpn|
-|   |extrabuildphase  |brew cask install extrabuildphase|
-|   |ezeep  |brew cask install ezeep|
-|   |f-secure-anti-virus  |brew cask install f-secure-anti-virus|
-|   |facebook-ios-sdk  |brew cask install facebook-ios-sdk|
-|   |factor  |brew cask install factor|
-|   |fake  |brew cask install fake|
-|   |fakethunder  |brew cask install fakethunder|
-|   |falcon-sql-client  |brew cask install falcon-sql-client|
-|   |fanny  |brew cask install fanny|
-|   |fantastical  |brew cask install fantastical|
-|   |farbox  |brew cask install farbox|
-|   |farrago  |brew cask install farrago|
-|   |fastlane  |brew cask install fastlane|
-|   |fastonosql  |brew cask install fastonosql|
-|   |fastscripts  |brew cask install fastscripts|
-|   |fauxpas  |brew cask install fauxpas|
-|   |faviconographer  |brew cask install faviconographer|
-|   |faw-circle  |brew cask install faw-circle|
-|   |fbreader  |brew cask install fbreader|
-|   |fcs-remover  |brew cask install fcs-remover|
-|   |fdt  |brew cask install fdt|
-|   |fedora-media-writer  |brew cask install fedora-media-writer|
-|   |feed-the-beast  |brew cask install feed-the-beast|
-|   |feedbinnotifier  |brew cask install feedbinnotifier|
-|   |feeder  |brew cask install feeder|
-|   |feeds  |brew cask install feeds|
-|   |feisty-dog-tag  |brew cask install feisty-dog-tag|
-|   |felony  |brew cask install felony|
-|   |fenix  |brew cask install fenix|
-|   |festify  |brew cask install festify|
-|   |fetch  |brew cask install fetch|
-|   |figma  |brew cask install figma|
-|   |figtree  |brew cask install figtree|
-|   |fiji  |brew cask install fiji|
-|   |file-juicer  |brew cask install file-juicer|
-|   |filebot  |brew cask install filebot|
-|   |filedrop  |brew cask install filedrop|
-|   |filemaker-odbc  |brew cask install filemaker-odbc|
-|   |filemon  |brew cask install filemon|
-|   |filepane  |brew cask install filepane|
-|   |fileshuttle  |brew cask install fileshuttle|
-|   |filezilla  |brew cask install filezilla|
-|   |find-any-file  |brew cask install find-any-file|
-|   |find-empty-folders  |brew cask install find-empty-folders|
-|   |finderminder  |brew cask install finderminder|
-|   |findings  |brew cask install findings|
-|   |fing  |brew cask install fing|
-|   |fingerlock  |brew cask install fingerlock|
-|   |finicky  |brew cask install finicky|
-|   |fips  |brew cask install fips|
-|   |firealpaca  |brew cask install firealpaca|
-|   |firebase-admin  |brew cask install firebase-admin|
-|   |firebird-emu  |brew cask install firebird-emu|
-|   |firefox  |brew cask install firefox|
-|   |firestormos  |brew cask install firestormos|
-|   |firestr  |brew cask install firestr|
-|   |firetask  |brew cask install firetask|
-|   |fish  |brew cask install fish|
-|   |fission  |brew cask install fission|
-|   |flame  |brew cask install flame|
-|   |flash-decompiler-trillix  |brew cask install flash-decompiler-trillix|
-|   |flash-npapi  |brew cask install flash-npapi|
-|   |flash-player-debugger-npapi  |brew cask install flash-player-debugger-npapi|
-|   |flash-player-debugger-ppapi  |brew cask install flash-player-debugger-ppapi|
-|   |flash-player-debugger  |brew cask install flash-player-debugger|
-|   |flash-player  |brew cask install flash-player|
-|   |flash-ppapi  |brew cask install flash-ppapi|
-|   |flashlighttool  |brew cask install flashlighttool|
-|   |flavours  |brew cask install flavours|
-|   |fldigi  |brew cask install fldigi|
-|   |flexiglass  |brew cask install flexiglass|
-|   |flickr-uploadr  |brew cask install flickr-uploadr|
-|   |flightgear  |brew cask install flightgear|
-|   |flinto  |brew cask install flinto|
-|   |flip4mac  |brew cask install flip4mac|
-|   |fliqlo  |brew cask install fliqlo|
-|   |flirc  |brew cask install flirc|
-|   |flixster-video  |brew cask install flixster-video|
-|   |flixtools  |brew cask install flixtools|
-|   |flow  |brew cask install flow|
-|   |flowdock  |brew cask install flowdock|
-|   |flowsync  |brew cask install flowsync|
-|   |fluid  |brew cask install fluid|
-|   |flume  |brew cask install flume|
-|   |fluor  |brew cask install fluor|
-|   |flux  |brew cask install flux|
-|   |fluxcenter  |brew cask install fluxcenter|
-|   |flvcd-bigrats  |brew cask install flvcd-bigrats|
-|   |fly  |brew cask install fly|
-|   |flycut  |brew cask install flycut|
-|   |flymaster-designer  |brew cask install flymaster-designer|
-|   |flymaster-firmware  |brew cask install flymaster-firmware|
-|   |fman  |brew cask install fman|
-|   |focus-booster  |brew cask install focus-booster|
-|   |focus  |brew cask install focus|
-|   |focusatwill  |brew cask install focusatwill|
-|   |focused  |brew cask install focused|
-|   |focuswriter  |brew cask install focuswriter|
-|   |fog  |brew cask install fog|
-|   |folding-at-home  |brew cask install folding-at-home|
-|   |foldingtext  |brew cask install foldingtext|
-|   |foldit  |brew cask install foldit|
-|   |folio  |brew cask install folio|
-|   |folx  |brew cask install folx|
-|   |fontbase  |brew cask install fontbase|
-|   |fontexplorer-x-pro  |brew cask install fontexplorer-x-pro|
-|   |fontforge  |brew cask install fontforge|
-|   |fontplop  |brew cask install fontplop|
-|   |fontprep  |brew cask install fontprep|
-|   |fontstand  |brew cask install fontstand|
-|   |fonttong  |brew cask install fonttong|
-|   |foobarplus  |brew cask install foobarplus|
-|   |force-paste  |brew cask install force-paste|
-|   |forecast  |brew cask install forecast|
-|   |foreman  |brew cask install foreman|
-|   |fork  |brew cask install fork|
-|   |forklift  |brew cask install forklift|
-|   |formular-designer  |brew cask install formular-designer|
-|   |forrest  |brew cask install forrest|
-|   |fotomagico  |brew cask install fotomagico|
-|   |fotowall  |brew cask install fotowall|
-|   |foxitreader  |brew cask install foxitreader|
-|   |foxmail  |brew cask install foxmail|
-|   |fpcsrc  |brew cask install fpcsrc|
-|   |fraise  |brew cask install fraise|
-|   |framer-modules  |brew cask install framer-modules|
-|   |framer  |brew cask install framer|
-|   |franz  |brew cask install franz|
-|   |frappe  |brew cask install frappe|
-|   |freac  |brew cask install freac|
-|   |fredm-fuse  |brew cask install fredm-fuse|
-|   |free-download-manager  |brew cask install free-download-manager|
-|   |free-ruler  |brew cask install free-ruler|
-|   |freecad  |brew cask install freecad|
-|   |freecol  |brew cask install freecol|
-|   |freedom  |brew cask install freedom|
-|   |freedome  |brew cask install freedome|
-|   |freedv  |brew cask install freedv|
-|   |freefilesync  |brew cask install freefilesync|
-|   |freelib  |brew cask install freelib|
-|   |freemind  |brew cask install freemind|
-|   |freenettray  |brew cask install freenettray|
-|   |freeplane  |brew cask install freeplane|
-|   |freesmug-chromium  |brew cask install freesmug-chromium|
-|   |freeswitch  |brew cask install freeswitch|
-|   |freeter  |brew cask install freeter|
-|   |freeze  |brew cask install freeze|
-|   |freezer  |brew cask install freezer|
-|   |frescobaldi  |brew cask install frescobaldi|
-|   |freshback  |brew cask install freshback|
-|   |fricas  |brew cask install fricas|
-|   |fritzing  |brew cask install fritzing|
-|   |fromscratch  |brew cask install fromscratch|
-|   |front  |brew cask install front|
-|   |frostwire  |brew cask install frostwire|
-|   |fs-uae  |brew cask install fs-uae|
-|   |fsmonitor  |brew cask install fsmonitor|
-|   |fspviewer  |brew cask install fspviewer|
-|   |fstream  |brew cask install fstream|
-|   |fugenschnitzer  |brew cask install fugenschnitzer|
-|   |fugio  |brew cask install fugio|
-|   |fugu  |brew cask install fugu|
-|   |fullcontact  |brew cask install fullcontact|
-|   |function-pilot  |brew cask install function-pilot|
-|   |functionflip  |brew cask install functionflip|
-|   |fuse  |brew cask install fuse|
-|   |futuniuniu  |brew cask install futuniuniu|
-|   |fuwari  |brew cask install fuwari|
-|   |fuzzyclock  |brew cask install fuzzyclock|
-|   |fwbuilder  |brew cask install fwbuilder|
-|   |gambit  |brew cask install gambit|
-|   |gameranger  |brew cask install gameranger|
-|   |gamesalad  |brew cask install gamesalad|
-|   |ganache  |brew cask install ganache|
-|   |ganttproject  |brew cask install ganttproject|
-|   |garagebuy  |brew cask install garagebuy|
-|   |garagesale  |brew cask install garagesale|
-|   |gargoyle  |brew cask install gargoyle|
-|   |gas-mask  |brew cask install gas-mask|
-|   |gateblu  |brew cask install gateblu|
-|   |gawker  |brew cask install gawker|
-|   |gcc-arm-embedded  |brew cask install gcc-arm-embedded|
-|   |gdisk  |brew cask install gdisk|
-|   |geany  |brew cask install geany|
-|   |gear-player  |brew cask install gear-player|
-|   |geekbench  |brew cask install geekbench|
-|   |geektool  |brew cask install geektool|
-|   |gemini  |brew cask install gemini|
-|   |geneious  |brew cask install geneious|
-|   |genome-workbench  |brew cask install genome-workbench|
-|   |genomebrowse  |brew cask install genomebrowse|
-|   |genymotion  |brew cask install genymotion|
-|   |geoda  |brew cask install geoda|
-|   |geogebra  |brew cask install geogebra|
-|   |geomap  |brew cask install geomap|
-|   |geotag  |brew cask install geotag|
-|   |geotagger  |brew cask install geotagger|
-|   |gephi  |brew cask install gephi|
-|   |get-backup-pro  |brew cask install get-backup-pro|
-|   |get-iplayer-automator  |brew cask install get-iplayer-automator|
-|   |get-lyrical  |brew cask install get-lyrical|
-|   |getrasplex  |brew cask install getrasplex|
-|   |gfortran  |brew cask install gfortran|
-|   |gfxcardstatus  |brew cask install gfxcardstatus|
-|   |ghdl  |brew cask install ghdl|
-|   |ghost-browser  |brew cask install ghost-browser|
-|   |ghost  |brew cask install ghost|
-|   |ghostlab  |brew cask install ghostlab|
-|   |ghosttile  |brew cask install ghosttile|
-|   |gifcapture  |brew cask install gifcapture|
-|   |gifloopcoder  |brew cask install gifloopcoder|
-|   |gifox  |brew cask install gifox|
-|   |gifrocket  |brew cask install gifrocket|
-|   |gifs  |brew cask install gifs|
-|   |gimp  |brew cask install gimp|
-|   |ginbox  |brew cask install ginbox|
-|   |gingr  |brew cask install gingr|
-|   |gislook  |brew cask install gislook|
-|   |gisto  |brew cask install gisto|
-|   |git-it  |brew cask install git-it|
-|   |gitbook-editor  |brew cask install gitbook-editor|
-|   |gitbook  |brew cask install gitbook|
-|   |gitbox  |brew cask install gitbox|
-|   |gitee  |brew cask install gitee|
-|   |gitfinder  |brew cask install gitfinder|
-|   |github  |brew cask install github|
-|   |githubpulse  |brew cask install githubpulse|
-|   |gitifier  |brew cask install gitifier|
-|   |gitify  |brew cask install gitify|
-|   |gitkraken  |brew cask install gitkraken|
-|   |gitmoji  |brew cask install gitmoji|
-|   |gitscout  |brew cask install gitscout|
-|   |gitter  |brew cask install gitter|
-|   |gitup  |brew cask install gitup|
-|   |gitx  |brew cask install gitx|
-|   |glcplayer  |brew cask install glcplayer|
-|   |glimmerblocker  |brew cask install glimmerblocker|
-|   |glip  |brew cask install glip|
-|   |globalsync  |brew cask install globalsync|
-|   |gltfquicklook  |brew cask install gltfquicklook|
-|   |glueprint  |brew cask install glueprint|
-|   |glyphish-color-changer  |brew cask install glyphish-color-changer|
-|   |glyphish-gallery  |brew cask install glyphish-gallery|
-|   |glyphs  |brew cask install glyphs|
-|   |gmail-notifier  |brew cask install gmail-notifier|
-|   |gmail-notifr  |brew cask install gmail-notifr|
-|   |gmvault  |brew cask install gmvault|
-|   |gn-growler-utility  |brew cask install gn-growler-utility|
-|   |gns3  |brew cask install gns3|
-|   |gnubg  |brew cask install gnubg|
-|   |gnucash  |brew cask install gnucash|
-|   |go-agent  |brew cask install go-agent|
-|   |go-server  |brew cask install go-server|
-|   |go2shell  |brew cask install go2shell|
-|   |gobbler  |brew cask install gobbler|
-|   |godot  |brew cask install godot|
-|   |gog-downloader  |brew cask install gog-downloader|
-|   |gog-galaxy  |brew cask install gog-galaxy|
-|   |gogs  |brew cask install gogs|
-|   |goland  |brew cask install goland|
-|   |goldencheetah  |brew cask install goldencheetah|
-|   |golly  |brew cask install golly|
-|   |gom-player  |brew cask install gom-player|
-|   |goodnight  |brew cask install goodnight|
-|   |goodsync  |brew cask install goodsync|
-|   |goofy  |brew cask install goofy|
-|   |google-adwords-editor  |brew cask install google-adwords-editor|
-|   |google-backup-and-sync  |brew cask install google-backup-and-sync|
-|   |google-chat  |brew cask install google-chat|
-|   |google-chrome  |brew cask install google-chrome|
-|   |google-cloud-sdk  |brew cask install google-cloud-sdk|
-|   |google-drive-file-stream  |brew cask install google-drive-file-stream|
-|   |google-earth-pro  |brew cask install google-earth-pro|
-|   |google-earth-web-plugin  |brew cask install google-earth-web-plugin|
-|   |google-featured-photos  |brew cask install google-featured-photos|
-|   |google-hangouts  |brew cask install google-hangouts|
-|   |google-japanese-ime  |brew cask install google-japanese-ime|
-|   |google-nik-collection  |brew cask install google-nik-collection|
-|   |google-notifier  |brew cask install google-notifier|
-|   |google-photos-backup-and-sync  |brew cask install google-photos-backup-and-sync|
-|   |google-trends  |brew cask install google-trends|
-|   |google-web-designer  |brew cask install google-web-designer|
-|   |googleappengine  |brew cask install googleappengine|
-|   |gopanda  |brew cask install gopanda|
-|   |gotiengviet  |brew cask install gotiengviet|
-|   |gotofile  |brew cask install gotofile|
-|   |gpg-suite  |brew cask install gpg-suite|
-|   |gpg-sync  |brew cask install gpg-sync|
-|   |gpodder  |brew cask install gpodder|
-|   |gpower  |brew cask install gpower|
-|   |gprojector  |brew cask install gprojector|
-|   |gpsdump  |brew cask install gpsdump|
-|   |gpxsee  |brew cask install gpxsee|
-|   |gqrx  |brew cask install gqrx|
-|   |grabbox  |brew cask install grabbox|
-|   |grads  |brew cask install grads|
-|   |grafx  |brew cask install grafx|
-|   |grammarly  |brew cask install grammarly|
-|   |gramps  |brew cask install gramps|
-|   |grandperspective  |brew cask install grandperspective|
-|   |grandtotal  |brew cask install grandtotal|
-|   |graphicconverter  |brew cask install graphicconverter|
-|   |graphiql  |brew cask install graphiql|
-|   |graphql-ide  |brew cask install graphql-ide|
-|   |graphql-playground  |brew cask install graphql-playground|
-|   |graphsketcher  |brew cask install graphsketcher|
-|   |greenfoot  |brew cask install greenfoot|
-|   |grenchman  |brew cask install grenchman|
-|   |gretl  |brew cask install gretl|
-|   |grids  |brew cask install grids|
-|   |gridwars  |brew cask install gridwars|
-|   |grip  |brew cask install grip|
-|   |grisbi  |brew cask install grisbi|
-|   |growl-fork  |brew cask install growl-fork|
-|   |growlnotify  |brew cask install growlnotify|
-|   |growlvoice  |brew cask install growlvoice|
-|   |gtkwave  |brew cask install gtkwave|
-|   |guild-wars2  |brew cask install guild-wars2|
-|   |guitar-tuner  |brew cask install guitar-tuner|
-|   |gulp  |brew cask install gulp|
-|   |gumi  |brew cask install gumi|
-|   |gureumkim  |brew cask install gureumkim|
-|   |gurps-character-sheet  |brew cask install gurps-character-sheet|
-|   |gyazmail  |brew cask install gyazmail|
-|   |gyazo  |brew cask install gyazo|
-|   |gzdoom  |brew cask install gzdoom|
-|   |hab  |brew cask install hab|
-|   |hachidori  |brew cask install hachidori|
-|   |hacker-menu  |brew cask install hacker-menu|
-|   |hackety-hack  |brew cask install hackety-hack|
-|   |hackhands  |brew cask install hackhands|
-|   |hackmd  |brew cask install hackmd|
-|   |hajo-headphone-enhancer  |brew cask install hajo-headphone-enhancer|
-|   |halla  |brew cask install halla|
-|   |hammerspoon  |brew cask install hammerspoon|
-|   |handbrake  |brew cask install handbrake|
-|   |handbrakebatch  |brew cask install handbrakebatch|
-|   |hands-off  |brew cask install hands-off|
-|   |handshaker  |brew cask install handshaker|
-|   |handy-outliner  |brew cask install handy-outliner|
-|   |handylock  |brew cask install handylock|
-|   |happygrep  |brew cask install happygrep|
-|   |haptic-touch-bar  |brew cask install haptic-touch-bar|
-|   |hapu  |brew cask install hapu|
-|   |harbor  |brew cask install harbor|
-|   |harmony  |brew cask install harmony|
-|   |haroopad  |brew cask install haroopad|
-|   |harvest  |brew cask install harvest|
-|   |haskell-for-mac  |brew cask install haskell-for-mac|
-|   |haskell-platform  |brew cask install haskell-platform|
-|   |hawk-eye  |brew cask install hawk-eye|
-|   |hazel  |brew cask install hazel|
-|   |hazeover  |brew cask install hazeover|
-|   |hbuilder  |brew cask install hbuilder|
-|   |headset  |brew cask install headset|
-|   |healthi  |brew cask install healthi|
-|   |hear  |brew cask install hear|
-|   |heart  |brew cask install heart|
-|   |heaven  |brew cask install heaven|
-|   |hedgewars  |brew cask install hedgewars|
-|   |heimdall-suite  |brew cask install heimdall-suite|
-|   |heka  |brew cask install heka|
-|   |helio  |brew cask install helio|
-|   |helium  |brew cask install helium|
-|   |hermes  |brew cask install hermes|
-|   |heroes-of-newerth  |brew cask install heroes-of-newerth|
-|   |hetimazipql  |brew cask install hetimazipql|
-|   |hex-fiend  |brew cask install hex-fiend|
-|   |hex  |brew cask install hex|
-|   |hfsleuth  |brew cask install hfsleuth|
-|   |hiarcs-chess-explorer  |brew cask install hiarcs-chess-explorer|
-|   |hidemyfacetime  |brew cask install hidemyfacetime|
-|   |hider  |brew cask install hider|
-|   |hiera  |brew cask install hiera|
-|   |highsierramediakeyenabler  |brew cask install highsierramediakeyenabler|
-|   |hindenburg-prx-encoder  |brew cask install hindenburg-prx-encoder|
-|   |hint  |brew cask install hint|
-|   |hipchat  |brew cask install hipchat|
-|   |hippoconnect  |brew cask install hippoconnect|
-|   |hipsterchat  |brew cask install hipsterchat|
-|   |hirundo  |brew cask install hirundo|
-|   |hiss  |brew cask install hiss|
-|   |historyhound  |brew cask install historyhound|
-|   |hma-pro-vpn  |brew cask install hma-pro-vpn|
-|   |hobo  |brew cask install hobo|
-|   |hockey  |brew cask install hockey|
-|   |hocus-focus  |brew cask install hocus-focus|
-|   |home-inventory  |brew cask install home-inventory|
-|   |homespun-instant-access  |brew cask install homespun-instant-access|
-|   |honer  |brew cask install honer|
-|   |honto  |brew cask install honto|
-|   |hopper-debugger-server  |brew cask install hopper-debugger-server|
-|   |hopper-disassembler  |brew cask install hopper-disassembler|
-|   |horndis  |brew cask install horndis|
-|   |horos  |brew cask install horos|
-|   |hortonworks-hive-odbc  |brew cask install hortonworks-hive-odbc|
-|   |hostbuddy  |brew cask install hostbuddy|
-|   |hoster  |brew cask install hoster|
-|   |hostr  |brew cask install hostr|
-|   |hosts  |brew cask install hosts|
-|   |hot-shots  |brew cask install hot-shots|
-|   |hots-replay-uploader  |brew cask install hots-replay-uploader|
-|   |hotswitch  |brew cask install hotswitch|
-|   |houdahgeo  |brew cask install houdahgeo|
-|   |houdahgps  |brew cask install houdahgps|
-|   |houdahspot  |brew cask install houdahspot|
-|   |hp-eprint  |brew cask install hp-eprint|
-|   |hp15c  |brew cask install hp15c|
-|   |hsang  |brew cask install hsang|
-|   |hstracker  |brew cask install hstracker|
-|   |hts-inet  |brew cask install hts-inet|
-|   |httpscoop  |brew cask install httpscoop|
-|   |huamim  |brew cask install huamim|
-|   |hubic  |brew cask install hubic|
-|   |hubstaff  |brew cask install hubstaff|
-|   |hue-topia  |brew cask install hue-topia|
-|   |hugin  |brew cask install hugin|
-|   |hwsensors  |brew cask install hwsensors|
-|   |hydrogen  |brew cask install hydrogen|
-|   |hyne  |brew cask install hyne|
-|   |hype  |brew cask install hype|
-|   |hyper  |brew cask install hyper|
-|   |hyperdock  |brew cask install hyperdock|
-|   |hyperswitch  |brew cask install hyperswitch|
-|   |hypo  |brew cask install hypo|
-|   |hyro  |brew cask install hyro|
-|   |i1profiler  |brew cask install i1profiler|
-|   |ialaddin-noisytyper  |brew cask install ialaddin-noisytyper|
-|   |iannix  |brew cask install iannix|
-|   |ibabel  |brew cask install ibabel|
-|   |ibackup  |brew cask install ibackup|
-|   |ibackupbot  |brew cask install ibackupbot|
-|   |ibettercharge  |brew cask install ibettercharge|
-|   |ibm-cloud-cli  |brew cask install ibm-cloud-cli|
-|   |ibooksremote  |brew cask install ibooksremote|
-|   |iboostup  |brew cask install iboostup|
-|   |ibored  |brew cask install ibored|
-|   |ibvpncom  |brew cask install ibvpncom|
-|   |icab  |brew cask install icab|
-|   |icamsource  |brew cask install icamsource|
-|   |icc  |brew cask install icc|
-|   |iceberg  |brew cask install iceberg|
-|   |icecat  |brew cask install icecat|
-|   |icefloor  |brew cask install icefloor|
-|   |ichm  |brew cask install ichm|
-|   |icloud-control  |brew cask install icloud-control|
-|   |icolors  |brew cask install icolors|
-|   |icompta  |brew cask install icompta|
-|   |iconjar  |brew cask install iconjar|
-|   |iconping  |brew cask install iconping|
-|   |icons  |brew cask install icons|
-|   |icons8  |brew cask install icons8|
-|   |icq  |brew cask install icq|
-|   |icultus  |brew cask install icultus|
-|   |id3-editor  |brew cask install id3-editor|
-|   |idafree  |brew cask install idafree|
-|   |idefrag  |brew cask install idefrag|
-|   |idisplay  |brew cask install idisplay|
-|   |idreamx  |brew cask install idreamx|
-|   |idrive  |brew cask install idrive|
-|   |ieasemusic  |brew cask install ieasemusic|
-|   |iexplorer  |brew cask install iexplorer|
-|   |iffmpeg  |brew cask install iffmpeg|
-|   |ifilex  |brew cask install ifilex|
-|   |ifunbox  |brew cask install ifunbox|
-|   |igetter  |brew cask install igetter|
-|   |igv  |brew cask install igv|
-|   |iholdem-indicator  |brew cask install iholdem-indicator|
-|   |iina  |brew cask install iina|
-|   |iloc  |brew cask install iloc|
-|   |ilok-license-manager  |brew cask install ilok-license-manager|
-|   |ilya-birman-typography-layout  |brew cask install ilya-birman-typography-layout|
-|   |image-tool  |brew cask install image-tool|
-|   |image2icon  |brew cask install image2icon|
-|   |imagealpha  |brew cask install imagealpha|
-|   |imagej  |brew cask install imagej|
-|   |imagemin  |brew cask install imagemin|
-|   |imageoptim  |brew cask install imageoptim|
-|   |imageplay  |brew cask install imageplay|
-|   |imaging-edge  |brew cask install imaging-edge|
-|   |imazing-mini  |brew cask install imazing-mini|
-|   |imazing  |brew cask install imazing|
-|   |imgur  |brew cask install imgur|
-|   |imitone  |brew cask install imitone|
-|   |imousetrick  |brew cask install imousetrick|
-|   |impactor  |brew cask install impactor|
-|   |importio  |brew cask install importio|
-|   |inboard  |brew cask install inboard|
-|   |inboxer  |brew cask install inboxer|
-|   |inc  |brew cask install inc|
-|   |incanter  |brew cask install incanter|
-|   |indi-control-panel  |brew cask install indi-control-panel|
-|   |indi-server  |brew cask install indi-server|
-|   |indigo  |brew cask install indigo|
-|   |inform  |brew cask install inform|
-|   |injection  |brew cask install injection|
-|   |inkdrop  |brew cask install inkdrop|
-|   |inklet  |brew cask install inklet|
-|   |inkscape  |brew cask install inkscape|
-|   |inky  |brew cask install inky|
-|   |inloop-qlplayground  |brew cask install inloop-qlplayground|
-|   |inpad  |brew cask install inpad|
-|   |insertpic  |brew cask install insertpic|
-|   |insomnia  |brew cask install insomnia|
-|   |insomniax  |brew cask install insomniax|
-|   |inspec  |brew cask install inspec|
-|   |inssider  |brew cask install inssider|
-|   |install-disk-creator  |brew cask install install-disk-creator|
-|   |instasizer  |brew cask install instasizer|
-|   |instead  |brew cask install instead|
-|   |insync  |brew cask install insync|
-|   |integrity  |brew cask install integrity|
-|   |intel-haxm  |brew cask install intel-haxm|
-|   |intel-power-gadget  |brew cask install intel-power-gadget|
-|   |intel-xdk-iot  |brew cask install intel-xdk-iot|
-|   |intel-xdk  |brew cask install intel-xdk|
-|   |intellij-idea-ce  |brew cask install intellij-idea-ce|
-|   |intellij-idea  |brew cask install intellij-idea|
-|   |intensify
+|分类|名称| 包名|命令|
+|---|---|---|---|
+|	|   | 0ad |brew cask install 0ad|
+|	|   |0xed  |brew cask install 0xed|
+|	|   |1clipboard  |brew cask install 1clipboard|
+|	|   |1password-cli  |brew cask install 1password-cli|
+|	|1password   |1password  |brew cask install 1password|
+|	|   |3cxphone  |brew cask install 3cxphone|
+|	|   |4k-slideshow-maker  |brew cask install 4k-slideshow-maker|
+|	|   |4k-stogram  |brew cask install 4k-stogram|
+|	|   |4k-video-downloader  |brew cask install 4k-video-downloader|
+|	|   |4k-video-to-mp3  |brew cask install 4k-video-to-mp3|
+|	|   |4k-youtube-to-mp3  |brew cask install 4k-youtube-to-mp3|
+|	|   |4peaks  |brew cask install 4peaks|
+|	|   |5kplayer  |brew cask install 5kplayer|
+|	|   |8bitshaper  |brew cask install 8bitshaper|
+|	|   |8tracksradiohelper  |brew cask install 8tracksradiohelper|
+|	|   |010-editor  |brew cask install 010-editor|
+|	|   |33-rpm  |brew cask install 33-rpm|
+|	|   |115browser  |brew cask install 115browser|
+|	|   |360safe  |brew cask install 360safe|
+|	|   |a-better-finder-attributes  |brew cask install a-better-finder-attributes|
+|	|   |a-better-finder-rename  |brew cask install a-better-finder-rename|
+|	|   |a-slower-speed-of-light  |brew cask install a-slower-speed-of-light|
+|	|   |ableton-live-intro  |brew cask install ableton-live-intro|
+|	|   |ableton-live-lite  |brew cask install ableton-live-lite|
+|	|   |ableton-live-standard  |brew cask install ableton-live-standard|
+|	|   |ableton-live-suite  |brew cask install ableton-live-suite|
+|	|   |ableton-live  |brew cask install ableton-live|
+|	|   |abricotine  |brew cask install abricotine|
+|	|   |abscissa  |brew cask install abscissa|
+|	|   |abstract  |brew cask install abstract|
+|	|   |abyss-web-server  |brew cask install abyss-web-server|
+|	|   |accessmenubarapps  |brew cask install accessmenubarapps|
+|	|   |acorn  |brew cask install acorn|
+|	|   |acousticbrainz-gui  |brew cask install acousticbrainz-gui|
+|	|   |acquia-dev  |brew cask install acquia-dev|
+|	|   |acronis-true-image  |brew cask install acronis-true-image|
+|	|   |across-lite  |brew cask install across-lite|
+|	|   |acslogo  |brew cask install acslogo|
+|	|   |actions-server  |brew cask install actions-server|
+|	|   |activity-audit  |brew cask install activity-audit|
+|	|   |actprinter  |brew cask install actprinter|
+|	|   |actual-odbc-pack  |brew cask install actual-odbc-pack|
+|	|   |adafruit-arduino  |brew cask install adafruit-arduino|
+|	|   |adapter  |brew cask install adapter|
+|	|   |addaps  |brew cask install addaps|
+|	|   |adguard  |brew cask install adguard|
+|	|   |adium  |brew cask install adium|
+|	|   |adobe-acrobat-pro  |brew cask install adobe-acrobat-pro|
+|	|   |adobe-acrobat-reader  |brew cask install adobe-acrobat-reader|
+|	|   |adobe-air-sdk  |brew cask install adobe-air-sdk|
+|	|   |adobe-air  |brew cask install adobe-air|
+|	|   |adobe-arh  |brew cask install adobe-arh|
+|	|   |adobe-connect  |brew cask install adobe-connect|
+|	|   |adobe-creative-cloud-cleaner-tool  |brew cask install adobe-creative-cloud-cleaner-tool|
+|	|   |adobe-creative-cloud  |brew cask install adobe-creative-cloud|
+|	|   |adobe-digital-editions  |brew cask install adobe-digital-editions|
+|	|   |adobe-dng-converter  |brew cask install adobe-dng-converter|
+|	|   |adobe-photoshop-lightroom  |brew cask install adobe-photoshop-lightroom|
+|	|   |advancedcolors  |brew cask install advancedcolors|
+|	|   |adventure  |brew cask install adventure|
+|	|   |adware-removal-tool  |brew cask install adware-removal-tool|
+|	|   |aegisub  |brew cask install aegisub|
+|	|   |aerial  |brew cask install aerial|
+|	|   |aether  |brew cask install aether|
+|	|   |affinic-debugger  |brew cask install affinic-debugger|
+|	|   |after-dark-classic  |brew cask install after-dark-classic|
+|	|   |agenda  |brew cask install agenda|
+|	|   |aimersoft-video-converter-ultimate  |brew cask install |	aimersoft-video-converter-ultimate|
+|	|   |air-connect  |brew cask install air-connect|
+|	|   |air-video-server-hd  |brew cask install air-video-server-hd|
+|	|   |air-video-server  |brew cask install air-video-server|
+|	|   |aircall  |brew cask install aircall|
+|	|   |airdisplay  |brew cask install airdisplay|
+|	|   |airdroid  |brew cask install airdroid|
+|	|   |airflick  |brew cask install airflick|
+|	|   |airflow  |brew cask install airflow|
+|	|   |airfoil  |brew cask install airfoil|
+|	|   |airmedia  |brew cask install airmedia|
+|	|   |airparrot  |brew cask install airparrot|
+|	|   |airserver  |brew cask install airserver|
+|	|   |airtable  |brew cask install airtable|
+|	|   |airtame  |brew cask install airtame|
+|	|   |airtool  |brew cask install airtool|
+|	|   |airy  |brew cask install airy|
+|	|   |aja-system-test  |brew cask install aja-system-test|
+|	|   |aladin  |brew cask install aladin|
+|	|   |alcatraz  |brew cask install alcatraz|
+|	|   |alchemy  |brew cask install alchemy|
+|	|   |alfred  |brew cask install alfred|
+|	|   |algodoo  |brew cask install algodoo|
+|	|   |alib1  |brew cask install alib1|
+|	|   |alice  |brew cask install alice|
+|	|   |aliedit  |brew cask install aliedit|
+|	|   |alinof-timer  |brew cask install alinof-timer|
+|	|   |aliwangwang  |brew cask install aliwangwang|
+|	|   |aliworkbench  |brew cask install aliworkbench|
+|	|   |altair  |brew cask install altair|
+|	|   |alternote  |brew cask install alternote|
+|	|   |aluxian-messenger  |brew cask install aluxian-messenger|
+|	|   |alva  |brew cask install alva|
+|	|   |amadeus-pro  |brew cask install amadeus-pro|
+|	|   |amanote  |brew cask install amanote|
+|	|   |amazon-chime  |brew cask install amazon-chime|
+|	|   |amazon-drive  |brew cask install amazon-drive|
+|	|   |amazon-music  |brew cask install amazon-music|
+|	|   |amazon-workdocs  |brew cask install amazon-workdocs|
+|	|   |amazon-workspaces  |brew cask install amazon-workspaces|
+|	|   |amethyst  |brew cask install amethyst|
+|	|   |amidst  |brew cask install amidst|
+|	|   |amm  |brew cask install amm|
+|	|   |ammonite  |brew cask install ammonite|
+|	|   |amorphousdiskmark  |brew cask install amorphousdiskmark|
+|	|   |ampps  |brew cask install ampps|
+|	|   |anaconda  |brew cask install anaconda|
+|	|   |android-file-transfer  |brew cask install android-file-transfer|
+|	|   |android-ndk  |brew cask install android-ndk|
+|	|   |android-platform-tools  |brew cask install android-platform-tools|
+|	|   |android-sdk  |brew cask install android-sdk|
+|	|   |android-studio  |brew cask install android-studio|
+|	|   |androidtool  |brew cask install androidtool|
+|	|   |angband  |brew cask install angband|
+|	|   |angry-ip-scanner  |brew cask install angry-ip-scanner|
+|	|   |anka-flow  |brew cask install anka-flow|
+|	|   |anki  |brew cask install anki|
+|	|   |annotation-edit  |brew cask install annotation-edit|
+|	|   |anonvpn  |brew cask install anonvpn|
+|	|   |anonym  |brew cask install anonym|
+|	|   |anonymousvpn  |brew cask install anonymousvpn|
+|	|   |ansible-dk  |brew cask install ansible-dk|
+|	|   |antconc  |brew cask install antconc|
+|	|   |antetype  |brew cask install antetype|
+|	|   |antfileconverter  |brew cask install antfileconverter|
+|	|   |antpconc  |brew cask install antpconc|
+|	|   |antwordprofiler  |brew cask install antwordprofiler|
+|	|   |anvil  |brew cask install anvil|
+|	|   |anybar  |brew cask install anybar|
+|	|   |anydesk  |brew cask install anydesk|
+|	|   |anyipsum  |brew cask install anyipsum|
+|	|   |anylist  |brew cask install anylist|
+|	|   |anylogic  |brew cask install anylogic|
+|	|   |anytrans  |brew cask install anytrans|
+|	|   |apache-couchdb  |brew cask install apache-couchdb|
+|	|   |apache-directory-studio  |brew cask install apache-directory-studio|
+|	|   |apm-planner  |brew cask install apm-planner|
+|	|   |app-tamer  |brew cask install app-tamer|
+|	|   |appcleaner  |brew cask install appcleaner|
+|	|   |appcode  |brew cask install appcode|
+|	|   |appdelete  |brew cask install appdelete|
+|	|   |appearin  |brew cask install appearin|
+|	|   |appgate-client  |brew cask install appgate-client|
+|	|   |appgate-sdp-client  |brew cask install appgate-sdp-client|
+|	|   |appgrid  |brew cask install appgrid|
+|	|   |appium  |brew cask install appium|
+|	|   |apple-events  |brew cask install apple-events|
+|	|   |apple-juice  |brew cask install apple-juice|
+|	|   |applepi-baker  |brew cask install applepi-baker|
+|	|   |application-loader  |brew cask install application-loader|
+|	|   |apppolice  |brew cask install apppolice|
+|	|   |appserver  |brew cask install appserver|
+|	|   |appshelf  |brew cask install appshelf|
+|	|   |appstore-quickview  |brew cask install appstore-quickview|
+|	|   |appstudio  |brew cask install appstudio|
+|	|   |apptivate  |brew cask install apptivate|
+|	|   |apptrans  |brew cask install apptrans|
+|	|   |apptrap  |brew cask install apptrap|
+|	|   |appzapper  |brew cask install appzapper|
+|	|   |aptanastudio  |brew cask install aptanastudio|
+|	|   |aptible  |brew cask install aptible|
+|	|   |aqua-data-studio  |brew cask install aqua-data-studio|
+|	|   |aquamacs  |brew cask install aquamacs|
+|	|   |aquaskk  |brew cask install aquaskk|
+|	|   |aquaterm  |brew cask install aquaterm|
+|	|   |araxis-merge  |brew cask install araxis-merge|
+|	|   |archi  |brew cask install archi|
+|	|   |archiver  |brew cask install archiver|
+|	|   |arduino  |brew cask install arduino|
+|	|   |argouml  |brew cask install argouml|
+|	|   |aria-maestosa  |brew cask install aria-maestosa|
+|	|   |aria2gui  |brew cask install aria2gui|
+|	|   |arkclient  |brew cask install arkclient|
+|	|   |armitage  |brew cask install armitage|
+|	|   |armory  |brew cask install armory|
+|	|   |arq  |brew cask install arq|
+|	|   |arranger  |brew cask install arranger|
+|	|   |arrsync  |brew cask install arrsync|
+|	|   |art-directors-toolkit  |brew cask install art-directors-toolkit|
+|	|   |art-of-illusion  |brew cask install art-of-illusion|
+|	|   |artpip  |brew cask install artpip|
+|	|   |ascension  |brew cask install ascension|
+|	|   |asciidocfx  |brew cask install asciidocfx|
+|	|   |aseprite  |brew cask install aseprite|
+|	|   |aspera-connect  |brew cask install aspera-connect|
+|	|   |asset-catalog-tinkerer  |brew cask install asset-catalog-tinkerer|
+|	|   |astah-community  |brew cask install astah-community|
+|	|   |astah-professional  |brew cask install astah-professional|
+|	|   |astah-sysml  |brew cask install astah-sysml|
+|	|   |astrill  |brew cask install astrill|
+|	|   |astro  |brew cask install astro|
+|	|   |astroguider  |brew cask install astroguider|
+|	|   |astroimager  |brew cask install astroimager|
+|	|   |astromenace  |brew cask install astromenace|
+|	|   |astrometry  |brew cask install astrometry|
+|	|   |astropad-studio  |brew cask install astropad-studio|
+|	|   |astropad  |brew cask install astropad|
+|	|   |astrotelescope  |brew cask install astrotelescope|
+|	|   |atext  |brew cask install atext|
+|	|   |atlantis  |brew cask install atlantis|
+|	|   |atlauncher  |brew cask install atlauncher|
+|	|   |atok  |brew cask install atok|
+|编辑器 |Atom  |atom  |brew cask install atom|
+|	|   |atraci  |brew cask install atraci|
+|	|   |au-lab  |brew cask install au-lab|
+|	|   |audio-editor  |brew cask install audio-editor|
+|	|   |audio-hijack  |brew cask install audio-hijack|
+|	|   |audio-notetaker  |brew cask install audio-notetaker|
+|	|   |audiobook-builder  |brew cask install audiobook-builder|
+|	|   |audiobookbinder  |brew cask install audiobookbinder|
+|	|   |audiomate  |brew cask install audiomate|
+|	|   |audioscrobbler  |brew cask install audioscrobbler|
+|	|   |audioslicer  |brew cask install audioslicer|
+|	|   |audirvana-plus  |brew cask install audirvana-plus|
+|	|   |auftakt  |brew cask install auftakt|
+|	|   |auganizer  |brew cask install auganizer|
+|	|   |auristor-client  |brew cask install auristor-client|
+|	|   |aurora  |brew cask install aurora|
+|	|   |authbuddy  |brew cask install authbuddy|
+|	|   |authoxy  |brew cask install authoxy|
+|	|   |authy  |brew cask install authy|
+|	|   |autobeat-player  |brew cask install autobeat-player|
+|	|   |autodmg  |brew cask install autodmg|
+|	|   |autofirma  |brew cask install autofirma|
+|	|   |automatic  |brew cask install automatic|
+|	|   |automute  |brew cask install automute|
+|	|   |autopano-giga  |brew cask install autopano-giga|
+|	|   |autopano-pro  |brew cask install autopano-pro|
+|	|   |autopkgr  |brew cask install autopkgr|
+|	|   |avast-secureline-vpn  |brew cask install avast-secureline-vpn|
+|	|   |avast-security  |brew cask install avast-security|
+|	|   |avg-antivirus  |brew cask install avg-antivirus|
+|	|   |avibrazil-rdm  |brew cask install avibrazil-rdm|
+|	|   |avidcodecsle  |brew cask install avidcodecsle|
+|	|   |avidemux  |brew cask install avidemux|
+|	|   |avira-antivirus  |brew cask install avira-antivirus|
+|	|   |avira-vpn  |brew cask install avira-vpn|
+|	|   |avocode  |brew cask install avocode|
+|	|   |avogadro  |brew cask install avogadro|
+|	|   |awa  |brew cask install awa|
+|	|   |aware  |brew cask install aware|
+|	|   |awareness  |brew cask install awareness|
+|	|   |awips-python  |brew cask install awips-python|
+|	|   |aws-vault  |brew cask install aws-vault|
+|	|   |axoloti-runtime  |brew cask install axoloti-runtime|
+|	|   |axoloti  |brew cask install axoloti|
+|	|   |axure-rp  |brew cask install axure-rp|
+|	|   |back-in-time  |brew cask install back-in-time|
+|	|   |backblaze-downloader  |brew cask install backblaze-downloader|
+|	|   |backblaze  |brew cask install backblaze|
+|	|   |background-music  |brew cask install background-music|
+|	|   |backuploupe  |brew cask install backuploupe|
+|	|   |backwords  |brew cask install backwords|
+|	|   |baiducloud  |brew cask install baiducloud|
+|	|   |baiduhi  |brew cask install baiduhi|
+|	|   |baiduinput  |brew cask install baiduinput|
+|	|   |baidumusic  |brew cask install baidumusic|
+|	|   |baidunetdisk  |brew cask install baidunetdisk|
+|	|   |balsamiq-mockups  |brew cask install balsamiq-mockups|
+|	|   |bandage  |brew cask install bandage|
+|	|   |bankid  |brew cask install bankid|
+|	|   |banktivity  |brew cask install banktivity|
+|	|   |banshee  |brew cask install banshee|
+|	|   |baretorrent  |brew cask install baretorrent|
+|	|   |barmaid  |brew cask install barmaid|
+|	|   |barsoom  |brew cask install barsoom|
+|	|   |bartender  |brew cask install bartender|
+|	|   |barxtemp  |brew cask install barxtemp|
+|	|   |base  |brew cask install base|
+|	|   |basecamp  |brew cask install basecamp|
+|	|   |baseelements  |brew cask install baseelements|
+|	|   |basictex  |brew cask install basictex|
+|	|   |bassshapes  |brew cask install bassshapes|
+|	|   |batchmod  |brew cask install batchmod|
+|	|   |bathyscaphe  |brew cask install bathyscaphe|
+|	|   |battery-guardian  |brew cask install battery-guardian|
+|	|   |battery-report  |brew cask install battery-report|
+|	|   |battery-time-remaining  |brew cask install battery-time-remaining|
+|	|   |battle-net  |brew cask install battle-net|
+|	|   |baudline  |brew cask install baudline|
+|	|   |baygenie  |brew cask install baygenie|
+|	|   |bbc-iplayer-downloads  |brew cask install bbc-iplayer-downloads|
+|	|   |bbedit  |brew cask install bbedit|
+|	|   |bdash  |brew cask install bdash|
+|	|   |bdinfo  |brew cask install bdinfo|
+|	|   |beacon-scanner  |brew cask install beacon-scanner|
+|	|   |beaker-browser  |brew cask install beaker-browser|
+|	|   |beaker-electron  |brew cask install beaker-electron|
+|	|   |beaker  |brew cask install beaker|
+|	|   |beamdog-client  |brew cask install beamdog-client|
+|	|   |beamer  |brew cask install beamer|
+|	|   |bean  |brew cask install bean|
+|	|   |beardedspice  |brew cask install beardedspice|
+|	|   |bearychat  |brew cask install bearychat|
+|	|   |beatport-pro  |brew cask install beatport-pro|
+|	|   |beatunes  |brew cask install beatunes|
+|	|   |beautune  |brew cask install beautune|
+|	|   |bee  |brew cask install bee|
+|	|   |beersmith2  |brew cask install beersmith2|
+|	|   |beesoft  |brew cask install beesoft|
+|	|   |beoplay-software-update  |brew cask install beoplay-software-update|
+|	|   |beotsmusic  |brew cask install beotsmusic|
+|	|   |bestres  |brew cask install bestres|
+|	|   |betaflight-configurator  |brew cask install betaflight-configurator|
+|	|   |better-window-manager  |brew cask install better-window-manager|
+|	|   |bettertouchtool  |brew cask install bettertouchtool|
+|	|   |betterzip  |brew cask install betterzip|
+|	|   |between  |brew cask install between|
+|	|   |betwixt  |brew cask install betwixt|
+|	|   |beyerdynamicvs  |brew cask install beyerdynamicvs|
+|	|   |beyond-compare  |brew cask install beyond-compare|
+|	|   |bezel  |brew cask install bezel|
+|	|   |bfxr  |brew cask install bfxr|
+|	|   |biba  |brew cask install biba|
+|	|   |bibdesk  |brew cask install bibdesk|
+|	|   |big-mean-folder-machine  |brew cask install big-mean-folder-machine|
+|	|   |biicode  |brew cask install biicode|
+|	|   |bilibili  |brew cask install bilibili|
+|	|   |bill  |brew cask install bill|
+|	|   |bime  |brew cask install bime|
+|	|   |binary-ninja  |brew cask install binary-ninja|
+|	|   |bink-player  |brew cask install bink-player|
+|	|   |bino  |brew cask install bino|
+|	|   |birdfont  |brew cask install birdfont|
+|	|   |bisq  |brew cask install bisq|
+|	|   |bit-slicer  |brew cask install bit-slicer|
+|	|   |bitbar  |brew cask install bitbar|
+|	|   |bitcoin-classic  |brew cask install bitcoin-classic|
+|	|   |bitcoin-core  |brew cask install bitcoin-core|
+|	|   |bitcoin-unlimited  |brew cask install bitcoin-unlimited|
+|	|   |bitcoin-xt  |brew cask install bitcoin-xt|
+|	|   |bitdock  |brew cask install bitdock|
+|	|   |bitkeeper  |brew cask install bitkeeper|
+|	|   |bitlord  |brew cask install bitlord|
+|	|   |bitmessage  |brew cask install bitmessage|
+|	|   |bitpay  |brew cask install bitpay|
+|	|   |bitpim  |brew cask install bitpim|
+|	|   |bitpost  |brew cask install bitpost|
+|	|   |bitrix24  |brew cask install bitrix24|
+|	|   |bitscope-chart  |brew cask install bitscope-chart|
+|	|   |bitscope-dso  |brew cask install bitscope-dso|
+|	|   |bitscope-logic  |brew cask install bitscope-logic|
+|	|   |bitscope-meter  |brew cask install bitscope-meter|
+|	|   |bitshares  |brew cask install bitshares|
+|	|   |bittorrent  |brew cask install bittorrent|
+|	|   |bitwarden  |brew cask install bitwarden|
+|	|   |bitwig-studio  |brew cask install bitwig-studio|
+|	|   |black-ink  |brew cask install black-ink|
+|	|   |black-light  |brew cask install black-light|
+|	|   |blackscreen-screensaver  |brew cask install blackscreen-screensaver|
+|	|   |blast2go  |brew cask install blast2go|
+|	|   |blender  |brew cask install blender|
+|	|   |blink1control  |brew cask install blink1control|
+|	|   |blisk  |brew cask install blisk|
+|	|   |blobby-volley2  |brew cask install blobby-volley2|
+|	|   |blockblock  |brew cask install blockblock|
+|	|   |blockstack  |brew cask install blockstack|
+|	|   |blocs  |brew cask install blocs|
+|	|   |bloodhound  |brew cask install bloodhound|
+|	|   |bloom  |brew cask install bloom|
+|	|   |blu-ray-player-pro  |brew cask install blu-ray-player-pro|
+|	|   |blu-ray-player  |brew cask install blu-ray-player|
+|	|   |blue-jeans-browser-plugin  |brew cask install blue-jeans-browser-plugin|
+|	|   |blue-jeans  |brew cask install blue-jeans|
+|	|   |bluefish  |brew cask install bluefish|
+|	|   |bluegriffon  |brew cask install bluegriffon|
+|	|   |blueharvest  |brew cask install blueharvest|
+|	|   |bluej  |brew cask install bluej|
+|	|   |bluesense  |brew cask install bluesense|
+|	|   |blueservice  |brew cask install blueservice|
+|	|   |bluestacks  |brew cask install bluestacks|
+|	|   |bmglyph  |brew cask install bmglyph|
+|	|   |bob  |brew cask install bob|
+|	|   |boc-security-plugin  |brew cask install boc-security-plugin|
+|	|   |boinc  |brew cask install boinc|
+|	|   |bonitastudiocommunity  |brew cask install bonitastudiocommunity|
+|	|   |bonjeff  |brew cask install bonjeff|
+|	|   |bonjour-browser  |brew cask install bonjour-browser|
+|	|   |bookends  |brew cask install bookends|
+|	|   |bookmacster  |brew cask install bookmacster|
+|	|   |bookscan-downloader  |brew cask install bookscan-downloader|
+|	|   |bookwright  |brew cask install bookwright|
+|	|   |boom-3d  |brew cask install boom-3d|
+|	|   |boom-recorder  |brew cask install boom-recorder|
+|	|   |boom  |brew cask install boom|
+|	|   |boonzi  |brew cask install boonzi|
+|	|   |boostnote  |brew cask install boostnote|
+|	|   |bootchamp  |brew cask install bootchamp|
+|	|   |bootxchanger  |brew cask install bootxchanger|
+|	|   |bordertool  |brew cask install bordertool|
+|	|   |bordertool2  |brew cask install bordertool2|
+|	|   |borgbackup  |brew cask install borgbackup|
+|	|   |bossman  |brew cask install bossman|
+|	|   |botframework-emulator  |brew cask install botframework-emulator|
+|	|   |bowtie  |brew cask install bowtie|
+|	|   |box-edit  |brew cask install box-edit|
+|	|   |box-sync  |brew cask install box-sync|
+|	|   |boxcryptor  |brew cask install boxcryptor|
+|	|   |boxer  |brew cask install boxer|
+|	|   |boxofsnoo-fairmount  |brew cask install boxofsnoo-fairmount|
+|	|   |brackets  |brew cask install brackets|
+|	|   |brain-workshop  |brew cask install brain-workshop|
+|	|   |brauhelfer  |brew cask install brauhelfer|
+|	|   |brave  |brew cask install brave|
+|	|   |breakaway  |brew cask install breakaway|
+|	|   |breeze  |brew cask install breeze|
+|	|   |brewtarget  |brew cask install brewtarget|
+|	|   |bricklink-studio  |brew cask install bricklink-studio|
+|	|   |bricksmith  |brew cask install bricksmith|
+|	|   |brightness  |brew cask install brightness|
+|	|   |brisk  |brew cask install brisk|
+|	|   |brl-cad-mged  |brew cask install brl-cad-mged|
+|	|   |brogue  |brew cask install brogue|
+|	|   |broomstick  |brew cask install broomstick|
+|	|   |brow  |brew cask install brow|
+|	|   |browser-chooserx  |brew cask install browser-chooserx|
+|	|   |browserstacklocal  |brew cask install browserstacklocal|
+|	|   |brushviewql  |brew cask install brushviewql|
+|	|   |buddi  |brew cask install buddi|
+|	|   |budget  |brew cask install budget|
+|	|   |buildasaur  |brew cask install buildasaur|
+|	|   |burn  |brew cask install burn|
+|	|   |burp-suite  |brew cask install burp-suite|
+|	|   |busycal  |brew cask install busycal|
+|	|   |busycontacts  |brew cask install busycontacts|
+|	|   |butler  |brew cask install butler|
+|	|   |butt  |brew cask install butt|
+|	|   |butter  |brew cask install butter|
+|	|   |buttercup  |brew cask install buttercup|
+|	|   |bwana  |brew cask install bwana|
+|	|   |byteball  |brew cask install byteball|
+|	|   |bytecoinwallet  |brew cask install bytecoinwallet|
+|	|   |bzflag  |brew cask install bzflag|
+|	|   |c0  |brew cask install c0|
+|	|   |c3  |brew cask install c3|
+|	|   |cacher  |brew cask install cacher|
+|	|   |cacoo-ninja  |brew cask install cacoo-ninja|
+|	|   |cactus  |brew cask install cactus|
+|	|   |caffeine  |brew cask install caffeine|
+|	|   |cajviewer  |brew cask install cajviewer|
+|	|   |cakebrew  |brew cask install cakebrew|
+|	|   |calcservice  |brew cask install calcservice|
+|	|   |calendly-click  |brew cask install calendly-click|
+|	|   |calibre  |brew cask install calibre|
+|	|   |callnote-premium  |brew cask install callnote-premium|
+|	|   |calq  |brew cask install calq|
+|	|   |camed  |brew cask install camed|
+|	|   |camerabag-photo  |brew cask install camerabag-photo|
+|	|   |camranger  |brew cask install camranger|
+|	|   |camtasia  |brew cask install camtasia|
+|	|   |camtwist  |brew cask install camtwist|
+|	|   |camunda-modeler  |brew cask install camunda-modeler|
+|	|   |canary  |brew cask install canary|
+|	|   |candybar  |brew cask install candybar|
+|	|   |cantata  |brew cask install cantata|
+|	|   |caprine  |brew cask install caprine|
+|	|   |captain  |brew cask install captain|
+|	|   |captin  |brew cask install captin|
+|	|   |caption  |brew cask install caption|
+|	|   |capto  |brew cask install capto|
+|	|   |captur  |brew cask install captur|
+|	|   |capture-one  |brew cask install capture-one|
+|	|   |carbon-copy-cloner  |brew cask install carbon-copy-cloner|
+|	|   |card  |brew cask install card|
+|	|   |cardhop  |brew cask install cardhop|
+|	|   |caret  |brew cask install caret|
+|	|   |carlson-minot  |brew cask install carlson-minot|
+|	|   |carmaintenance  |brew cask install carmaintenance|
+|	|   |carmetal  |brew cask install carmetal|
+|	|   |cartographica  |brew cask install cartographica|
+|	|   |cashculator  |brew cask install cashculator|
+|	|   |casparcg-client  |brew cask install casparcg-client|
+|	|   |castbridge  |brew cask install castbridge|
+|	|   |catch  |brew cask install catch|
+|	|   |cathode  |brew cask install cathode|
+|	|   |catlight  |brew cask install catlight|
+|	|   |cave-story  |brew cask install cave-story|
+|	|   |cave  |brew cask install cave|
+|	|   |ccleaner  |brew cask install ccleaner|
+|	|   |ccmenu  |brew cask install ccmenu|
+|	|   |cctalk  |brew cask install cctalk|
+|	|   |cd-to  |brew cask install cd-to|
+|	|   |ceceree  |brew cask install ceceree|
+|	|   |celestia  |brew cask install celestia|
+|	|   |cellprofiler  |brew cask install cellprofiler|
+|	|   |cellular  |brew cask install cellular|
+|	|   |cerebro  |brew cask install cerebro|
+|	|   |cevelop  |brew cask install cevelop|
+|	|   |cfxr  |brew cask install cfxr|
+|	|   |cgoban  |brew cask install cgoban|
+|	|   |chainsaw  |brew cask install chainsaw|
+|	|   |chalk  |brew cask install chalk|
+|	|   |chameleon-ssd-optimizer  |brew cask install chameleon-ssd-optimizer|
+|	|   |championify  |brew cask install championify|
+|	|   |changes  |brew cask install changes|
+|	|   |charles  |brew cask install charles|
+|	|   |charlessoft-timetracker  |brew cask install charlessoft-timetracker|
+|	|   |chat  |brew cask install chat|
+|	|   |chatmate-for-facebook  |brew cask install chatmate-for-facebook|
+|	|   |chatmate-for-whatsapp  |brew cask install chatmate-for-whatsapp|
+|	|   |chatology  |brew cask install chatology|
+|	|   |chatty  |brew cask install chatty|
+|	|   |chatwork  |brew cask install chatwork|
+|	|   |cheatsheet  |brew cask install cheatsheet|
+|	|   |cheetah3d  |brew cask install cheetah3d|
+|	|   |chefdk  |brew cask install chefdk|
+|	|   |chemdoodle  |brew cask install chemdoodle|
+|	|   |chessx  |brew cask install chessx|
+|	|   |chicken  |brew cask install chicken|
+|	|   |chikoo  |brew cask install chikoo|
+|	|   |chitchat  |brew cask install chitchat|
+|	|   |chocolat  |brew cask install chocolat|
+|	|   |choose-wisely  |brew cask install choose-wisely|
+|	|   |choosy  |brew cask install choosy|
+|	|   |chromatic  |brew cask install chromatic|
+|	|   |chrome-devtools  |brew cask install chrome-devtools|
+|	|   |chrome-remote-desktop-host  |brew cask install chrome-remote-desktop-host|
+|	|   |chromium  |brew cask install chromium|
+|	|   |chronicle  |brew cask install chronicle|
+|	|   |chronoagent  |brew cask install chronoagent|
+|	|   |chronocube  |brew cask install chronocube|
+|	|   |chronosync  |brew cask install chronosync|
+|	|   |chronycontrol  |brew cask install chronycontrol|
+|	|   |chunkulus  |brew cask install chunkulus|
+|	|   |chunky  |brew cask install chunky|
+|	|   |cinch  |brew cask install cinch|
+|	|   |cinder  |brew cask install cinder|
+|	|   |cineplay  |brew cask install cineplay|
+|	|   |circle-wavetable-generator  |brew cask install circle-wavetable-generator|
+|	|   |cisco-proximity  |brew cask install cisco-proximity|
+|	|   |cisco-spark  |brew cask install cisco-spark|
+|	|   |cisdem-document-reader  |brew cask install cisdem-document-reader|
+|	|   |cisdem-pdfmanagerultimate  |brew cask install cisdem-pdfmanagerultimate|
+|	|   |cisdem-pdftoolkit  |brew cask install cisdem-pdftoolkit|
+|	|   |citrix-receiver  |brew cask install citrix-receiver|
+|	|   |cityofzion-neon  |brew cask install cityofzion-neon|
+|	|   |ckan-app  |brew cask install ckan-app|
+|	|   |ckb  |brew cask install ckb|
+|	|   |clamxav  |brew cask install clamxav|
+|	|   |classeur  |brew cask install classeur|
+|	|   |clean-me  |brew cask install clean-me|
+|	|   |cleanapp  |brew cask install cleanapp|
+|	|   |cleanmymac  |brew cask install cleanmymac|
+|	|   |cleartext  |brew cask install cleartext|
+|	|   |clementine  |brew cask install clementine|
+|	|   |clickcharts  |brew cask install clickcharts|
+|	|   |clion  |brew cask install clion|
+|	|   |clip-studio-paint  |brew cask install clip-studio-paint|
+|	|   |clipbuddy  |brew cask install clipbuddy|
+|	|   |clipgrab  |brew cask install clipgrab|
+|	|   |clipy  |brew cask install clipy|
+|	|   |cliqz  |brew cask install cliqz|
+|	|   |clix  |brew cask install clix|
+|	|   |clock  |brew cask install clock|
+|	|   |clocker  |brew cask install clocker|
+|	|   |clonk  |brew cask install clonk|
+|	|   |cloudapp  |brew cask install cloudapp|
+|	|   |cloudcompare  |brew cask install cloudcompare|
+|	|   |cloudera-hive-odbc  |brew cask install cloudera-hive-odbc|
+|	|   |cloudera-impala-odbc  |brew cask install cloudera-impala-odbc|
+|	|   |cloudlibrary  |brew cask install cloudlibrary|
+|	|   |cloudmounter  |brew cask install cloudmounter|
+|	|   |cloudtv  |brew cask install cloudtv|
+|	|   |cloudup  |brew cask install cloudup|
+|	|   |cloudy  |brew cask install cloudy|
+|	|   |cloudytabs  |brew cask install cloudytabs|
+|	|   |clover-configurator  |brew cask install clover-configurator|
+|	|   |clusters  |brew cask install clusters|
+|	|   |clyang-welly  |brew cask install clyang-welly|
+|	|   |cmake  |brew cask install cmake|
+|	|   |cmb-security-plugin  |brew cask install cmb-security-plugin|
+|	|   |cmd-eikana  |brew cask install cmd-eikana|
+|	|   |cmdtap  |brew cask install cmdtap|
+|	|   |cmpl  |brew cask install cmpl|
+|	|   |cmucl  |brew cask install cmucl|
+|	|   |cn3d  |brew cask install cn3d|
+|	|   |cobalt  |brew cask install cobalt|
+|	|   |coccinellida  |brew cask install coccinellida|
+|	|   |coccoc  |brew cask install coccoc|
+|	|   |cockatrice  |brew cask install cockatrice|
+|	|   |cocktail  |brew cask install cocktail|
+|	|   |cocoapacketanalyzer  |brew cask install cocoapacketanalyzer|
+|	|   |cocoapods-app  |brew cask install cocoapods-app|
+|	|   |cocoarestclient  |brew cask install cocoarestclient|
+|	|   |cocoaspell  |brew cask install cocoaspell|
+|	|   |cocoasplit  |brew cask install cocoasplit|
+|	|   |coconutbattery  |brew cask install coconutbattery|
+|	|   |cocos-code-ide  |brew cask install cocos-code-ide|
+|	|   |cocoscreator  |brew cask install cocoscreator|
+|	|   |coda  |brew cask install coda|
+|	|   |codeblocks  |brew cask install codeblocks|
+|	|   |codekit  |brew cask install codekit|
+|	|   |codelite  |brew cask install codelite|
+|	|   |coderunner  |brew cask install coderunner|
+|	|   |cog  |brew cask install cog|
+|	|   |coinpricebar  |brew cask install coinpricebar|
+|	|   |cold-turkey-blocker  |brew cask install cold-turkey-blocker|
+|	|   |colloquy  |brew cask install colloquy|
+|	|   |color-oracle  |brew cask install color-oracle|
+|	|   |colorado  |brew cask install colorado|
+|	|   |colormunki-display  |brew cask install colormunki-display|
+|	|   |colormunki-photo  |brew cask install colormunki-photo|
+|	|   |colorpicker-antetype  |brew cask install colorpicker-antetype|
+|	|   |colorpicker-developer  |brew cask install colorpicker-developer|
+|	|   |colorpicker-materialdesign  |brew cask install colorpicker-materialdesign|
+|	|   |colorpicker-propicker  |brew cask install colorpicker-propicker|
+|	|   |colorpicker-rcwebcolorpicker  |brew cask install colorpicker-rcwebcolorpicker|
+|	|   |colorpicker-skalacolor  |brew cask install colorpicker-skalacolor|
+|	|   |colorport  |brew cask install colorport|
+|	|   |colorsnapper  |brew cask install colorsnapper|
+|	|   |colortester  |brew cask install colortester|
+|	|   |colour-contrast-analyser  |brew cask install colour-contrast-analyser|
+|	|   |colwiz  |brew cask install colwiz|
+|	|   |combine-pdfs  |brew cask install combine-pdfs|
+|	|   |comic-life  |brew cask install comic-life|
+|	|   |comictagger  |brew cask install comictagger|
+|	|   |comma-chameleon  |brew cask install comma-chameleon|
+|	|   |command-tab-plus  |brew cask install command-tab-plus|
+|	|   |commander-one  |brew cask install commander-one|
+|	|   |commandq  |brew cask install commandq|
+|	|   |comparemerge  |brew cask install comparemerge|
+|	|   |composercat  |brew cask install composercat|
+|	|   |compositor  |brew cask install compositor|
+|	|   |conductor  |brew cask install conductor|
+|	|   |configure-application-dock-tile  |brew cask install configure-application-dock-tile|
+|	|   |connectiq  |brew cask install connectiq|
+|	|   |connector  |brew cask install connector|
+|	|   |console  |brew cask install console|
+|	|   |consul-cli  |brew cask install consul-cli|
+|	|   |context-free  |brew cask install context-free|
+|	|   |contexts  |brew cask install contexts|
+|	|   |continuity-activation-tool  |brew cask install continuity-activation-tool|
+|	|   |controllermate  |brew cask install controllermate|
+|	|   |controlplane  |brew cask install controlplane|
+|	|   |cookie  |brew cask install cookie|
+|	|   |cool-retro-term  |brew cask install cool-retro-term|
+|	|   |coolterm  |brew cask install coolterm|
+|	|   |cooviewer  |brew cask install cooviewer|
+|	|   |copay  |brew cask install copay|
+|	|   |copper  |brew cask install copper|
+|	|   |copy  |brew cask install copy|
+|	|   |copyq  |brew cask install copyq|
+|	|   |coqide  |brew cask install coqide|
+|	|   |cord  |brew cask install cord|
+|	|   |core-data-editor  |brew cask install core-data-editor|
+|	|   |corectl-app  |brew cask install corectl-app|
+|	|   |corelocationcli  |brew cask install corelocationcli|
+|	|   |coreos  |brew cask install coreos|
+|	|   |cornerstone  |brew cask install cornerstone|
+|	|   |coronasdk  |brew cask install coronasdk|
+|	|   |coteditor  |brew cask install coteditor|
+|	|   |couchbase-server-community  |brew cask install couchbase-server-community|
+|	|   |couchbase-server-enterprise  |brew cask install couchbase-server-enterprise|
+|	|   |couchpotato  |brew cask install couchpotato|
+|	|   |couleurs  |brew cask install couleurs|
+|	|   |covered  |brew cask install covered|
+|	|   |coverload  |brew cask install coverload|
+|	|   |coyim  |brew cask install coyim|
+|	|   |cpuinfo  |brew cask install cpuinfo|
+|	|   |craftmanager  |brew cask install craftmanager|
+|	|   |craftstudio  |brew cask install craftstudio|
+|	|   |crashcrier  |brew cask install crashcrier|
+|	|   |crashplan  |brew cask install crashplan|
+|	|   |create-recovery-partition-installer  |brew cask install |	create-recovery-partition-installer|
+|	|   |createuserpkg  |brew cask install createuserpkg|
+|	|   |creepy  |brew cask install creepy|
+|	|   |cronnix  |brew cask install cronnix|
+|	|   |crosscloud  |brew cask install crosscloud|
+|	|   |crossover  |brew cask install crossover|
+|	|   |crosspack-avr  |brew cask install crosspack-avr|
+|	|   |crunch  |brew cask install crunch|
+|	|   |crushftp  |brew cask install crushftp|
+|	|   |crypho  |brew cask install crypho|
+|	|   |crypt  |brew cask install crypt|
+|	|   |crypter  |brew cask install crypter|
+|	|   |cryptomator  |brew cask install cryptomator|
+|	|   |crystax-ndk  |brew cask install crystax-ndk|
+|	|   |cscreen  |brew cask install cscreen|
+|	|   |ctivo  |brew cask install ctivo|
+|	|   |cubicsdr  |brew cask install cubicsdr|
+|	|   |cuda-z  |brew cask install cuda-z|
+|	|   |cumulus  |brew cask install cumulus|
+|	|   |cuppa  |brew cask install cuppa|
+|	|   |cura-lulzbot  |brew cask install cura-lulzbot|
+|	|   |curb  |brew cask install curb|
+|	|   |curio  |brew cask install curio|
+|	|   |cursorcerer  |brew cask install cursorcerer|
+|	|   |cursorsense  |brew cask install cursorsense|
+|	|   |cuteclips  |brew cask install cuteclips|
+|	|   |cutesdr  |brew cask install cutesdr|
+|	|   |cutter  |brew cask install cutter|
+|	|   |cuttle  |brew cask install cuttle|
+|	|   |cvmfs  |brew cask install cvmfs|
+|	|   |cyberduck  |brew cask install cyberduck|
+|	|   |cyberghost  |brew cask install cyberghost|
+|	|   |cycling74-max  |brew cask install cycling74-max|
+|	|   |dabble  |brew cask install dabble|
+|	|   |daedalus  |brew cask install daedalus|
+|	|   |daemon-tools  |brew cask install daemon-tools|
+|	|   |daisydisk  |brew cask install daisydisk|
+|	|   |darktable  |brew cask install darktable|
+|	|   |darwiinremoteosc  |brew cask install darwiinremoteosc|
+|	|   |darwindumper  |brew cask install darwindumper|
+|	|   |dash-dash  |brew cask install dash-dash|
+|	|   |dash  |brew cask install dash|
+|	|   |dashcam-viewer  |brew cask install dashcam-viewer|
+|	|   |dashlane  |brew cask install dashlane|
+|	|   |dat  |brew cask install dat|
+|	|   |data-integration  |brew cask install data-integration|
+|	|   |data-rescue  |brew cask install data-rescue|
+|	|   |data-science-studio  |brew cask install data-science-studio|
+|	|   |datadog-agent  |brew cask install datadog-agent|
+|	|   |datagraph  |brew cask install datagraph|
+|	|   |datagrip  |brew cask install datagrip|
+|	|   |dataurlmaker  |brew cask install dataurlmaker|
+|	|   |datazenit  |brew cask install datazenit|
+|	|   |datovka  |brew cask install datovka|
+|	|   |davmail  |brew cask install davmail|
+|	|   |dawn  |brew cask install dawn|
+|	|   |dawnlabs-alchemy  |brew cask install dawnlabs-alchemy|
+|	|   |day-o  |brew cask install day-o|
+|	|   |daylite  |brew cask install daylite|
+|	|   |dayone-cli  |brew cask install dayone-cli|
+|	|   |db-browser-for-sqlite  |brew cask install db-browser-for-sqlite|
+|	|   |dbeaver-community  |brew cask install dbeaver-community|
+|	|   |dbeaver-enterprise  |brew cask install dbeaver-enterprise|
+|	|   |dbgl  |brew cask install dbgl|
+|	|   |dbglass  |brew cask install dbglass|
+|	|   |dbschema  |brew cask install dbschema|
+|	|   |dbvisualizer  |brew cask install dbvisualizer|
+|	|   |dcommander  |brew cask install dcommander|
+|	|   |dd-utility  |brew cask install dd-utility|
+|	|   |ddnet  |brew cask install ddnet|
+|	|   |deathtodsstore  |brew cask install deathtodsstore|
+|	|   |debookee  |brew cask install debookee|
+|	|   |debt-quencher  |brew cask install debt-quencher|
+|	|   |decitime  |brew cask install decitime|
+|	|   |deckhub  |brew cask install deckhub|
+|	|   |deco  |brew cask install deco|
+|	|   |decrediton  |brew cask install decrediton|
+|	|   |deegain  |brew cask install deegain|
+|	|   |deep-dreamer  |brew cask install deep-dreamer|
+|	|   |deepanpot  |brew cask install deepanpot|
+|	|   |deeper  |brew cask install deeper|
+|	|   |deepstream  |brew cask install deepstream|
+|	|   |deepvacuum  |brew cask install deepvacuum|
+|	|   |deespeaker  |brew cask install deespeaker|
+|	|   |deezer  |brew cask install deezer|
+|	|   |default-folder-x  |brew cask install default-folder-x|
+|	|   |delayedlauncher  |brew cask install delayedlauncher|
+|	|   |delibar  |brew cask install delibar|
+|	|   |delicious-library  |brew cask install delicious-library|
+|	|   |delta  |brew cask install delta|
+|	|   |deltamodulator  |brew cask install deltamodulator|
+|	|   |deltawalker  |brew cask install deltawalker|
+|	|   |deluge  |brew cask install deluge|
+|	|   |dendroscope  |brew cask install dendroscope|
+|	|   |deploymate  |brew cask install deploymate|
+|	|   |deploystudio  |brew cask install deploystudio|
+|	|   |deskfun  |brew cask install deskfun|
+|	|   |desktop-log  |brew cask install desktop-log|
+|	|   |desktoputility  |brew cask install desktoputility|
+|	|   |desmume  |brew cask install desmume|
+|	|   |detectx  |brew cask install detectx|
+|	|   |detexify  |brew cask install detexify|
+|	|   |devdocs  |brew cask install devdocs|
+|	|   |devdogs  |brew cask install devdogs|
+|	|   |devonthink-pro-office  |brew cask install devonthink-pro-office|
+|	|   |devonthink-pro  |brew cask install devonthink-pro|
+|	|   |devonthink  |brew cask install devonthink|
+|	|   |devrant  |brew cask install devrant|
+|	|   |devrantron  |brew cask install devrantron|
+|	|   |dext  |brew cask install dext|
+|	|   |dfontsplitter  |brew cask install dfontsplitter|
+|	|   |dhs  |brew cask install dhs|
+|	|   |dia  |brew cask install dia|
+|	|   |dialpad  |brew cask install dialpad|
+|	|   |diashapes  |brew cask install diashapes|
+|	|   |dictater  |brew cask install dictater|
+|	|   |dictcc-en-de-dictionary-plugin  |brew cask install dictcc-en-de-dictionary-plugin|
+|	|   |dictionaries  |brew cask install dictionaries|
+|	|   |dictunifier  |brew cask install dictunifier|
+|	|   |diddumsdeux  |brew cask install diddumsdeux|
+|	|   |difffork  |brew cask install difffork|
+|	|   |diffmerge  |brew cask install diffmerge|
+|	|   |digikam  |brew cask install digikam|
+|	|   |digital-power-station  |brew cask install digital-power-station|
+|	|   |digital  |brew cask install digital|
+|	|   |dimensionexpander  |brew cask install dimensionexpander|
+|	|   |dingtalk  |brew cask install dingtalk|
+|	|   |diptrace  |brew cask install diptrace|
+|	|   |disablemonitor  |brew cask install disablemonitor|
+|	|   |discord  |brew cask install discord|
+|	|   |disk-arbitrator  |brew cask install disk-arbitrator|
+|	|   |disk-drill  |brew cask install disk-drill|
+|	|   |disk-inventory-x  |brew cask install disk-inventory-x|
+|	|   |disk-sensei  |brew cask install disk-sensei|
+|	|   |diskcatalogmaker  |brew cask install diskcatalogmaker|
+|	|   |diskmaker-x  |brew cask install diskmaker-x|
+|	|   |diskwave  |brew cask install diskwave|
+|	|   |displaperture  |brew cask install displaperture|
+|	|   |displaycal  |brew cask install displaycal|
+|	|   |diumoo  |brew cask install diumoo|
+|	|   |divvy  |brew cask install divvy|
+|	|   |djay-pro  |brew cask install djay-pro|
+|	|   |djmfilter  |brew cask install djmfilter|
+|	|   |djv  |brew cask install djv|
+|	|   |djview  |brew cask install djview|
+|	|   |dmhy  |brew cask install dmhy|
+|	|   |dmm-player-for-chrome  |brew cask install dmm-player-for-chrome|
+|	|   |dmm-player  |brew cask install dmm-player|
+|	|   |dmmbookviewer  |brew cask install dmmbookviewer|
+|	|   |dnscrypt  |brew cask install dnscrypt|
+|	|   |docear  |brew cask install docear|
+|	|   |docker-toolbox  |brew cask install docker-toolbox|
+|	|   |docker  |brew cask install docker|
+|	|   |dockstation  |brew cask install dockstation|
+|	|   |dofus  |brew cask install dofus|
+|	|   |dogecoin  |brew cask install dogecoin|
+|	|   |dogestry  |brew cask install dogestry|
+|	|   |doitim  |brew cask install doitim|
+|	|   |dollydrive  |brew cask install dollydrive|
+|	|   |dolphin  |brew cask install dolphin|
+|	|   |domainbrain  |brew cask install domainbrain|
+|	|   |domino-cli  |brew cask install domino-cli|
+|	|   |donut  |brew cask install donut|
+|	|   |doomrl  |brew cask install doomrl|
+|	|   |doomsday-engine  |brew cask install doomsday-engine|
+|	|   |dosbox  |brew cask install dosbox|
+|	|   |doteditor  |brew cask install doteditor|
+|	|   |dotnet-sdk  |brew cask install dotnet-sdk|
+|	|   |dotnet  |brew cask install dotnet|
+|	|   |douban-fm  |brew cask install douban-fm|
+|	|   |double-commander  |brew cask install double-commander|
+|	|   |doublecommand  |brew cask install doublecommand|
+|	|   |doubletwist  |brew cask install doubletwist|
+|	|   |downie  |brew cask install downie|
+|	|   |doxie  |brew cask install doxie|
+|	|   |doxygen  |brew cask install doxygen|
+|	|   |dradio  |brew cask install dradio|
+|	|   |dragand  |brew cask install dragand|
+|	|   |dragondisk  |brew cask install dragondisk|
+|	|   |dragthing  |brew cask install dragthing|
+|	|   |drawbot  |brew cask install drawbot|
+|	|   |drawdown  |brew cask install drawdown|
+|	|   |drawio  |brew cask install drawio|
+|	|   |dreampages-plus  |brew cask install dreampages-plus|
+|	|   |dripcap  |brew cask install dripcap|
+|	|   |drivedx  |brew cask install drivedx|
+|	|   |droidid  |brew cask install droidid|
+|	|   |drop-to-gif  |brew cask install drop-to-gif|
+|	|   |dropbox-encore  |brew cask install dropbox-encore|
+|	|   |dropbox  |brew cask install dropbox|
+|	|   |dropdmg  |brew cask install dropdmg|
+|	|   |dropletmanager  |brew cask install dropletmanager|
+|	|   |droplr  |brew cask install droplr|
+|	|   |dropshare  |brew cask install dropshare|
+|	|   |dropzone  |brew cask install dropzone|
+|	|   |dsp-radio  |brew cask install dsp-radio|
+|	|   |duckietv  |brew cask install duckietv|
+|	|   |duet  |brew cask install duet|
+|	|   |dukto  |brew cask install dukto|
+|	|   |dump-truck  |brew cask install dump-truck|
+|	|   |dungeon-crawl-stone-soup-console  |brew cask install dungeon-crawl-stone-soup-console|
+|	|   |dungeon-crawl-stone-soup-tiles  |brew cask install dungeon-crawl-stone-soup-tiles|
+|	|   |dupeguru  |brew cask install dupeguru|
+|	|   |dupin  |brew cask install dupin|
+|	|   |duplicate-annihilator  |brew cask install duplicate-annihilator|
+|	|   |duplicati  |brew cask install duplicati|
+|	|   |dupscanub  |brew cask install dupscanub|
+|	|   |dusty  |brew cask install dusty|
+|	|   |dvdstyler  |brew cask install dvdstyler|
+|	|   |dwarf-fortress-lnp  |brew cask install dwarf-fortress-lnp|
+|	|   |dwarf-fortress  |brew cask install dwarf-fortress|
+|	|   |dwihn0r-keepassx  |brew cask install dwihn0r-keepassx|
+|	|   |dyn-updater  |brew cask install dyn-updater|
+|	|   |dynalist  |brew cask install dynalist|
+|	|   |dynamiclyrics  |brew cask install dynamiclyrics|
+|	|   |dynamite  |brew cask install dynamite|
+|	|   |dynamodb-local  |brew cask install dynamodb-local|
+|	|   |eagle  |brew cask install eagle|
+|	|   |eaglefiler  |brew cask install eaglefiler|
+|	|   |ealeksandrov-cd-to  |brew cask install ealeksandrov-cd-to|
+|	|   |earthcoin  |brew cask install earthcoin|
+|	|   |earthdeskprefpane  |brew cask install earthdeskprefpane|
+|	|   |easy-move-plus-resize  |brew cask install easy-move-plus-resize|
+|	|   |easycrop  |brew cask install easycrop|
+|	|   |easyfig  |brew cask install easyfig|
+|	|   |easyfind  |brew cask install easyfind|
+|	|   |easytax-ag  |brew cask install easytax-ag|
+|	|   |easytether  |brew cask install easytether|
+|	|   |easyvpn  |brew cask install easyvpn|
+|	|   |ebmac  |brew cask install ebmac|
+|	|   |eclipse-cpp  |brew cask install eclipse-cpp|
+|	|   |eclipse-ide  |brew cask install eclipse-ide|
+|	|   |eclipse-installer  |brew cask install eclipse-installer|
+|	|   |eclipse-java  |brew cask install eclipse-java|
+|	|   |eclipse-jee  |brew cask install eclipse-jee|
+|	|   |eclipse-modeling  |brew cask install eclipse-modeling|
+|	|   |eclipse-php  |brew cask install eclipse-php|
+|	|   |eclipse-platform  |brew cask install eclipse-platform|
+|	|   |eclipse-ptp  |brew cask install eclipse-ptp|
+|	|   |eclipse-rcp  |brew cask install eclipse-rcp|
+|	|   |eclipse-smarthome-designer  |brew cask install eclipse-smarthome-designer|
+|	|   |eddie  |brew cask install eddie|
+|	|   |editready  |brew cask install editready|
+|	|   |edm  |brew cask install edm|
+|	|   |edrawmax  |brew cask install edrawmax|
+|	|   |eggplant  |brew cask install eggplant|
+|	|   |eim  |brew cask install eim|
+|	|   |eintopf  |brew cask install eintopf|
+|	|   |eiskaltdcpp  |brew cask install eiskaltdcpp|
+|	|   |ejector  |brew cask install ejector|
+|	|   |el34-eddie  |brew cask install el34-eddie|
+|	|   |elan  |brew cask install elan|
+|	|   |elasticwolf  |brew cask install elasticwolf|
+|	|   |electorrent  |brew cask install electorrent|
+|	|   |electric-sheep  |brew cask install electric-sheep|
+|	|   |electron-api-demos  |brew cask install electron-api-demos|
+|	|   |electron-cash  |brew cask install electron-cash|
+|	|   |electron  |brew cask install electron|
+|	|   |electronic-wechat  |brew cask install electronic-wechat|
+|	|   |electrum-ltc  |brew cask install electrum-ltc|
+|	|   |electrum  |brew cask install electrum|
+|	|   |elektriktrick  |brew cask install elektriktrick|
+|	|   |elm-platform  |brew cask install elm-platform|
+|	|   |elmedia-player  |brew cask install elmedia-player|
+|	|   |eloquent  |brew cask install eloquent|
+|	|   |eloston-chromium  |brew cask install eloston-chromium|
+|	|   |elyse  |brew cask install elyse|
+|	|   |emacs  |brew cask install emacs|
+|	|   |emacsclient  |brew cask install emacsclient|
+|	|   |emailchemy  |brew cask install emailchemy|
+|	|   |emby-server  |brew cask install emby-server|
+|	|   |emercoin  |brew cask install emercoin|
+|	|   |emin-webpquicklook  |brew cask install emin-webpquicklook|
+|	|   |emojify  |brew cask install emojify|
+|	|   |emojipedia  |brew cask install emojipedia|
+|	|   |encryptme  |brew cask install encryptme|
+|	|   |encryptr  |brew cask install encryptr|
+|	|   |endicia  |brew cask install endicia|
+|	|   |endlesssky  |brew cask install endlesssky|
+|	|   |endnote  |brew cask install endnote|
+|	|   |endurance  |brew cask install endurance|
+|	|   |enews  |brew cask install enews|
+|	|   |enfusegui  |brew cask install enfusegui|
+|	|   |enjoy  |brew cask install enjoy|
+|	|   |enjoyable  |brew cask install enjoyable|
+|	|   |enolsoft-chm-view  |brew cask install enolsoft-chm-view|
+|	|   |enpass  |brew cask install enpass|
+|	|   |entonnoir  |brew cask install entonnoir|
+|	|   |entropy  |brew cask install entropy|
+|	|   |envkey  |brew cask install envkey|
+|	|   |epic-games  |brew cask install epic-games|
+|	|   |epic  |brew cask install epic|
+|	|   |epichrome  |brew cask install epichrome|
+|	|   |epoch-flip-clock  |brew cask install epoch-flip-clock|
+|	|   |epub-to-pdf  |brew cask install epub-to-pdf|
+|	|   |epubmdimporter  |brew cask install epubmdimporter|
+|	|   |epubquicklook  |brew cask install epubquicklook|
+|	|   |eqmac  |brew cask install eqmac|
+|	|   |espionage  |brew cask install espionage|
+|	|   |espresso  |brew cask install espresso|
+|	|   |etcher  |brew cask install etcher|
+|	|   |ethereum-wallet  |brew cask install ethereum-wallet|
+|	|   |etrecheck  |brew cask install etrecheck|
+|	|   |eudic  |brew cask install eudic|
+|	|   |eurkey  |brew cask install eurkey|
+|	|   |eve-launcher  |brew cask install eve-launcher|
+|	|   |eve  |brew cask install eve|
+|	|   |eventstore  |brew cask install eventstore|
+|	|   |evergreen  |brew cask install evergreen|
+|	|   |evernote  |brew cask install evernote|
+|	|   |everweb  |brew cask install everweb|
+|	|   |evom  |brew cask install evom|
+|	|   |exante-atp  |brew cask install exante-atp|
+|	|   |excalibur  |brew cask install excalibur|
+|	|   |exfalso  |brew cask install exfalso|
+|	|   |exhaust  |brew cask install exhaust|
+|	|   |exifrenamer  |brew cask install exifrenamer|
+|	|   |exist-db  |brew cask install exist-db|
+|	|   |exnihilo  |brew cask install exnihilo|
+|	|   |exodus  |brew cask install exodus|
+|	|   |expandrive  |brew cask install expandrive|
+|	|   |explorer  |brew cask install explorer|
+|	|   |expo-xde  |brew cask install expo-xde|
+|	|   |expressions  |brew cask install expressions|
+|	|   |expressscribe  |brew cask install expressscribe|
+|	|   |expressvpn  |brew cask install expressvpn|
+|	|   |extrabuildphase  |brew cask install extrabuildphase|
+|	|   |ezeep  |brew cask install ezeep|
+|	|   |f-secure-anti-virus  |brew cask install f-secure-anti-virus|
+|	|   |facebook-ios-sdk  |brew cask install facebook-ios-sdk|
+|	|   |factor  |brew cask install factor|
+|	|   |fake  |brew cask install fake|
+|	|   |fakethunder  |brew cask install fakethunder|
+|	|   |falcon-sql-client  |brew cask install falcon-sql-client|
+|	|   |fanny  |brew cask install fanny|
+|	|   |fantastical  |brew cask install fantastical|
+|	|   |farbox  |brew cask install farbox|
+|	|   |farrago  |brew cask install farrago|
+|	|   |fastlane  |brew cask install fastlane|
+|	|   |fastonosql  |brew cask install fastonosql|
+|	|   |fastscripts  |brew cask install fastscripts|
+|	|   |fauxpas  |brew cask install fauxpas|
+|	|   |faviconographer  |brew cask install faviconographer|
+|	|   |faw-circle  |brew cask install faw-circle|
+|	|   |fbreader  |brew cask install fbreader|
+|	|   |fcs-remover  |brew cask install fcs-remover|
+|	|   |fdt  |brew cask install fdt|
+|	|   |fedora-media-writer  |brew cask install fedora-media-writer|
+|	|   |feed-the-beast  |brew cask install feed-the-beast|
+|	|   |feedbinnotifier  |brew cask install feedbinnotifier|
+|	|   |feeder  |brew cask install feeder|
+|	|   |feeds  |brew cask install feeds|
+|	|   |feisty-dog-tag  |brew cask install feisty-dog-tag|
+|	|   |felony  |brew cask install felony|
+|	|   |fenix  |brew cask install fenix|
+|	|   |festify  |brew cask install festify|
+|	|   |fetch  |brew cask install fetch|
+|	|   |figma  |brew cask install figma|
+|	|   |figtree  |brew cask install figtree|
+|	|   |fiji  |brew cask install fiji|
+|	|   |file-juicer  |brew cask install file-juicer|
+|	|   |filebot  |brew cask install filebot|
+|	|   |filedrop  |brew cask install filedrop|
+|	|   |filemaker-odbc  |brew cask install filemaker-odbc|
+|	|   |filemon  |brew cask install filemon|
+|	|   |filepane  |brew cask install filepane|
+|	|   |fileshuttle  |brew cask install fileshuttle|
+|	|   |filezilla  |brew cask install filezilla|
+|	|   |find-any-file  |brew cask install find-any-file|
+|	|   |find-empty-folders  |brew cask install find-empty-folders|
+|	|   |finderminder  |brew cask install finderminder|
+|	|   |findings  |brew cask install findings|
+|	|   |fing  |brew cask install fing|
+|	|   |fingerlock  |brew cask install fingerlock|
+|	|   |finicky  |brew cask install finicky|
+|	|   |fips  |brew cask install fips|
+|	|   |firealpaca  |brew cask install firealpaca|
+|	|   |firebase-admin  |brew cask install firebase-admin|
+|	|   |firebird-emu  |brew cask install firebird-emu|
+|	|   |firefox  |brew cask install firefox|
+|	|   |firestormos  |brew cask install firestormos|
+|	|   |firestr  |brew cask install firestr|
+|	|   |firetask  |brew cask install firetask|
+|	|   |fish  |brew cask install fish|
+|	|   |fission  |brew cask install fission|
+|	|   |flame  |brew cask install flame|
+|	|   |flash-decompiler-trillix  |brew cask install flash-decompiler-trillix|
+|	|   |flash-npapi  |brew cask install flash-npapi|
+|	|   |flash-player-debugger-npapi  |brew cask install flash-player-debugger-npapi|
+|	|   |flash-player-debugger-ppapi  |brew cask install flash-player-debugger-ppapi|
+|	|   |flash-player-debugger  |brew cask install flash-player-debugger|
+|	|   |flash-player  |brew cask install flash-player|
+|	|   |flash-ppapi  |brew cask install flash-ppapi|
+|	|   |flashlighttool  |brew cask install flashlighttool|
+|	|   |flavours  |brew cask install flavours|
+|	|   |fldigi  |brew cask install fldigi|
+|	|   |flexiglass  |brew cask install flexiglass|
+|	|   |flickr-uploadr  |brew cask install flickr-uploadr|
+|	|   |flightgear  |brew cask install flightgear|
+|	|   |flinto  |brew cask install flinto|
+|	|   |flip4mac  |brew cask install flip4mac|
+|	|   |fliqlo  |brew cask install fliqlo|
+|	|   |flirc  |brew cask install flirc|
+|	|   |flixster-video  |brew cask install flixster-video|
+|	|   |flixtools  |brew cask install flixtools|
+|	|   |flow  |brew cask install flow|
+|	|   |flowdock  |brew cask install flowdock|
+|	|   |flowsync  |brew cask install flowsync|
+|	|   |fluid  |brew cask install fluid|
+|	|   |flume  |brew cask install flume|
+|	|   |fluor  |brew cask install fluor|
+|	|   |flux  |brew cask install flux|
+|	|   |fluxcenter  |brew cask install fluxcenter|
+|	|   |flvcd-bigrats  |brew cask install flvcd-bigrats|
+|	|   |fly  |brew cask install fly|
+|	|   |flycut  |brew cask install flycut|
+|	|   |flymaster-designer  |brew cask install flymaster-designer|
+|	|   |flymaster-firmware  |brew cask install flymaster-firmware|
+|	|   |fman  |brew cask install fman|
+|	|   |focus-booster  |brew cask install focus-booster|
+|	|   |focus  |brew cask install focus|
+|	|   |focusatwill  |brew cask install focusatwill|
+|	|   |focused  |brew cask install focused|
+|	|   |focuswriter  |brew cask install focuswriter|
+|	|   |fog  |brew cask install fog|
+|	|   |folding-at-home  |brew cask install folding-at-home|
+|	|   |foldingtext  |brew cask install foldingtext|
+|	|   |foldit  |brew cask install foldit|
+|	|   |folio  |brew cask install folio|
+|	|   |folx  |brew cask install folx|
+|	|   |fontbase  |brew cask install fontbase|
+|	|   |fontexplorer-x-pro  |brew cask install fontexplorer-x-pro|
+|	|   |fontforge  |brew cask install fontforge|
+|	|   |fontplop  |brew cask install fontplop|
+|	|   |fontprep  |brew cask install fontprep|
+|	|   |fontstand  |brew cask install fontstand|
+|	|   |fonttong  |brew cask install fonttong|
+|	|   |foobarplus  |brew cask install foobarplus|
+|	|   |force-paste  |brew cask install force-paste|
+|	|   |forecast  |brew cask install forecast|
+|	|   |foreman  |brew cask install foreman|
+|	|   |fork  |brew cask install fork|
+|	|   |forklift  |brew cask install forklift|
+|	|   |formular-designer  |brew cask install formular-designer|
+|	|   |forrest  |brew cask install forrest|
+|	|   |fotomagico  |brew cask install fotomagico|
+|	|   |fotowall  |brew cask install fotowall|
+|	|   |foxitreader  |brew cask install foxitreader|
+|	|   |foxmail  |brew cask install foxmail|
+|	|   |fpcsrc  |brew cask install fpcsrc|
+|	|   |fraise  |brew cask install fraise|
+|	|   |framer-modules  |brew cask install framer-modules|
+|	|   |framer  |brew cask install framer|
+|	|   |franz  |brew cask install franz|
+|	|   |frappe  |brew cask install frappe|
+|	|   |freac  |brew cask install freac|
+|	|   |fredm-fuse  |brew cask install fredm-fuse|
+|	|   |free-download-manager  |brew cask install free-download-manager|
+|	|   |free-ruler  |brew cask install free-ruler|
+|	|   |freecad  |brew cask install freecad|
+|	|   |freecol  |brew cask install freecol|
+|	|   |freedom  |brew cask install freedom|
+|	|   |freedome  |brew cask install freedome|
+|	|   |freedv  |brew cask install freedv|
+|	|   |freefilesync  |brew cask install freefilesync|
+|	|   |freelib  |brew cask install freelib|
+|	|   |freemind  |brew cask install freemind|
+|	|   |freenettray  |brew cask install freenettray|
+|	|   |freeplane  |brew cask install freeplane|
+|	|   |freesmug-chromium  |brew cask install freesmug-chromium|
+|	|   |freeswitch  |brew cask install freeswitch|
+|	|   |freeter  |brew cask install freeter|
+|	|   |freeze  |brew cask install freeze|
+|	|   |freezer  |brew cask install freezer|
+|	|   |frescobaldi  |brew cask install frescobaldi|
+|	|   |freshback  |brew cask install freshback|
+|	|   |fricas  |brew cask install fricas|
+|	|   |fritzing  |brew cask install fritzing|
+|	|   |fromscratch  |brew cask install fromscratch|
+|	|   |front  |brew cask install front|
+|	|   |frostwire  |brew cask install frostwire|
+|	|   |fs-uae  |brew cask install fs-uae|
+|	|   |fsmonitor  |brew cask install fsmonitor|
+|	|   |fspviewer  |brew cask install fspviewer|
+|	|   |fstream  |brew cask install fstream|
+|	|   |fugenschnitzer  |brew cask install fugenschnitzer|
+|	|   |fugio  |brew cask install fugio|
+|	|   |fugu  |brew cask install fugu|
+|	|   |fullcontact  |brew cask install fullcontact|
+|	|   |function-pilot  |brew cask install function-pilot|
+|	|   |functionflip  |brew cask install functionflip|
+|	|   |fuse  |brew cask install fuse|
+|	|   |futuniuniu  |brew cask install futuniuniu|
+|	|   |fuwari  |brew cask install fuwari|
+|	|   |fuzzyclock  |brew cask install fuzzyclock|
+|	|   |fwbuilder  |brew cask install fwbuilder|
+|	|   |gambit  |brew cask install gambit|
+|	|   |gameranger  |brew cask install gameranger|
+|	|   |gamesalad  |brew cask install gamesalad|
+|	|   |ganache  |brew cask install ganache|
+|	|   |ganttproject  |brew cask install ganttproject|
+|	|   |garagebuy  |brew cask install garagebuy|
+|	|   |garagesale  |brew cask install garagesale|
+|	|   |gargoyle  |brew cask install gargoyle|
+|	|   |gas-mask  |brew cask install gas-mask|
+|	|   |gateblu  |brew cask install gateblu|
+|	|   |gawker  |brew cask install gawker|
+|	|   |gcc-arm-embedded  |brew cask install gcc-arm-embedded|
+|	|   |gdisk  |brew cask install gdisk|
+|	|   |geany  |brew cask install geany|
+|	|   |gear-player  |brew cask install gear-player|
+|	|   |geekbench  |brew cask install geekbench|
+|	|   |geektool  |brew cask install geektool|
+|	|   |gemini  |brew cask install gemini|
+|	|   |geneious  |brew cask install geneious|
+|	|   |genome-workbench  |brew cask install genome-workbench|
+|	|   |genomebrowse  |brew cask install genomebrowse|
+|	|   |genymotion  |brew cask install genymotion|
+|	|   |geoda  |brew cask install geoda|
+|	|   |geogebra  |brew cask install geogebra|
+|	|   |geomap  |brew cask install geomap|
+|	|   |geotag  |brew cask install geotag|
+|	|   |geotagger  |brew cask install geotagger|
+|	|   |gephi  |brew cask install gephi|
+|	|   |get-backup-pro  |brew cask install get-backup-pro|
+|	|   |get-iplayer-automator  |brew cask install get-iplayer-automator|
+|	|   |get-lyrical  |brew cask install get-lyrical|
+|	|   |getrasplex  |brew cask install getrasplex|
+|	|   |gfortran  |brew cask install gfortran|
+|	|   |gfxcardstatus  |brew cask install gfxcardstatus|
+|	|   |ghdl  |brew cask install ghdl|
+|	|   |ghost-browser  |brew cask install ghost-browser|
+|	|   |ghost  |brew cask install ghost|
+|	|   |ghostlab  |brew cask install ghostlab|
+|	|   |ghosttile  |brew cask install ghosttile|
+|	|   |gifcapture  |brew cask install gifcapture|
+|	|   |gifloopcoder  |brew cask install gifloopcoder|
+|	|   |gifox  |brew cask install gifox|
+|	|   |gifrocket  |brew cask install gifrocket|
+|	|   |gifs  |brew cask install gifs|
+|	|   |gimp  |brew cask install gimp|
+|	|   |ginbox  |brew cask install ginbox|
+|	|   |gingr  |brew cask install gingr|
+|	|   |gislook  |brew cask install gislook|
+|	|   |gisto  |brew cask install gisto|
+|	|   |git-it  |brew cask install git-it|
+|	|   |gitbook-editor  |brew cask install gitbook-editor|
+|	|   |gitbook  |brew cask install gitbook|
+|	|   |gitbox  |brew cask install gitbox|
+|	|   |gitee  |brew cask install gitee|
+|	|   |gitfinder  |brew cask install gitfinder|
+|	|   |github  |brew cask install github|
+|	|   |githubpulse  |brew cask install githubpulse|
+|	|   |gitifier  |brew cask install gitifier|
+|	|   |gitify  |brew cask install gitify|
+|	|   |gitkraken  |brew cask install gitkraken|
+|	|   |gitmoji  |brew cask install gitmoji|
+|	|   |gitscout  |brew cask install gitscout|
+|	|   |gitter  |brew cask install gitter|
+|	|   |gitup  |brew cask install gitup|
+|	|   |gitx  |brew cask install gitx|
+|	|   |glcplayer  |brew cask install glcplayer|
+|	|   |glimmerblocker  |brew cask install glimmerblocker|
+|	|   |glip  |brew cask install glip|
+|	|   |globalsync  |brew cask install globalsync|
+|	|   |gltfquicklook  |brew cask install gltfquicklook|
+|	|   |glueprint  |brew cask install glueprint|
+|	|   |glyphish-color-changer  |brew cask install glyphish-color-changer|
+|	|   |glyphish-gallery  |brew cask install glyphish-gallery|
+|	|   |glyphs  |brew cask install glyphs|
+|	|   |gmail-notifier  |brew cask install gmail-notifier|
+|	|   |gmail-notifr  |brew cask install gmail-notifr|
+|	|   |gmvault  |brew cask install gmvault|
+|	|   |gn-growler-utility  |brew cask install gn-growler-utility|
+|	|   |gns3  |brew cask install gns3|
+|	|   |gnubg  |brew cask install gnubg|
+|	|   |gnucash  |brew cask install gnucash|
+|	|   |go-agent  |brew cask install go-agent|
+|	|   |go-server  |brew cask install go-server|
+|	|   |go2shell  |brew cask install go2shell|
+|	|   |gobbler  |brew cask install gobbler|
+|	|   |godot  |brew cask install godot|
+|	|   |gog-downloader  |brew cask install gog-downloader|
+|	|   |gog-galaxy  |brew cask install gog-galaxy|
+|	|   |gogs  |brew cask install gogs|
+|	|   |goland  |brew cask install goland|
+|	|   |goldencheetah  |brew cask install goldencheetah|
+|	|   |golly  |brew cask install golly|
+|	|   |gom-player  |brew cask install gom-player|
+|	|   |goodnight  |brew cask install goodnight|
+|	|   |goodsync  |brew cask install goodsync|
+|	|   |goofy  |brew cask install goofy|
+|	|   |google-adwords-editor  |brew cask install google-adwords-editor|
+|	|   |google-backup-and-sync  |brew cask install google-backup-and-sync|
+|	|   |google-chat  |brew cask install google-chat|
+|浏览器	|谷歌浏览器 |google-chrome  |brew cask install google-chrome|
+|	|   |google-cloud-sdk  |brew cask install google-cloud-sdk|
+|	|   |google-drive-file-stream  |brew cask install google-drive-file-stream|
+|	|谷歌地球 专业版 |google-earth-pro  |brew cask install google-earth-pro|
+|	|谷歌地球 浏览器版 |google-earth-web-plugin  |brew cask install google-earth-web-plugin|
+|	|   |google-featured-photos  |brew cask install google-featured-photos|
+|	|   |google-hangouts  |brew cask install google-hangouts|
+|	|   |google-japanese-ime  |brew cask install google-japanese-ime|
+|	|   |google-nik-collection  |brew cask install google-nik-collection|
+|	|   |google-notifier  |brew cask install google-notifier|
+|	|   |google-photos-backup-and-sync  |brew cask install google-photos-backup-and-sync|
+|	|   |google-trends  |brew cask install google-trends|
+|	|   |google-web-designer  |brew cask install google-web-designer|
+|	|   |googleappengine  |brew cask install googleappengine|
+|	|   |gopanda  |brew cask install gopanda|
+|	|   |gotiengviet  |brew cask install gotiengviet|
+|	|   |gotofile  |brew cask install gotofile|
+|	|   |gpg-suite  |brew cask install gpg-suite|
+|	|   |gpg-sync  |brew cask install gpg-sync|
+|	|   |gpodder  |brew cask install gpodder|
+|	|   |gpower  |brew cask install gpower|
+|	|   |gprojector  |brew cask install gprojector|
+|	|   |gpsdump  |brew cask install gpsdump|
+|	|   |gpxsee  |brew cask install gpxsee|
+|	|   |gqrx  |brew cask install gqrx|
+|	|   |grabbox  |brew cask install grabbox|
+|	|   |grads  |brew cask install grads|
+|	|   |grafx  |brew cask install grafx|
+|	|   |grammarly  |brew cask install grammarly|
+|	|   |gramps  |brew cask install gramps|
+|	|   |grandperspective  |brew cask install grandperspective|
+|	|   |grandtotal  |brew cask install grandtotal|
+|	|   |graphicconverter  |brew cask install graphicconverter|
+|	|   |graphiql  |brew cask install graphiql|
+|	|   |graphql-ide  |brew cask install graphql-ide|
+|	|   |graphql-playground  |brew cask install graphql-playground|
+|	|   |graphsketcher  |brew cask install graphsketcher|
+|	|   |greenfoot  |brew cask install greenfoot|
+|	|   |grenchman  |brew cask install grenchman|
+|	|   |gretl  |brew cask install gretl|
+|	|   |grids  |brew cask install grids|
+|	|   |gridwars  |brew cask install gridwars|
+|	|   |grip  |brew cask install grip|
+|	|   |grisbi  |brew cask install grisbi|
+|	|   |growl-fork  |brew cask install growl-fork|
+|	|   |growlnotify  |brew cask install growlnotify|
+|	|   |growlvoice  |brew cask install growlvoice|
+|	|   |gtkwave  |brew cask install gtkwave|
+|	|   |guild-wars2  |brew cask install guild-wars2|
+|	|   |guitar-tuner  |brew cask install guitar-tuner|
+|	|   |gulp  |brew cask install gulp|
+|	|   |gumi  |brew cask install gumi|
+|	|   |gureumkim  |brew cask install gureumkim|
+|	|   |gurps-character-sheet  |brew cask install gurps-character-sheet|
+|	|   |gyazmail  |brew cask install gyazmail|
+|	|   |gyazo  |brew cask install gyazo|
+|	|   |gzdoom  |brew cask install gzdoom|
+|	|   |hab  |brew cask install hab|
+|	|   |hachidori  |brew cask install hachidori|
+|	|   |hacker-menu  |brew cask install hacker-menu|
+|	|   |hackety-hack  |brew cask install hackety-hack|
+|	|   |hackhands  |brew cask install hackhands|
+|	|   |hackmd  |brew cask install hackmd|
+|	|   |hajo-headphone-enhancer  |brew cask install hajo-headphone-enhancer|
+|	|   |halla  |brew cask install halla|
+|	|   |hammerspoon  |brew cask install hammerspoon|
+|	|   |handbrake  |brew cask install handbrake|
+|	|   |handbrakebatch  |brew cask install handbrakebatch|
+|	|   |hands-off  |brew cask install hands-off|
+|	|   |handshaker  |brew cask install handshaker|
+|	|   |handy-outliner  |brew cask install handy-outliner|
+|	|   |handylock  |brew cask install handylock|
+|	|   |happygrep  |brew cask install happygrep|
+|	|   |haptic-touch-bar  |brew cask install haptic-touch-bar|
+|	|   |hapu  |brew cask install hapu|
+|	|   |harbor  |brew cask install harbor|
+|	|   |harmony  |brew cask install harmony|
+|	|   |haroopad  |brew cask install haroopad|
+|	|   |harvest  |brew cask install harvest|
+|	|   |haskell-for-mac  |brew cask install haskell-for-mac|
+|	|   |haskell-platform  |brew cask install haskell-platform|
+|	|   |hawk-eye  |brew cask install hawk-eye|
+|	|   |hazel  |brew cask install hazel|
+|	|   |hazeover  |brew cask install hazeover|
+|	|   |hbuilder  |brew cask install hbuilder|
+|	|   |headset  |brew cask install headset|
+|	|   |healthi  |brew cask install healthi|
+|	|   |hear  |brew cask install hear|
+|	|   |heart  |brew cask install heart|
+|	|   |heaven  |brew cask install heaven|
+|	|   |hedgewars  |brew cask install hedgewars|
+|	|   |heimdall-suite  |brew cask install heimdall-suite|
+|	|   |heka  |brew cask install heka|
+|	|   |helio  |brew cask install helio|
+|	|   |helium  |brew cask install helium|
+|	|   |hermes  |brew cask install hermes|
+|	|   |heroes-of-newerth  |brew cask install heroes-of-newerth|
+|	|   |hetimazipql  |brew cask install hetimazipql|
+|	|   |hex-fiend  |brew cask install hex-fiend|
+|	|   |hex  |brew cask install hex|
+|	|   |hfsleuth  |brew cask install hfsleuth|
+|	|   |hiarcs-chess-explorer  |brew cask install hiarcs-chess-explorer|
+|	|   |hidemyfacetime  |brew cask install hidemyfacetime|
+|	|   |hider  |brew cask install hider|
+|	|   |hiera  |brew cask install hiera|
+|	|   |highsierramediakeyenabler  |brew cask install highsierramediakeyenabler|
+|	|   |hindenburg-prx-encoder  |brew cask install hindenburg-prx-encoder|
+|	|   |hint  |brew cask install hint|
+|	|   |hipchat  |brew cask install hipchat|
+|	|   |hippoconnect  |brew cask install hippoconnect|
+|	|   |hipsterchat  |brew cask install hipsterchat|
+|	|   |hirundo  |brew cask install hirundo|
+|	|   |hiss  |brew cask install hiss|
+|	|   |historyhound  |brew cask install historyhound|
+|	|   |hma-pro-vpn  |brew cask install hma-pro-vpn|
+|	|   |hobo  |brew cask install hobo|
+|	|   |hockey  |brew cask install hockey|
+|	|   |hocus-focus  |brew cask install hocus-focus|
+|	|   |home-inventory  |brew cask install home-inventory|
+|	|   |homespun-instant-access  |brew cask install homespun-instant-access|
+|	|   |honer  |brew cask install honer|
+|	|   |honto  |brew cask install honto|
+|	|   |hopper-debugger-server  |brew cask install hopper-debugger-server|
+|	|   |hopper-disassembler  |brew cask install hopper-disassembler|
+|	|   |horndis  |brew cask install horndis|
+|	|   |horos  |brew cask install horos|
+|	|   |hortonworks-hive-odbc  |brew cask install hortonworks-hive-odbc|
+|	|   |hostbuddy  |brew cask install hostbuddy|
+|	|   |hoster  |brew cask install hoster|
+|	|   |hostr  |brew cask install hostr|
+|	|   |hosts  |brew cask install hosts|
+|	|   |hot-shots  |brew cask install hot-shots|
+|	|   |hots-replay-uploader  |brew cask install hots-replay-uploader|
+|	|   |hotswitch  |brew cask install hotswitch|
+|	|   |houdahgeo  |brew cask install houdahgeo|
+|	|   |houdahgps  |brew cask install houdahgps|
+|	|   |houdahspot  |brew cask install houdahspot|
+|	|   |hp-eprint  |brew cask install hp-eprint|
+|	|   |hp15c  |brew cask install hp15c|
+|	|   |hsang  |brew cask install hsang|
+|	|   |hstracker  |brew cask install hstracker|
+|	|   |hts-inet  |brew cask install hts-inet|
+|	|   |httpscoop  |brew cask install httpscoop|
+|	|   |huamim  |brew cask install huamim|
+|	|   |hubic  |brew cask install hubic|
+|	|   |hubstaff  |brew cask install hubstaff|
+|	|   |hue-topia  |brew cask install hue-topia|
+|	|   |hugin  |brew cask install hugin|
+|	|   |hwsensors  |brew cask install hwsensors|
+|	|   |hydrogen  |brew cask install hydrogen|
+|	|   |hyne  |brew cask install hyne|
+|	|   |hype  |brew cask install hype|
+|	|   |hyper  |brew cask install hyper|
+|	|   |hyperdock  |brew cask install hyperdock|
+|	|   |hyperswitch  |brew cask install hyperswitch|
+|	|   |hypo  |brew cask install hypo|
+|	|   |hyro  |brew cask install hyro|
+|	|   |i1profiler  |brew cask install i1profiler|
+|	|   |ialaddin-noisytyper  |brew cask install ialaddin-noisytyper|
+|	|   |iannix  |brew cask install iannix|
+|	|   |ibabel  |brew cask install ibabel|
+|	|   |ibackup  |brew cask install ibackup|
+|	|   |ibackupbot  |brew cask install ibackupbot|
+|	|   |ibettercharge  |brew cask install ibettercharge|
+|	|   |ibm-cloud-cli  |brew cask install ibm-cloud-cli|
+|	|   |ibooksremote  |brew cask install ibooksremote|
+|	|   |iboostup  |brew cask install iboostup|
+|	|   |ibored  |brew cask install ibored|
+|	|   |ibvpncom  |brew cask install ibvpncom|
+|	|   |icab  |brew cask install icab|
+|	|   |icamsource  |brew cask install icamsource|
+|	|   |icc  |brew cask install icc|
+|	|   |iceberg  |brew cask install iceberg|
+|	|   |icecat  |brew cask install icecat|
+|	|   |icefloor  |brew cask install icefloor|
+|	|   |ichm  |brew cask install ichm|
+|	|   |icloud-control  |brew cask install icloud-control|
+|	|   |icolors  |brew cask install icolors|
+|	|   |icompta  |brew cask install icompta|
+|	|   |iconjar  |brew cask install iconjar|
+|	|   |iconping  |brew cask install iconping|
+|	|   |icons  |brew cask install icons|
+|	|   |icons8  |brew cask install icons8|
+|	|   |icq  |brew cask install icq|
+|	|   |icultus  |brew cask install icultus|
+|	|   |id3-editor  |brew cask install id3-editor|
+|	|   |idafree  |brew cask install idafree|
+|	|   |idefrag  |brew cask install idefrag|
+|	|   |idisplay  |brew cask install idisplay|
+|	|   |idreamx  |brew cask install idreamx|
+|	|   |idrive  |brew cask install idrive|
+|	|   |ieasemusic  |brew cask install ieasemusic|
+|	|   |iexplorer  |brew cask install iexplorer|
+|	|   |iffmpeg  |brew cask install iffmpeg|
+|	|   |ifilex  |brew cask install ifilex|
+|	|   |ifunbox  |brew cask install ifunbox|
+|	|   |igetter  |brew cask install igetter|
+|	|   |igv  |brew cask install igv|
+|	|   |iholdem-indicator  |brew cask install iholdem-indicator|
+|	|   |iina  |brew cask install iina|
+|	|   |iloc  |brew cask install iloc|
+|	|   |ilok-license-manager  |brew cask install ilok-license-manager|
+|	|   |ilya-birman-typography-layout  |brew cask install ilya-birman-typography-layout|
+|	|   |image-tool  |brew cask install image-tool|
+|	|   |image2icon  |brew cask install image2icon|
+|	|   |imagealpha  |brew cask install imagealpha|
+|	|   |imagej  |brew cask install imagej|
+|	|   |imagemin  |brew cask install imagemin|
+|	|   |imageoptim  |brew cask install imageoptim|
+|	|   |imageplay  |brew cask install imageplay|
+|	|   |imaging-edge  |brew cask install imaging-edge|
+|	|   |imazing-mini  |brew cask install imazing-mini|
+|	|   |imazing  |brew cask install imazing|
+|	|   |imgur  |brew cask install imgur|
+|	|   |imitone  |brew cask install imitone|
+|	|   |imousetrick  |brew cask install imousetrick|
+|	|   |impactor  |brew cask install impactor|
+|	|   |importio  |brew cask install importio|
+|	|   |inboard  |brew cask install inboard|
+|	|   |inboxer  |brew cask install inboxer|
+|	|   |inc  |brew cask install inc|
+|	|   |incanter  |brew cask install incanter|
+|	|   |indi-control-panel  |brew cask install indi-control-panel|
+|	|   |indi-server  |brew cask install indi-server|
+|	|   |indigo  |brew cask install indigo|
+|	|   |inform  |brew cask install inform|
+|	|   |injection  |brew cask install injection|
+|	|   |inkdrop  |brew cask install inkdrop|
+|	|   |inklet  |brew cask install inklet|
+|	|   |inkscape  |brew cask install inkscape|
+|	|   |inky  |brew cask install inky|
+|	|   |inloop-qlplayground  |brew cask install inloop-qlplayground|
+|	|   |inpad  |brew cask install inpad|
+|	|   |insertpic  |brew cask install insertpic|
+|	|   |insomnia  |brew cask install insomnia|
+|	|   |insomniax  |brew cask install insomniax|
+|	|   |inspec  |brew cask install inspec|
+|	|   |inssider  |brew cask install inssider|
+|	|   |install-disk-creator  |brew cask install install-disk-creator|
+|	|   |instasizer  |brew cask install instasizer|
+|	|   |instead  |brew cask install instead|
+|	|   |insync  |brew cask install insync|
+|	|   |integrity  |brew cask install integrity|
+|	|   |intel-haxm  |brew cask install intel-haxm|
+|	|   |intel-power-gadget  |brew cask install intel-power-gadget|
+|	|   |intel-xdk-iot  |brew cask install intel-xdk-iot|
+|	|   |intel-xdk  |brew cask install intel-xdk|
+|	|   |intellij-idea-ce  |brew cask install intellij-idea-ce|
+|	|   |intellij-idea  |brew cask install intellij-idea|
+|	|   |intensify-pro  |brew cask install intensify-pro|
+|	|   |interarchy  |brew cask install interarchy|
+|	|   |interface-inspector  |brew cask install interface-inspector|
+|	|   |invisiblix  |brew cask install invisiblix|
+|	|   |invisionsync  |brew cask install invisionsync|
+|	|   |invisor-lite  |brew cask install invisor-lite|
+|	|   |invisorql  |brew cask install invisorql|
+|	|   |iograph  |brew cask install iograph|
+|	|   |iojs  |brew cask install iojs|
+|	|   |ionic-lab  |brew cask install ionic-lab|
+|	|   |ioquake3  |brew cask install ioquake3|
+|	|   |iordning  |brew cask install iordning|
+|	|   |ios-app-signer  |brew cask install ios-app-signer|
+|	|   |ios-console  |brew cask install ios-console|
+|	|   |ios-saver  |brew cask install ios-saver|
+|	|   |iota-wallet  |brew cask install iota-wallet|
+|	|   |ip-in-menu-bar  |brew cask install ip-in-menu-bar|
+|	|   |ipa-manager  |brew cask install ipa-manager|
+|	|   |ipalette  |brew cask install ipalette|
+|	|   |ipartition  |brew cask install ipartition|
+|	|   |ipass  |brew cask install ipass|
+|	|   |ipe  |brew cask install ipe|
+|	|   |iphone-backup-extractor  |brew cask install iphone-backup-extractor|
+|	|   |iphoney  |brew cask install iphoney|
+|	|   |iphoto-library-manager  |brew cask install iphoto-library-manager|
+|	|   |ipsecuritas  |brew cask install ipsecuritas|
+|	|   |ipswdownloader  |brew cask install ipswdownloader|
+|	|   |ipvanish-vpn  |brew cask install ipvanish-vpn|
+|	|   |irccloud  |brew cask install irccloud|
+|	|   |ireadfast  |brew cask install ireadfast|
+|	|   |iridient-developer  |brew cask install iridient-developer|
+|	|   |iridium  |brew cask install iridium|
+|	|   |irip  |brew cask install irip|
+|	|   |iris  |brew cask install iris|
+|	|   |isabelle  |brew cask install isabelle|
+|	|   |ishowu-hd  |brew cask install ishowu-hd|
+|	|   |ishowu-instant  |brew cask install ishowu-instant|
+|	|   |ishowu-studio  |brew cask install ishowu-studio|
+|	|   |ishowu  |brew cask install ishowu|
+|	|   |iso-flock-standalone  |brew cask install iso-flock-standalone|
+|	|   |isolator  |brew cask install isolator|
+|	|   |istat-menus  |brew cask install istat-menus|
+|	|   |istat-server  |brew cask install istat-server|
+|	|   |isteg  |brew cask install isteg|
+|	|   |istopmotion  |brew cask install istopmotion|
+|	|   |istumbler  |brew cask install istumbler|
+|	|   |isubtitle  |brew cask install isubtitle|
+|	|   |iswiff  |brew cask install iswiff|
+|	|   |isyncr  |brew cask install isyncr|
+|	|   |itau  |brew cask install itau|
+|	|   |itch  |brew cask install itch|
+|	|   |iteleport-connect  |brew cask install iteleport-connect|
+|	|   |iterm2  |brew cask install iterm2|
+|	|   |itk-snap  |brew cask install itk-snap|
+|	|   |itools  |brew cask install itools|
+|	|   |itrash  |brew cask install itrash|
+|	|   |itsycal  |brew cask install itsycal|
+|	|   |itubedownloader  |brew cask install itubedownloader|
+|	|   |itunes-producer  |brew cask install itunes-producer|
+|	|   |itunes-volume-control  |brew cask install itunes-volume-control|
+|	|   |iueditor  |brew cask install iueditor|
+|	|   |iupx  |brew cask install iupx|
+|	|   |ivolume  |brew cask install ivolume|
+|	|   |ivpn  |brew cask install ivpn|
+|	|   |izip  |brew cask install izip|
+|	|   |j  |brew cask install j|
+|	|   |jabref  |brew cask install jabref|
+|	|   |jad  |brew cask install jad|
+|	|   |jadengeller-helium  |brew cask install jadengeller-helium|
+|	|   |jaikoz  |brew cask install jaikoz|
+|	|   |jaksta  |brew cask install jaksta|
+|	|   |jalbum  |brew cask install jalbum|
+|	|   |jameica  |brew cask install jameica|
+|	|   |james  |brew cask install james|
+|	|   |jamf-migrator  |brew cask install jamf-migrator|
+|	|   |jandi  |brew cask install jandi|
+|	|   |janusvr  |brew cask install janusvr|
+|	|   |jasp  |brew cask install jasp|
+|	|   |jasper  |brew cask install jasper|
+|	|   |java-jdk-javadoc  |brew cask install java-jdk-javadoc|
+|	|   |java  |brew cask install java|
+|	|   |jaxx  |brew cask install jaxx|
+|	|   |jbidwatcher  |brew cask install jbidwatcher|
+|	|   |jbrowse  |brew cask install jbrowse|
+|	|   |jclasslib-bytecode-viewer  |brew cask install jclasslib-bytecode-viewer|
+|	|   |jd-gui  |brew cask install jd-gui|
+|	|   |jdiskreport  |brew cask install jdiskreport|
+|	|   |jdownloader  |brew cask install jdownloader|
+|	|   |jedict  |brew cask install jedict|
+|	|   |jedit-omega  |brew cask install jedit-omega|
+|	|   |jedit-x  |brew cask install jedit-x|
+|	|   |jedit  |brew cask install jedit|
+|	|   |jenkins-menu  |brew cask install jenkins-menu|
+|	|   |jeromelebel-mongohub  |brew cask install jeromelebel-mongohub|
+|	|   |jes  |brew cask install jes|
+|	|   |jet  |brew cask install jet|
+|	|   |jetbrains-toolbox  |brew cask install jetbrains-toolbox|
+|	|   |jetphoto-studio  |brew cask install jetphoto-studio|
+|	|   |jettison  |brew cask install jettison|
+|	|   |jewelrybox  |brew cask install jewelrybox|
+|	|   |jgrasp  |brew cask install jgrasp|
+|	|   |jietu  |brew cask install jietu|
+|	|   |jiggler  |brew cask install jiggler|
+|	|   |jin  |brew cask install jin|
+|	|   |jing  |brew cask install jing|
+|	|   |jira-client  |brew cask install jira-client|
+|	|   |jitouch  |brew cask install jitouch|
+|	|   |jitsi  |brew cask install jitsi|
+|	|   |jive-chime  |brew cask install jive-chime|
+|	|   |jixee  |brew cask install jixee|
+|	|   |jmc  |brew cask install jmc|
+|	|   |join-together  |brew cask install join-together|
+|	|   |joinme  |brew cask install joinme|
+|	|   |joker  |brew cask install joker|
+|	|   |jollysfastvnc  |brew cask install jollysfastvnc|
+|	|   |joplin  |brew cask install joplin|
+|	|   |joshaven-winbox  |brew cask install joshaven-winbox|
+|	|   |josm  |brew cask install josm|
+|	|   |jotta  |brew cask install jotta|
+|	|   |journey  |brew cask install journey|
+|	|   |jprofiler  |brew cask install jprofiler|
+|	|   |jsl  |brew cask install jsl|
+|	|   |jtool  |brew cask install jtool|
+|	|   |jubler  |brew cask install jubler|
+|	|   |juicebox  |brew cask install juicebox|
+|	|   |juicephone  |brew cask install juicephone|
+|	|   |julia  |brew cask install julia|
+|	|   |jump  |brew cask install jump|
+|	|   |jumpcut  |brew cask install jumpcut|
+|	|   |jumpshare  |brew cask install jumpshare|
+|	|   |jungle-disk-workgroup  |brew cask install jungle-disk-workgroup|
+|	|   |jupyter-notebook-ql  |brew cask install jupyter-notebook-ql|
+|	|   |jupyter-notebook-viewer  |brew cask install jupyter-notebook-viewer|
+|	|   |jwzlyrics  |brew cask install jwzlyrics|
+|	|   |jxplorer  |brew cask install jxplorer|
+|	|   |kactus  |brew cask install kactus|
+|	|   |kafka-tool  |brew cask install kafka-tool|
+|	|   |kakapo  |brew cask install kakapo|
+|	|   |kaku  |brew cask install kaku|
+|	|   |kalabox  |brew cask install kalabox|
+|	|   |kaleidoscope  |brew cask install kaleidoscope|
+|	|   |kamakiri  |brew cask install kamakiri|
+|	|   |kaomoji  |brew cask install kaomoji|
+|	|   |kap  |brew cask install kap|
+|	|   |kapow  |brew cask install kapow|
+|	|   |karabiner-elements  |brew cask install karabiner-elements|
+|	|   |karabiner  |brew cask install karabiner|
+|	|   |katawa-shoujo  |brew cask install katawa-shoujo|
+|	|   |kawa  |brew cask install kawa|
+|	|   |kawasemi  |brew cask install kawasemi|
+|	|   |kazoo  |brew cask install kazoo|
+|	|   |kching  |brew cask install kching|
+|	|   |kdiff3  |brew cask install kdiff3|
+|	|   |kdv  |brew cask install kdv|
+|	|   |keep  |brew cask install keep|
+|	|   |keepassx  |brew cask install keepassx|
+|	|   |keepassxc  |brew cask install keepassxc|
+|	|   |keeper-password-manager  |brew cask install keeper-password-manager|
+|	|   |keepingyouawake  |brew cask install keepingyouawake|
+|	|   |keeweb  |brew cask install keeweb|
+|	|   |kega-fusion  |brew cask install kega-fusion|
+|	|   |keka  |brew cask install keka|
+|	|   |kepler  |brew cask install kepler|
+|	|   |kerio-control-vpn-client  |brew cask install kerio-control-vpn-client|
+|	|   |kevingessner-twitch  |brew cask install kevingessner-twitch|
+|	|   |kext-utility  |brew cask install kext-utility|
+|	|   |kextviewr  |brew cask install kextviewr|
+|	|   |key-codes  |brew cask install key-codes|
+|	|   |keyaccess  |brew cask install keyaccess|
+|	|   |keybase  |brew cask install keybase|
+|	|   |keyboard-cleaner  |brew cask install keyboard-cleaner|
+|	|   |keyboard-maestro  |brew cask install keyboard-maestro|
+|	|   |keyboardcleantool  |brew cask install keyboardcleantool|
+|	|   |keycast  |brew cask install keycast|
+|	|   |keycastr  |brew cask install keycastr|
+|	|   |keycue  |brew cask install keycue|
+|	|   |keyfinder  |brew cask install keyfinder|
+|	|   |keymo  |brew cask install keymo|
+|	|   |keypad-layout  |brew cask install keypad-layout|
+|	|   |keystore-explorer  |brew cask install keystore-explorer|
+|	|   |keytty  |brew cask install keytty|
+|	|   |kicad-extras  |brew cask install kicad-extras|
+|	|   |kicad  |brew cask install kicad|
+|	|   |kid3  |brew cask install kid3|
+|	|   |kimono  |brew cask install kimono|
+|	|   |kindle-comic-converter  |brew cask install kindle-comic-converter|
+|	|   |kindle-previewer  |brew cask install kindle-previewer|
+|	|   |kindle  |brew cask install kindle|
+|	|   |kindlegen  |brew cask install kindlegen|
+|	|   |kinsky  |brew cask install kinsky|
+|	|   |kite  |brew cask install kite|
+|	|   |kitematic  |brew cask install kitematic|
+|	|   |kitty  |brew cask install kitty|
+|	|   |kivy  |brew cask install kivy|
+|	|   |kiwix  |brew cask install kiwix|
+|	|   |kk7ds-python-runtime  |brew cask install kk7ds-python-runtime|
+|	|   |kkbox  |brew cask install kkbox|
+|	|   |klatexformula  |brew cask install klatexformula|
+|	|   |klayout  |brew cask install klayout|
+|	|   |kmbmpdc  |brew cask install kmbmpdc|
+|	|   |kmplayer  |brew cask install kmplayer|
+|	|   |knime  |brew cask install knime|
+|	|   |knock  |brew cask install knock|
+|	|   |knockknock  |brew cask install knockknock|
+|	|   |knox  |brew cask install knox|
+|	|   |knuff  |brew cask install knuff|
+|	|   |koa11y  |brew cask install koa11y|
+|	|   |koala  |brew cask install koala|
+|	|   |kobo  |brew cask install kobo|
+|	|   |kode54-cog  |brew cask install kode54-cog|
+|	|   |kodelife  |brew cask install kodelife|
+|	|   |kodi  |brew cask install kodi|
+|	|   |koko  |brew cask install koko|
+|	|   |kollaborate-folder-watcher  |brew cask install kollaborate-folder-watcher|
+|	|   |kollaborate-plugin-pack  |brew cask install kollaborate-plugin-pack|
+|	|   |kollaborate-transfer  |brew cask install kollaborate-transfer|
+|	|   |komanda  |brew cask install komanda|
+|	|   |komodo-edit  |brew cask install komodo-edit|
+|	|   |komodo-ide  |brew cask install komodo-ide|
+|	|   |kompozer  |brew cask install kompozer|
+|	|   |konachan  |brew cask install konachan|
+|	|   |korean-spelling-checker  |brew cask install korean-spelling-checker|
+|	|   |kotori  |brew cask install kotori|
+|	|   |kpsaver  |brew cask install kpsaver|
+|	|   |krita  |brew cask install krita|
+|	|   |ksdiff  |brew cask install ksdiff|
+|	|   |kstars  |brew cask install kstars|
+|	|   |kube-cluster  |brew cask install kube-cluster|
+|	|   |kube-solo  |brew cask install kube-solo|
+|	|   |kubernetic  |brew cask install kubernetic|
+|	|   |kugoumusic  |brew cask install kugoumusic|
+|	|   |kullo  |brew cask install kullo|
+|	|   |kvirc  |brew cask install kvirc|
+|	|   |kylo  |brew cask install kylo|
+|	|   |kyoku  |brew cask install kyoku|
+|	|   |lab  |brew cask install lab|
+|	|   |lacaille  |brew cask install lacaille|
+|	|   |lackeyccg  |brew cask install lackeyccg|
+|	|   |lacona  |brew cask install lacona|
+|	|   |laconicism  |brew cask install laconicism|
+|	|   |lando  |brew cask install lando|
+|	|   |language-switcher  |brew cask install language-switcher|
+|	|   |lantern  |brew cask install lantern|
+|	|   |laplock  |brew cask install laplock|
+|	|   |laravel-kit  |brew cask install laravel-kit|
+|	|   |lastfm  |brew cask install lastfm|
+|	|   |lastpass  |brew cask install lastpass|
+|	|   |latexdraw  |brew cask install latexdraw|
+|	|   |latexit  |brew cask install latexit|
+|	|   |laullon-gitx  |brew cask install laullon-gitx|
+|	|   |launchbar  |brew cask install launchbar|
+|	|   |launchcontrol  |brew cask install launchcontrol|
+|	|   |launchpad-manager-yosemite  |brew cask install launchpad-manager-yosemite|
+|	|   |launchrocket  |brew cask install launchrocket|
+|	|   |launchy  |brew cask install launchy|
+|	|   |laverna  |brew cask install laverna|
+|	|   |lazarus  |brew cask install lazarus|
+|	|   |lazpaint  |brew cask install lazpaint|
+|	|   |lbry  |brew cask install lbry|
+|	|   |league-of-legends  |brew cask install league-of-legends|
+|	|   |leanote  |brew cask install leanote|
+|	|   |leap-motion  |brew cask install leap-motion|
+|	|   |leap  |brew cask install leap|
+|	|   |leech  |brew cask install leech|
+|	|   |leela  |brew cask install leela|
+|	|   |lego-digital-designer  |brew cask install lego-digital-designer|
+|	|   |lego-mindstorms-ev3  |brew cask install lego-mindstorms-ev3|
+|	|   |lehreroffice-zusatz  |brew cask install lehreroffice-zusatz|
+|	|   |lehreroffice  |brew cask install lehreroffice|
+|	|   |leksah  |brew cask install leksah|
+|	|   |lektor  |brew cask install lektor|
+|	|   |leonardo  |brew cask install leonardo|
+|	|   |lepton  |brew cask install lepton|
+|	|   |lernwolke  |brew cask install lernwolke|
+|	|   |letterfix  |brew cask install letterfix|
+|	|   |levelator  |brew cask install levelator|
+|	|   |librecad  |brew cask install librecad|
+|	|   |libreelec-usb-sd-creator  |brew cask install libreelec-usb-sd-creator|
+|	|   |libreoffice-language-pack  |brew cask install libreoffice-language-pack|
+|	|   |libreoffice  |brew cask install libreoffice|
+|	|   |librevault  |brew cask install librevault|
+|	|   |licecap  |brew cask install licecap|
+|	|   |license-control-center  |brew cask install license-control-center|
+|	|   |licensed  |brew cask install licensed|
+|	|   |liclipse  |brew cask install liclipse|
+|	|   |lifesize  |brew cask install lifesize|
+|	|   |lifeslice  |brew cask install lifeslice|
+|	|   |lightgallery  |brew cask install lightgallery|
+|	|   |lighting  |brew cask install lighting|
+|	|   |lightmod  |brew cask install lightmod|
+|	|   |lightning  |brew cask install lightning|
+|	|   |lightpaper  |brew cask install lightpaper|
+|	|   |lighttable  |brew cask install lighttable|
+|	|   |lightworks  |brew cask install lightworks|
+|	|   |lilypond  |brew cask install lilypond|
+|	|   |lima  |brew cask install lima|
+|	|   |limechat  |brew cask install limechat|
+|	|   |lincastor  |brew cask install lincastor|
+|	|   |linear  |brew cask install linear|
+|	|   |linein  |brew cask install linein|
+|	|   |lingo  |brew cask install lingo|
+|	|   |lingon-x  |brew cask install lingon-x|
+|	|   |linkliar  |brew cask install linkliar|
+|	|   |linphone  |brew cask install linphone|
+|	|   |lionshare  |brew cask install lionshare|
+|	|   |liquifile  |brew cask install liquifile|
+|	|   |liri-browser  |brew cask install liri-browser|
+|	|   |lisanet-gimp  |brew cask install lisanet-gimp|
+|	|   |listen1  |brew cask install listen1|
+|	|   |litecoin  |brew cask install litecoin|
+|	|   |liteicon  |brew cask install liteicon|
+|	|   |liteide  |brew cask install liteide|
+|	|   |liteswitch-x  |brew cask install liteswitch-x|
+|	|   |little-snitch  |brew cask install little-snitch|
+|	|   |live-interior-3d-pro  |brew cask install live-interior-3d-pro|
+|	|   |livechat  |brew cask install livechat|
+|	|   |livereload  |brew cask install livereload|
+|	|   |livestream-producer  |brew cask install livestream-producer|
+|	|   |livesurface-context  |brew cask install livesurface-context|
+|	|   |livetail  |brew cask install livetail|
+|	|   |liya  |brew cask install liya|
+|	|   |lmms  |brew cask install lmms|
+|	|   |loading  |brew cask install loading|
+|	|   |loadmytracks  |brew cask install loadmytracks|
+|	|   |local-by-flywheel  |brew cask install local-by-flywheel|
+|	|   |localizations  |brew cask install localizations|
+|	|   |lockdown  |brew cask install lockdown|
+|	|   |locko  |brew cask install locko|
+|	|   |logdna-agent  |brew cask install logdna-agent|
+|	|   |logdna-cli  |brew cask install logdna-cli|
+|	|   |logicsniffer  |brew cask install logicsniffer|
+|	|   |loginputmac  |brew cask install loginputmac|
+|	|   |logisim-evolution  |brew cask install logisim-evolution|
+|	|   |logisim  |brew cask install logisim|
+|	|   |logmein-client  |brew cask install logmein-client|
+|	|   |logmein-hamachi  |brew cask install logmein-hamachi|
+|	|   |logoist  |brew cask install logoist|
+|	|   |logos  |brew cask install logos|
+|	|   |lookback  |brew cask install lookback|
+|	|   |loop  |brew cask install loop|
+|	|   |loopback  |brew cask install loopback|
+|	|   |losslesscut  |brew cask install losslesscut|
+|	|   |love  |brew cask install love|
+|	|   |lovewallpaper  |brew cask install lovewallpaper|
+|	|   |lpk25-editor  |brew cask install lpk25-editor|
+|	|   |lrtimelapse  |brew cask install lrtimelapse|
+|	|   |ltspice  |brew cask install ltspice|
+|	|   |lulu  |brew cask install lulu|
+|	|   |lumen  |brew cask install lumen|
+|	|   |luminance-hdr  |brew cask install luminance-hdr|
+|	|   |lunastudio  |brew cask install lunastudio|
+|	|   |lunchy  |brew cask install lunchy|
+|	|   |luxmark  |brew cask install luxmark|
+|	|   |luyten  |brew cask install luyten|
+|	|   |lyn  |brew cask install lyn|
+|	|   |lynkeos  |brew cask install lynkeos|
+|	|   |lynxlet  |brew cask install lynxlet|
+|	|   |lyricfier  |brew cask install lyricfier|
+|	|   |lyrics-master  |brew cask install lyrics-master|
+|	|   |lyricsx  |brew cask install lyricsx|
+|	|   |lytro  |brew cask install lytro|
+|	|   |lyx  |brew cask install lyx|
+|	|   |m3unify  |brew cask install m3unify|
+|	|   |m64py  |brew cask install m64py|
+|	|   |mac-informer  |brew cask install mac-informer|
+|	|   |mac2imgur  |brew cask install mac2imgur|
+|	|   |macaw  |brew cask install macaw|
+|	|   |macbiff  |brew cask install macbiff|
+|	|   |macbreakz  |brew cask install macbreakz|
+|	|   |macclean  |brew cask install macclean|
+|	|   |maccpuid  |brew cask install maccpuid|
+|	|   |macdependency  |brew cask install macdependency|
+|	|   |macdive  |brew cask install macdive|
+|	|   |macdjview  |brew cask install macdjview|
+|	|   |macdown  |brew cask install macdown|
+|	|   |macdropany  |brew cask install macdropany|
+|	|   |macdrops  |brew cask install macdrops|
+|	|   |macfusion-ng  |brew cask install macfusion-ng|
+|	|   |macfusion  |brew cask install macfusion|
+|	|   |macgdbp  |brew cask install macgdbp|
+|	|   |machacha  |brew cask install machacha|
+|	|   |machg  |brew cask install machg|
+|	|   |machoexplorer  |brew cask install machoexplorer|
+|	|   |maciasl  |brew cask install maciasl|
+|	|   |macid  |brew cask install macid|
+|	|   |macintosh-explorer  |brew cask install macintosh-explorer|
+|	|   |macmoney  |brew cask install macmoney|
+|	|   |macpar-deluxe  |brew cask install macpar-deluxe|
+|	|   |macpass  |brew cask install macpass|
+|	|   |macpilot  |brew cask install macpilot|
+|	|   |macports  |brew cask install macports|
+|	|   |macs-fan-control  |brew cask install macs-fan-control|
+|	|   |macserve-ivpn  |brew cask install macserve-ivpn|
+|	|   |macspice  |brew cask install macspice|
+|	|   |macsvg  |brew cask install macsvg|
+|	|   |macswear  |brew cask install macswear|
+|	|   |macterm  |brew cask install macterm|
+|	|   |mactex-no-ghostscript  |brew cask install mactex-no-ghostscript|
+|	|   |mactex  |brew cask install mactex|
+|	|   |mactracker  |brew cask install mactracker|
+|	|   |macupdate  |brew cask install macupdate|
+|	|   |macvim  |brew cask install macvim|
+|	|   |macwinzipper  |brew cask install macwinzipper|
+|	|   |macx-dvd-ripper-mac-free-edition  |brew cask install macx-dvd-ripper-mac-free-edition|
+|	|   |macx-dvd-ripper-pro  |brew cask install macx-dvd-ripper-pro|
+|	|   |macx-video-converter-pro  |brew cask install macx-video-converter-pro|
+|	|   |macx-youtube-downloader  |brew cask install macx-youtube-downloader|
+|	|   |maczip4win  |brew cask install maczip4win|
+|	|   |madruby  |brew cask install madruby|
+|	|   |magic-launch  |brew cask install magic-launch|
+|	|   |magican  |brew cask install magican|
+|	|   |magicavoxel  |brew cask install magicavoxel|
+|	|   |magicprefs  |brew cask install magicprefs|
+|	|   |mail-designer  |brew cask install mail-designer|
+|	|   |mail-unread-menu  |brew cask install mail-unread-menu|
+|	|   |mailbutler  |brew cask install mailbutler|
+|	|   |mailfollowup  |brew cask install mailfollowup|
+|	|   |mailmaster  |brew cask install mailmaster|
+|	|   |mailmate  |brew cask install mailmate|
+|	|   |mailplane  |brew cask install mailplane|
+|	|   |mailpluginfix  |brew cask install mailpluginfix|
+|	|   |mailspring  |brew cask install mailspring|
+|	|   |maintenance  |brew cask install maintenance|
+|	|   |majic  |brew cask install majic|
+|	|   |makehuman  |brew cask install makehuman|
+|	|   |makeiphoneringtone  |brew cask install makeiphoneringtone|
+|	|   |makemkv  |brew cask install makemkv|
+|	|   |makerbot-print  |brew cask install makerbot-print|
+|	|   |mal-updater  |brew cask install mal-updater|
+|	|   |maltego  |brew cask install maltego|
+|	|   |malwarebytes  |brew cask install malwarebytes|
+|	|   |mame  |brew cask install mame|
+|	|   |mammon  |brew cask install mammon|
+|	|   |mamp  |brew cask install mamp|
+|	|   |manageengine-mibbrowser  |brew cask install manageengine-mibbrowser|
+|	|   |management-tools  |brew cask install management-tools|
+|	|   |managenameext  |brew cask install managenameext|
+|	|   |manager  |brew cask install manager|
+|	|   |mancy  |brew cask install mancy|
+|	|   |mandrake  |brew cask install mandrake|
+|	|   |manico  |brew cask install manico|
+|	|   |manictime  |brew cask install manictime|
+|	|   |manopen  |brew cask install manopen|
+|	|   |manta  |brew cask install manta|
+|	|   |manuscripts  |brew cask install manuscripts|
+|	|   |manuskript  |brew cask install manuskript|
+|	|   |mapture  |brew cask install mapture|
+|	|   |marathon-infinity  |brew cask install marathon-infinity|
+|	|   |marathon  |brew cask install marathon|
+|	|   |marathon2  |brew cask install marathon2|
+|	|   |maratis  |brew cask install maratis|
+|	|   |marble  |brew cask install marble|
+|	|   |marcedit  |brew cask install marcedit|
+|	|   |mari0  |brew cask install mari0|
+|	|   |markcat  |brew cask install markcat|
+|	|   |markdown-service-tools  |brew cask install markdown-service-tools|
+|	|   |markdownmdimporter  |brew cask install markdownmdimporter|
+|	|   |marked  |brew cask install marked|
+|	|   |marker-import  |brew cask install marker-import|
+|	|   |markright  |brew cask install markright|
+|	|   |marp  |brew cask install marp|
+|	|   |mars  |brew cask install mars|
+|	|   |marsedit  |brew cask install marsedit|
+|	|   |marshallofsound-google-play-music-player  |brew cask install |	marshallofsound-google-play-music-player|
+|	|   |marta  |brew cask install marta|
+|	|   |marvel  |brew cask install marvel|
+|	|   |massreplaceit  |brew cask install massreplaceit|
+|	|   |master-key  |brew cask install master-key|
+|	|   |master-password  |brew cask install master-password|
+|	|   |master-pdf-editor  |brew cask install master-pdf-editor|
+|	|   |mat  |brew cask install mat|
+|	|   |material-colors  |brew cask install material-colors|
+|	|   |mathtype  |brew cask install mathtype|
+|	|   |mattermost  |brew cask install mattermost|
+|	|   |mattr-slate  |brew cask install mattr-slate|
+|	|   |mauve  |brew cask install mauve|
+|	|   |mavensmate  |brew cask install mavensmate|
+|	|   |mawie81-whats  |brew cask install mawie81-whats|
+|	|   |max  |brew cask install max|
+|	|   |maxbulk-mailer  |brew cask install maxbulk-mailer|
+|	|   |mblock  |brew cask install mblock|
+|	|   |mcbopomofo  |brew cask install mcbopomofo|
+|	|   |mcedit  |brew cask install mcedit|
+|	|   |mcrcon  |brew cask install mcrcon|
+|	|   |mdrp  |brew cask install mdrp|
+|	|   |media-center  |brew cask install media-center|
+|	|   |media-converter  |brew cask install media-converter|
+|	|   |mediaconch-app  |brew cask install mediaconch-app|
+|	|   |mediaelch  |brew cask install mediaelch|
+|	|   |mediafire  |brew cask install mediafire|
+|	|   |mediahuman-audio-converter  |brew cask install mediahuman-audio-converter|
+|	|   |mediahuman-youtube-downloader  |brew cask install mediahuman-youtube-downloader|
+|	|   |mediainfo  |brew cask install mediainfo|
+|	|   |medialink  |brew cask install medialink|
+|	|   |mediathekview  |brew cask install mediathekview|
+|	|   |medleytext  |brew cask install medleytext|
+|	|   |meerkat  |brew cask install meerkat|
+|	|   |mega  |brew cask install mega|
+|	|   |megacmd-app  |brew cask install megacmd-app|
+|	|   |megasync  |brew cask install megasync|
+|	|   |meld  |brew cask install meld|
+|	|   |memory-map  |brew cask install memory-map|
+|	|   |mendeley  |brew cask install mendeley|
+|	|   |mention  |brew cask install mention|
+|	|   |menubar-colors  |brew cask install menubar-colors|
+|	|   |menubar-countdown  |brew cask install menubar-countdown|
+|	|   |menubar-stats  |brew cask install menubar-stats|
+|	|   |menubarfilter  |brew cask install menubarfilter|
+|	|   |menucalendarclock-ical  |brew cask install menucalendarclock-ical|
+|	|   |menumeters  |brew cask install menumeters|
+|	|   |menuola  |brew cask install menuola|
+|	|   |meo-music  |brew cask install meo-music|
+|	|   |meocloud  |brew cask install meocloud|
+|	|   |mercurymover  |brew cask install mercurymover|
+|	|   |merlin-project  |brew cask install merlin-project|
+|	|   |mesasqlite  |brew cask install mesasqlite|
+|	|   |meshcommander  |brew cask install meshcommander|
+|	|   |meshlab  |brew cask install meshlab|
+|	|   |meshmixer  |brew cask install meshmixer|
+|	|   |messenger-native  |brew cask install messenger-native|
+|	|   |messenger  |brew cask install messenger|
+|	|   |metabase-app  |brew cask install metabase-app|
+|	|   |metadatics  |brew cask install metadatics|
+|	|   |metagrowler  |brew cask install metagrowler|
+|	|   |metasequoia  |brew cask install metasequoia|
+|	|   |metasploit  |brew cask install metasploit|
+|	|   |metaz  |brew cask install metaz|
+|	|   |meteorologist  |brew cask install meteorologist|
+|	|   |mgba  |brew cask install mgba|
+|	|   |mi  |brew cask install mi|
+|	|   |mia-for-gmail  |brew cask install mia-for-gmail|
+|	|   |michaelvillar-timer  |brew cask install michaelvillar-timer|
+|	|   |micloud  |brew cask install micloud|
+|	|   |micro-snitch  |brew cask install micro-snitch|
+|	|   |microblog  |brew cask install microblog|
+|	|   |microsoft-azure-storage-explorer  |brew cask install microsoft-azure-storage-explorer|
+|	|   |microsoft-bing-ads-editor  |brew cask install microsoft-bing-ads-editor|
+|	|   |microsoft-lync  |brew cask install microsoft-lync|
+|	|   |microsoft-office  |brew cask install microsoft-office|
+|	|   |microsoft-r-open  |brew cask install microsoft-r-open|
+|	|   |microsoft-teams  |brew cask install microsoft-teams|
+|	|   |middleclick  |brew cask install middleclick|
+|	|   |midi-monitor  |brew cask install midi-monitor|
+|	|   |midikeys  |brew cask install midikeys|
+|	|   |midistroke  |brew cask install midistroke|
+|	|   |miditrail  |brew cask install miditrail|
+|	|   |mightytext  |brew cask install mightytext|
+|	|   |mikogo  |brew cask install mikogo|
+|	|   |milanote  |brew cask install milanote|
+|	|   |milkmaid  |brew cask install milkmaid|
+|	|   |milkytracker  |brew cask install milkytracker|
+|	|   |mimolive  |brew cask install mimolive|
+|	|   |min  |brew cask install min|
+|	|   |minbox  |brew cask install minbox|
+|	|   |minco  |brew cask install minco|
+|	|   |mindjet-mindmanager  |brew cask install mindjet-mindmanager|
+|	|   |mindnode-pro  |brew cask install mindnode-pro|
+|	|   |minecraft-server  |brew cask install minecraft-server|
+|	|   |minecraft  |brew cask install minecraft|
+|	|   |mini-vmac  |brew cask install mini-vmac|
+|	|   |miniconda  |brew cask install miniconda|
+|	|   |minikube  |brew cask install minikube|
+|	|   |minilyrics  |brew cask install minilyrics|
+|	|   |minishift  |brew cask install minishift|
+|	|   |minitimer  |brew cask install minitimer|
+|	|   |minitube  |brew cask install minitube|
+|	|   |minizincide  |brew cask install minizincide|
+|	|   |mipony  |brew cask install mipony|
+|	|   |mirador  |brew cask install mirador|
+|	|   |mirrordisplays  |brew cask install mirrordisplays|
+|	|   |missive  |brew cask install missive|
+|	|   |mist  |brew cask install mist|
+|	|   |mitsuba  |brew cask install mitsuba|
+|	|   |mixlr  |brew cask install mixlr|
+|	|   |mixxx  |brew cask install mixxx|
+|	|   |mjml  |brew cask install mjml|
+|	|   |mjolnir  |brew cask install mjolnir|
+|	|   |mkchromecast  |brew cask install mkchromecast|
+|	|   |mkvtools  |brew cask install mkvtools|
+|	|   |mmex  |brew cask install mmex|
+|	|   |mnemosyne  |brew cask install mnemosyne|
+|	|   |mobile-mouse-server  |brew cask install mobile-mouse-server|
+|	|   |mobirise  |brew cask install mobirise|
+|	|   |mobius  |brew cask install mobius|
+|	|   |mobster  |brew cask install mobster|
+|	|   |mocha-keyboard  |brew cask install mocha-keyboard|
+|	|   |mockplus  |brew cask install mockplus|
+|	|   |mocksmtp  |brew cask install mocksmtp|
+|	|   |mockuuups-studio  |brew cask install mockuuups-studio|
+|	|   |model-boiler  |brew cask install model-boiler|
+|	|   |modelio  |brew cask install modelio|
+|	|   |modmove  |brew cask install modmove|
+|	|   |moedict  |brew cask install moedict|
+|	|   |moeditor  |brew cask install moeditor|
+|	|   |mojibar  |brew cask install mojibar|
+|	|   |mollyguard  |brew cask install mollyguard|
+|	|   |molotov  |brew cask install molotov|
+|	|   |monal  |brew cask install monal|
+|	|   |monero-wallet  |brew cask install monero-wallet|
+|	|   |moneydance  |brew cask install moneydance|
+|	|   |moneyguru  |brew cask install moneyguru|
+|	|   |moneymoney  |brew cask install moneymoney|
+|	|   |moneyplex  |brew cask install moneyplex|
+|	|   |moneywell  |brew cask install moneywell|
+|	|   |mongo-management-studio  |brew cask install mongo-management-studio|
+|	|   |mongobooster  |brew cask install mongobooster|
+|	|   |mongodb-compass  |brew cask install mongodb-compass|
+|	|   |mongodb  |brew cask install mongodb|
+|	|   |mongodbpreferencepane  |brew cask install mongodbpreferencepane|
+|	|   |mongoproc  |brew cask install mongoproc|
+|	|   |mongotron  |brew cask install mongotron|
+|	|   |monity-helper  |brew cask install monity-helper|
+|	|   |mono-mdk  |brew cask install mono-mdk|
+|	|   |monodraw  |brew cask install monodraw|
+|	|   |monolingual  |brew cask install monolingual|
+|	|   |monu  |brew cask install monu|
+|	|   |moodo  |brew cask install moodo|
+|	|   |moom  |brew cask install moom|
+|	|   |moreamp  |brew cask install moreamp|
+|	|   |morkro-papyrus  |brew cask install morkro-papyrus|
+|	|   |mortenjust-pocketcasts  |brew cask install mortenjust-pocketcasts|
+|	|   |mos  |brew cask install mos|
+|	|   |mosaic  |brew cask install mosaic|
+|	|   |moscow-ml  |brew cask install moscow-ml|
+|	|   |mou  |brew cask install mou|
+|	|   |mountain-duck  |brew cask install mountain-duck|
+|	|   |mountain  |brew cask install mountain|
+|	|   |mounty  |brew cask install mounty|
+|	|   |mouse-locator  |brew cask install mouse-locator|
+|	|   |mousepose  |brew cask install mousepose|
+|	|   |movist  |brew cask install movist|
+|	|   |moxtra  |brew cask install moxtra|
+|	|   |mozyhome  |brew cask install mozyhome|
+|	|   |mp3gain-express  |brew cask install mp3gain-express|
+|	|   |mp3tag  |brew cask install mp3tag|
+|	|   |mp4tools  |brew cask install mp4tools|
+|	|   |mpeg-streamclip  |brew cask install mpeg-streamclip|
+|	|   |mpfreaker  |brew cask install mpfreaker|
+|	|   |mplayer-osx-extended  |brew cask install mplayer-osx-extended|
+|	|   |mplayerx  |brew cask install mplayerx|
+|	|   |mps  |brew cask install mps|
+|	|   |mpv  |brew cask install mpv|
+|	|   |mqttfx  |brew cask install mqttfx|
+|	|   |mt32emu  |brew cask install mt32emu|
+|	|   |mu  |brew cask install mu|
+|	|   |mucommander  |brew cask install mucommander|
+|	|   |mudlet  |brew cask install mudlet|
+|	|   |mullvadvpn  |brew cask install mullvadvpn|
+|	|   |multibit-hd  |brew cask install multibit-hd|
+|	|   |multidoge  |brew cask install multidoge|
+|	|   |multifirefox  |brew cask install multifirefox|
+|	|   |multimc  |brew cask install multimc|
+|	|   |multipatch  |brew cask install multipatch|
+|	|   |multiply  |brew cask install multiply|
+|	|   |multiscan-3b  |brew cask install multiscan-3b|
+|	|   |mumble  |brew cask install mumble|
+|	|   |munki  |brew cask install munki|
+|	|   |murasaki  |brew cask install murasaki|
+|	|   |murus-menulet  |brew cask install murus-menulet|
+|	|   |murus  |brew cask install murus|
+|	|   |muruslogsvisualizer  |brew cask install muruslogsvisualizer|
+|	|   |muse  |brew cask install muse|
+|	|   |museeks  |brew cask install museeks|
+|	|   |musescore  |brew cask install musescore|
+|	|   |music-manager  |brew cask install music-manager|
+|	|   |musicbrainz-picard  |brew cask install musicbrainz-picard|
+|	|   |musictube  |brew cask install musictube|
+|	|   |musique  |brew cask install musique|
+|	|   |musixmatch  |brew cask install musixmatch|
+|	|   |mussel  |brew cask install mussel|
+|	|   |muzei  |brew cask install muzei|
+|	|   |muzzle  |brew cask install muzzle|
+|	|   |mweb  |brew cask install mweb|
+|	|   |my-image-garden  |brew cask install my-image-garden|
+|	|   |mycloud  |brew cask install mycloud|
+|	|   |mylio  |brew cask install mylio|
+|	|   |myo-connect  |brew cask install myo-connect|
+|	|   |myphone  |brew cask install myphone|
+|	|   |myphotostream  |brew cask install myphotostream|
+|	|   |mysql-connector-python  |brew cask install mysql-connector-python|
+|	|   |mysql-shell  |brew cask install mysql-shell|
+|	|   |mysql-utilities  |brew cask install mysql-utilities|
+|	|   |mysqlworkbench  |brew cask install mysqlworkbench|
+|	|   |mystem  |brew cask install mystem|
+|	|   |mythfrontend  |brew cask install mythfrontend|
+|	|   |myworkspace  |brew cask install myworkspace|
+|	|   |nagbar  |brew cask install nagbar|
+|	|   |nagstamon  |brew cask install nagstamon|
+|	|   |nally  |brew cask install nally|
+|	|   |name-mangler  |brew cask install name-mangler|
+|	|   |namebench  |brew cask install namebench|
+|	|   |namechanger  |brew cask install namechanger|
+|	|   |namecoin  |brew cask install namecoin|
+|	|   |namely  |brew cask install namely|
+|	|   |nanobox  |brew cask install nanobox|
+|	|   |nanostudio  |brew cask install nanostudio|
+|	|   |nanowallet  |brew cask install nanowallet|
+|	|   |narodmon  |brew cask install narodmon|
+|	|   |narrative-uploader  |brew cask install narrative-uploader|
+|	|   |native-access  |brew cask install native-access|
+|	|   |nativedisplaybrightness  |brew cask install nativedisplaybrightness|
+|	|   |natron  |brew cask install natron|
+|	|   |navicat-data-modeler  |brew cask install navicat-data-modeler|
+|	|   |navicat-for-mariadb  |brew cask install navicat-for-mariadb|
+|	|   |navicat-for-mysql  |brew cask install navicat-for-mysql|
+|	|   |navicat-for-oracle  |brew cask install navicat-for-oracle|
+|	|   |navicat-for-postgresql  |brew cask install navicat-for-postgresql|
+|	|   |navicat-for-sql-server  |brew cask install navicat-for-sql-server|
+|	|   |navicat-for-sqlite  |brew cask install navicat-for-sqlite|
+|	|   |navicat-premium-essentials  |brew cask install navicat-premium-essentials|
+|	|   |navicat-premium  |brew cask install navicat-premium|
+|	|   |nbtexplorer  |brew cask install nbtexplorer|
+|	|   |nc-dns-updater  |brew cask install nc-dns-updater|
+|	|   |ncar-ncl  |brew cask install ncar-ncl|
+|	|   |ncmeta  |brew cask install ncmeta|
+|	|   |ndm  |brew cask install ndm|
+|	|   |near-lock  |brew cask install near-lock|
+|	|   |neat  |brew cask install neat|
+|	|   |neo4j  |brew cask install neo4j|
+|	|   |neofinder  |brew cask install neofinder|
+|	|   |nestopia  |brew cask install nestopia|
+|	|   |netbeans-cpp  |brew cask install netbeans-cpp|
+|	|   |netbeans-html  |brew cask install netbeans-html|
+|	|   |netbeans-java-ee  |brew cask install netbeans-java-ee|
+|	|   |netbeans-java-se  |brew cask install netbeans-java-se|
+|	|   |netbeans-php  |brew cask install netbeans-php|
+|	|   |netbeans  |brew cask install netbeans|
+|	|   |neteasemusic  |brew cask install neteasemusic|
+|	|   |nethackcocoa  |brew cask install nethackcocoa|
+|	|   |netloc  |brew cask install netloc|
+|	|   |netlogo  |brew cask install netlogo|
+|	|   |netnewswire  |brew cask install netnewswire|
+|	|   |netron  |brew cask install netron|
+|	|   |netshade  |brew cask install netshade|
+|	|   |netspot  |brew cask install netspot|
+|	|   |newmoon  |brew cask install newmoon|
+|	|   |next  |brew cask install next|
+|	|   |nextcloud  |brew cask install nextcloud|
+|	|   |nextiva  |brew cask install nextiva|
+|	|   |nfov  |brew cask install nfov|
+|	|   |ngrok  |brew cask install ngrok|
+|	|   |nicecast  |brew cask install nicecast|
+|	|   |night-owl  |brew cask install night-owl|
+|	|   |nightingale  |brew cask install nightingale|
+|	|   |nimble-commander  |brew cask install nimble-commander|
+|	|   |nimble  |brew cask install nimble|
+|	|   |nimbus  |brew cask install nimbus|
+|	|   |nisus-thesaurus  |brew cask install nisus-thesaurus|
+|	|   |nitroshare  |brew cask install nitroshare|
+|	|   |nix  |brew cask install nix|
+|	|   |nndd  |brew cask install nndd|
+|	|   |no-ip-duc  |brew cask install no-ip-duc|
+|	|   |nocturn  |brew cask install nocturn|
+|	|   |nocturne  |brew cask install nocturne|
+|	|   |node-profiler  |brew cask install node-profiler|
+|	|   |nodebox  |brew cask install nodebox|
+|	|   |nodeclipse  |brew cask install nodeclipse|
+|	|   |noise-machine  |brew cask install noise-machine|
+|	|   |noisy  |brew cask install noisy|
+|	|   |noisytyper  |brew cask install noisytyper|
+|	|   |noiz2sa  |brew cask install noiz2sa|
+|	|   |nomachine  |brew cask install nomachine|
+|	|   |nomad  |brew cask install nomad|
+|	|   |noobproof  |brew cask install noobproof|
+|	|   |noodl  |brew cask install noodl|
+|	|   |nook  |brew cask install nook|
+|	|   |nord-sample-editor  |brew cask install nord-sample-editor|
+|	|   |nord-sound-manager  |brew cask install nord-sound-manager|
+|	|   |nordvpn  |brew cask install nordvpn|
+|	|   |nosleep  |brew cask install nosleep|
+|	|   |nosqlclient  |brew cask install nosqlclient|
+|	|   |not-pacman  |brew cask install not-pacman|
+|	|   |not-tetris  |brew cask install not-tetris|
+|	|   |notational-velocity  |brew cask install notational-velocity|
+|	|   |notebooks  |brew cask install notebooks|
+|	|   |notedup  |brew cask install notedup|
+|	|   |noteplan  |brew cask install noteplan|
+|	|   |noti  |brew cask install noti|
+|	|   |notifyr  |brew cask install notifyr|
+|	|   |notion  |brew cask install notion|
+|	|   |nottingham  |brew cask install nottingham|
+|	|   |noun-project  |brew cask install noun-project|
+|	|   |now  |brew cask install now|
+|	|   |nox-app-player  |brew cask install nox-app-player|
+|	|   |nozbe  |brew cask install nozbe|
+|	|   |nscope  |brew cask install nscope|
+|	|   |nsregextester  |brew cask install nsregextester|
+|	|   |nteract  |brew cask install nteract|
+|	|   |ntfsmounter  |brew cask install ntfsmounter|
+|	|   |nti-shadow  |brew cask install nti-shadow|
+|	|   |nucleo  |brew cask install nucleo|
+|	|   |nudgit  |brew cask install nudgit|
+|	|   |nulloy  |brew cask install nulloy|
+|	|   |numi  |brew cask install numi|
+|	|   |nutstore  |brew cask install nutstore|
+|	|   |nvalt  |brew cask install nvalt|
+|	|   |nvidia-geforce-now  |brew cask install nvidia-geforce-now|
+|	|   |nvivo  |brew cask install nvivo|
+|	|   |nwjs  |brew cask install nwjs|
+|	|   |nylas-mail-lives  |brew cask install nylas-mail-lives|
+|	|   |nylas-mail  |brew cask install nylas-mail|
+|	|   |nzbget  |brew cask install nzbget|
+|	|   |nzbvortex  |brew cask install nzbvortex|
+|	|   |objectivesharpie  |brew cask install objectivesharpie|
+|	|   |obs  |brew cask install obs|
+|	|   |ocenaudio  |brew cask install ocenaudio|
+|	|   |oclint  |brew cask install oclint|
+|	|   |ocrkit  |brew cask install ocrkit|
+|	|   |odrive  |brew cask install odrive|
+|	|   |ogdesign-eagle  |brew cask install ogdesign-eagle|
+|	|   |okapi  |brew cask install okapi|
+|	|   |omegat  |brew cask install omegat|
+|	|   |omnidazzle  |brew cask install omnidazzle|
+|	|   |omnidb  |brew cask install omnidb|
+|	|   |omnidisksweeper  |brew cask install omnidisksweeper|
+|	|   |omnifocus  |brew cask install omnifocus|
+|	|   |omnigraffle  |brew cask install omnigraffle|
+|	|   |omnioutliner  |brew cask install omnioutliner|
+|	|   |omniplan  |brew cask install omniplan|
+|	|   |omnipresence  |brew cask install omnipresence|
+|	|   |omniweb  |brew cask install omniweb|
+|	|   |on-the-job  |brew cask install on-the-job|
+|	|   |ondesoft-itunes-converter  |brew cask install ondesoft-itunes-converter|
+|	|   |onedrive  |brew cask install onedrive|
+|	|   |onenote-importer-preview  |brew cask install onenote-importer-preview|
+|	|   |oneswarm  |brew cask install oneswarm|
+|	|   |oni  |brew cask install oni|
+|	|   |onionshare  |brew cask install onionshare|
+|	|   |onlabs  |brew cask install onlabs|
+|	|   |onlyoffice  |brew cask install onlyoffice|
+|	|   |onyx  |brew cask install onyx|
+|	|   |oolite  |brew cask install oolite|
+|	|   |opacity  |brew cask install opacity|
+|	|   |open-rdar  |brew cask install open-rdar|
+|	|   |open-sankore  |brew cask install open-sankore|
+|	|   |openarena  |brew cask install openarena|
+|	|   |openbazaar  |brew cask install openbazaar|
+|	|   |openconnect-gui  |brew cask install openconnect-gui|
+|	|   |opencpn  |brew cask install opencpn|
+|	|   |opendns-updater  |brew cask install opendns-updater|
+|	|   |openemu  |brew cask install openemu|
+|	|   |openframeworks  |brew cask install openframeworks|
+|	|   |openlp  |brew cask install openlp|
+|	|   |openmsx  |brew cask install openmsx|
+|	|   |openmw  |brew cask install openmw|
+|	|   |opennx  |brew cask install opennx|
+|	|   |openoffice  |brew cask install openoffice|
+|	|   |openpht  |brew cask install openpht|
+|	|   |openra  |brew cask install openra|
+|	|   |openrefine  |brew cask install openrefine|
+|	|   |opensc  |brew cask install opensc|
+|	|   |openscad  |brew cask install openscad|
+|	|   |opensesame  |brew cask install opensesame|
+|	|   |openshot-video-editor  |brew cask install openshot-video-editor|
+|	|   |opensim  |brew cask install opensim|
+|	|   |opensong  |brew cask install opensong|
+|	|   |opentoonz  |brew cask install opentoonz|
+|	|   |openttd  |brew cask install openttd|
+|	|   |openvanilla  |brew cask install openvanilla|
+|	|   |openvisualtraceroute  |brew cask install openvisualtraceroute|
+|	|   |openxcom  |brew cask install openxcom|
+|	|   |openzfs  |brew cask install openzfs|
+|	|   |opera-mail  |brew cask install opera-mail|
+|	|   |opera-mobile-emulator  |brew cask install opera-mobile-emulator|
+|	|   |opera-neon  |brew cask install opera-neon|
+|	|   |opera  |brew cask install opera|
+|	|   |operadriver  |brew cask install operadriver|
+|	|   |optimage  |brew cask install optimage|
+|	|   |optimal-layout  |brew cask install optimal-layout|
+|	|   |optionspace  |brew cask install optionspace|
+|	|   |orange  |brew cask install orange|
+|	|   |orangered  |brew cask install orangered|
+|	|   |orbit  |brew cask install orbit|
+|	|   |orbitum  |brew cask install orbitum|
+|	|   |order-of-twilight  |brew cask install order-of-twilight|
+|	|   |ordnett-pluss  |brew cask install ordnett-pluss|
+|	|   |orelord-mongodb  |brew cask install orelord-mongodb|
+|	|   |orfo-plus  |brew cask install orfo-plus|
+|	|   |orfo  |brew cask install orfo|
+|	|   |origami-studio  |brew cask install origami-studio|
+|	|   |origin  |brew cask install origin|
+|	|   |ortho-robot  |brew cask install ortho-robot|
+|	|   |oryoki  |brew cask install oryoki|
+|	|   |osbuddy  |brew cask install osbuddy|
+|	|   |oscilloscope  |brew cask install oscilloscope|
+|	|   |osculator  |brew cask install osculator|
+|	|   |osirix-quicklook  |brew cask install osirix-quicklook|
+|	|   |osmc  |brew cask install osmc|
+|	|   |ostiarius  |brew cask install ostiarius|
+|	|   |osu  |brew cask install osu|
+|	|   |osxfuse  |brew cask install osxfuse|
+|	|   |otomatic  |brew cask install otomatic|
+|	|   |otp-auth  |brew cask install otp-auth|
+|	|   |otter-browser  |brew cask install otter-browser|
+|	|   |otx  |brew cask install otx|
+|	|   |outguess  |brew cask install outguess|
+|	|   |outset  |brew cask install outset|
+|	|   |outwit-hub  |brew cask install outwit-hub|
+|	|   |overdrive-media-console  |brew cask install overdrive-media-console|
+|	|   |overkill  |brew cask install overkill|
+|	|   |oversight  |brew cask install oversight|
+|	|   |overture  |brew cask install overture|
+|	|   |ovito  |brew cask install ovito|
+|	|   |owasp-zap  |brew cask install owasp-zap|
+|	|   |owncloud  |brew cask install owncloud|
+|	|   |oxygen-xml-editor  |brew cask install oxygen-xml-editor|
+|	|   |p4merge  |brew cask install p4merge|
+|	|   |p4v  |brew cask install p4v|
+|	|   |pablodraw  |brew cask install pablodraw|
+|	|   |pacifist  |brew cask install pacifist|
+|	|   |packages  |brew cask install packages|
+|	|   |packet-peeper  |brew cask install packet-peeper|
+|	|   |packetsender  |brew cask install packetsender|
+|	|   |padbury-clock  |brew cask install padbury-clock|
+|	|   |padlock  |brew cask install padlock|
+|	|   |pages-data-merge  |brew cask install pages-data-merge|
+|	|   |pagico  |brew cask install pagico|
+|	|   |paintbrush  |brew cask install paintbrush|
+|	|   |paintcode  |brew cask install paintcode|
+|	|   |panconvert  |brew cask install panconvert|
+|	|   |panda  |brew cask install panda|
+|	|   |pandora  |brew cask install pandora|
+|	|   |panic-unison  |brew cask install panic-unison|
+|	|   |panini  |brew cask install panini|
+|	|   |panoply  |brew cask install panoply|
+|	|   |paparazzi  |brew cask install paparazzi|
+|	|   |papers  |brew cask install papers|
+|	|   |paperspace  |brew cask install paperspace|
+|	|   |papyrus  |brew cask install papyrus|
+|	|   |paragon-extfs  |brew cask install paragon-extfs|
+|	|   |paragon-ntfs  |brew cask install paragon-ntfs|
+|	|   |paragon-vmdk-mounter  |brew cask install paragon-vmdk-mounter|
+|	|   |parallels-access  |brew cask install parallels-access|
+|	|   |parallels-client  |brew cask install parallels-client|
+|	|   |parallels-toolbox  |brew cask install parallels-toolbox|
+|	|   |parallels-virtualization-sdk  |brew cask install parallels-virtualization-sdk|
+|	|   |parallels  |brew cask install parallels|
+|	|   |paraphrasis-au  |brew cask install paraphrasis-au|
+|	|   |paraview  |brew cask install paraview|
+|	|   |parse  |brew cask install parse|
+|	|   |parsec  |brew cask install parsec|
+|	|   |parsehub  |brew cask install parsehub|
+|	|   |particle-dev  |brew cask install particle-dev|
+|	|   |pashua  |brew cask install pashua|
+|	|   |passenger  |brew cask install passenger|
+|	|   |password-assistant  |brew cask install password-assistant|
+|	|   |password-gorilla  |brew cask install password-gorilla|
+|	|   |password-practice  |brew cask install password-practice|
+|	|   |paste  |brew cask install paste|
+|	|   |pastor  |brew cask install pastor|
+|	|   |patchblocks  |brew cask install patchblocks|
+|	|   |patchwork  |brew cask install patchwork|
+|	|   |path-finder  |brew cask install path-finder|
+|	|   |paw  |brew cask install paw|
+|	|   |pawnee  |brew cask install pawnee|
+|	|   |paye-tools  |brew cask install paye-tools|
+|	|   |paymoplus  |brew cask install paymoplus|
+|	|   |pd-extended  |brew cask install pd-extended|
+|	|   |pd-l2ork  |brew cask install pd-l2ork|
+|	|   |pd  |brew cask install pd|
+|	|   |pdf-converter-master  |brew cask install pdf-converter-master|
+|	|   |pdf-images  |brew cask install pdf-images|
+|	|   |pdf-squeezer  |brew cask install pdf-squeezer|
+|	|   |pdf-toolbox  |brew cask install pdf-toolbox|
+|	|   |pdfelement  |brew cask install pdfelement|
+|	|   |pdfexpert  |brew cask install pdfexpert|
+|	|   |pdfextractor  |brew cask install pdfextractor|
+|	|   |pdfinfo  |brew cask install pdfinfo|
+|	|   |pdfkey-pro  |brew cask install pdfkey-pro|
+|	|   |pdfmasher  |brew cask install pdfmasher|
+|	|   |pdfpen  |brew cask install pdfpen|
+|	|   |pdfpenpro  |brew cask install pdfpenpro|
+|	|   |pdfsam-basic  |brew cask install pdfsam-basic|
+|	|   |pdfshaver  |brew cask install pdfshaver|
+|	|   |pdftotext  |brew cask install pdftotext|
+|	|   |pdk  |brew cask install pdk|
+|	|   |peakhour  |brew cask install peakhour|
+|	|   |peepopen  |brew cask install peepopen|
+|	|   |peerio  |brew cask install peerio|
+|	|   |pencil  |brew cask install pencil|
+|	|   |pencil2d  |brew cask install pencil2d|
+|	|   |people-plus-content-ip  |brew cask install people-plus-content-ip|
+|	|   |perforce  |brew cask install perforce|
+|	|   |perma  |brew cask install perma|
+|	|   |persepolis-download-manager  |brew cask install persepolis-download-manager|
+|	|   |pester  |brew cask install pester|
+|	|   |petite-chez-scheme  |brew cask install petite-chez-scheme|
+|	|   |pflists  |brew cask install pflists|
+|	|   |pg-commander  |brew cask install pg-commander|
+|	|   |pgadmin4  |brew cask install pgadmin4|
+|	|   |pgweb  |brew cask install pgweb|
+|	|   |pharo-launcher  |brew cask install pharo-launcher|
+|	|   |pharo  |brew cask install pharo|
+|	|   |phd2  |brew cask install phd2|
+|	|   |phew  |brew cask install phew|
+|	|   |phocus  |brew cask install phocus|
+|	|   |phoenix-slides  |brew cask install phoenix-slides|
+|	|   |phoenix  |brew cask install phoenix|
+|	|   |phon  |brew cask install phon|
+|	|   |phonebrowse  |brew cask install phonebrowse|
+|	|   |phoneclean  |brew cask install phoneclean|
+|	|   |phoneexpander  |brew cask install phoneexpander|
+|	|   |phonegap  |brew cask install phonegap|
+|	|   |phonerescue  |brew cask install phonerescue|
+|	|   |phonetrans  |brew cask install phonetrans|
+|	|   |photo-supreme-postgresql  |brew cask install photo-supreme-postgresql|
+|	|   |photo-supreme-single-user  |brew cask install photo-supreme-single-user|
+|	|   |photoninja  |brew cask install photoninja|
+|	|   |photoscan  |brew cask install photoscan|
+|	|   |photoscanpro  |brew cask install photoscanpro|
+|	|   |phototrans  |brew cask install phototrans|
+|	|   |photozoom-pro  |brew cask install photozoom-pro|
+|	|   |phpstorm  |brew cask install phpstorm|
+|	|   |physicseditor  |brew cask install physicseditor|
+|	|   |pi-filler  |brew cask install pi-filler|
+|	|   |pibakery  |brew cask install pibakery|
+|	|   |picat  |brew cask install picat|
+|	|   |picaxe-compilers  |brew cask install picaxe-compilers|
+|	|   |picka  |brew cask install picka|
+|	|   |picturesque  |brew cask install picturesque|
+|	|   |piezo  |brew cask install piezo|
+|	|   |piglet  |brew cask install piglet|
+|	|   |pikopixel  |brew cask install pikopixel|
+|	|   |pilemd  |brew cask install pilemd|
+|	|   |pineapple  |brew cask install pineapple|
+|	|   |pinegrow  |brew cask install pinegrow|
+|	|   |pingendo  |brew cask install pingendo|
+|	|   |pingid  |brew cask install pingid|
+|	|   |pingmenu  |brew cask install pingmenu|
+|	|   |pingplotter  |brew cask install pingplotter|
+|	|   |pins  |brew cask install pins|
+|	|   |pinta  |brew cask install pinta|
+|	|   |pixel-check  |brew cask install pixel-check|
+|	|   |pixelconduit  |brew cask install pixelconduit|
+|	|   |pixelpeeper  |brew cask install pixelpeeper|
+|	|   |pixelstick  |brew cask install pixelstick|
+|	|   |pixi-paint  |brew cask install pixi-paint|
+|	|   |pixum-fotowereld  |brew cask install pixum-fotowereld|
+|	|   |pki-io  |brew cask install pki-io|
+|	|   |plain-clip  |brew cask install plain-clip|
+|	|   |plan  |brew cask install plan|
+|	|   |platypus  |brew cask install platypus|
+|	|   |play  |brew cask install play|
+|	|   |playback  |brew cask install playback|
+|	|   |playcode  |brew cask install playcode|
+|	|   |playgroundmdimporter  |brew cask install playgroundmdimporter|
+|	|   |playlist-assist  |brew cask install playlist-assist|
+|	|   |playmemories-home  |brew cask install playmemories-home|
+|	|   |playnow  |brew cask install playnow|
+|	|   |playonmac  |brew cask install playonmac|
+|	|   |plex-media-player  |brew cask install plex-media-player|
+|	|   |plex-media-server  |brew cask install plex-media-server|
+|	|   |plexamp  |brew cask install plexamp|
+|	|   |plistedit-pro  |brew cask install plistedit-pro|
+|	|   |plotdevice  |brew cask install plotdevice|
+|	|   |plotdigitizer  |brew cask install plotdigitizer|
+|	|   |plover  |brew cask install plover|
+|	|   |plug  |brew cask install plug|
+|	|   |plycounter  |brew cask install plycounter|
+|	|   |pngcommentator  |brew cask install pngcommentator|
+|	|   |pngyu  |brew cask install pngyu|
+|	|   |pocket-casts  |brew cask install pocket-casts|
+|	|   |pocket-tanks  |brew cask install pocket-tanks|
+|	|   |pocketsmith  |brew cask install pocketsmith|
+|	|   |podcastmenu  |brew cask install podcastmenu|
+|	|   |podtrans  |brew cask install podtrans|
+|	|   |poedit  |brew cask install poedit|
+|	|   |poi  |brew cask install poi|
+|	|   |pokemon-showdown  |brew cask install pokemon-showdown|
+|	|   |pokerstars  |brew cask install pokerstars|
+|	|   |pokerth  |brew cask install pokerth|
+|	|   |pokertracker  |brew cask install pokertracker|
+|	|   |polar-clock  |brew cask install polar-clock|
+|	|   |polar-websync  |brew cask install polar-websync|
+|	|   |pollev-presenter  |brew cask install pollev-presenter|
+|	|   |polycode  |brew cask install polycode|
+|	|   |polycom-realpresence  |brew cask install polycom-realpresence|
+|	|   |polymail  |brew cask install polymail|
+|	|   |polyphone  |brew cask install polyphone|
+|	|   |pomello  |brew cask install pomello|
+|	|   |pomodone  |brew cask install pomodone|
+|	|   |pomolectron  |brew cask install pomolectron|
+|	|   |pomotodo  |brew cask install pomotodo|
+|	|   |pongsaver  |brew cask install pongsaver|
+|	|   |poolside-fm  |brew cask install poolside-fm|
+|	|   |popchar  |brew cask install popchar|
+|	|   |popclip  |brew cask install popclip|
+|	|   |pophub  |brew cask install pophub|
+|	|   |popkey  |brew cask install popkey|
+|	|   |popmaker  |brew cask install popmaker|
+|	|   |popsql  |brew cask install popsql|
+|	|   |portfolioperformance  |brew cask install portfolioperformance|
+|	|   |porthole  |brew cask install porthole|
+|	|   |porting-kit  |brew cask install porting-kit|
+|	|   |post-haste  |brew cask install post-haste|
+|	|   |postage  |brew cask install postage|
+|	|   |postbird  |brew cask install postbird|
+|	|   |postbox  |brew cask install postbox|
+|	|   |posterazor  |brew cask install posterazor|
+|	|   |postgres  |brew cask install postgres|
+|	|   |postgrespreferencepane  |brew cask install postgrespreferencepane|
+|	|   |postico  |brew cask install postico|
+|	|   |postman  |brew cask install postman|
+|	|   |powder-player  |brew cask install powder-player|
+|	|   |powder  |brew cask install powder|
+|	|   |power-manager-pro  |brew cask install power-manager-pro|
+|	|   |power-manager  |brew cask install power-manager|
+|	|   |powermate  |brew cask install powermate|
+|	|   |powerphotos  |brew cask install powerphotos|
+|	|   |powershell  |brew cask install powershell|
+|	|   |powerword  |brew cask install powerword|
+|	|   |pphelper  |brew cask install pphelper|
+|	|   |praat  |brew cask install praat|
+|	|   |preen  |brew cask install preen|
+|	|   |pref-setter  |brew cask install pref-setter|
+|	|   |preference-manager  |brew cask install preference-manager|
+|	|   |preferencecleaner  |brew cask install preferencecleaner|
+|	|   |preform  |brew cask install preform|
+|	|   |prefs-editor  |brew cask install prefs-editor|
+|	|   |prepros  |brew cask install prepros|
+|	|   |presentation  |brew cask install presentation|
+|	|   |presenter  |brew cask install presenter|
+|	|   |pretzel  |brew cask install pretzel|
+|	|   |prey  |brew cask install prey|
+|	|   |prezi  |brew cask install prezi|
+|	|   |prime95  |brew cask install prime95|
+|	|   |prince  |brew cask install prince|
+|	|   |principle  |brew cask install principle|
+|	|   |printer-pro  |brew cask install printer-pro|
+|	|   |printnode  |brew cask install printnode|
+|	|   |printopia  |brew cask install printopia|
+|	|   |printrun  |brew cask install printrun|
+|	|   |prismatik  |brew cask install prismatik|
+|	|   |pritunl  |brew cask install pritunl|
+|	|   |privacy-services-manager  |brew cask install privacy-services-manager|
+|	|   |private-eye  |brew cask install private-eye|
+|	|   |private-internet-access  |brew cask install private-internet-access|
+|	|   |privateer-gold  |brew cask install privateer-gold|
+|	|   |privatetunnel  |brew cask install privatetunnel|
+|	|   |prizmo  |brew cask install prizmo|
+|	|   |process-monitor  |brew cask install process-monitor|
+|	|   |processing  |brew cask install processing|
+|	|   |procexp  |brew cask install procexp|
+|	|   |product-hunt  |brew cask install product-hunt|
+|	|   |profilemanager  |brew cask install profilemanager|
+|	|   |programmer-dvorak  |brew cask install programmer-dvorak|
+|	|   |progressive-downloader  |brew cask install progressive-downloader|
+|	|   |projectlibre  |brew cask install projectlibre|
+|	|   |propelleride  |brew cask install propelleride|
+|	|   |propresenter  |brew cask install propresenter|
+|	|   |prosys-opc-ua-client  |brew cask install prosys-opc-ua-client|
+|	|   |protant  |brew cask install protant|
+|	|   |protege  |brew cask install protege|
+|	|   |protonmail-bridge  |brew cask install protonmail-bridge|
+|	|   |protonmail-unofficial  |brew cask install protonmail-unofficial|
+|	|   |provisioning  |brew cask install provisioning|
+|	|   |provisionql  |brew cask install provisionql|
+|	|   |proxifier  |brew cask install proxifier|
+|	|   |proximity  |brew cask install proximity|
+|	|   |proxpn  |brew cask install proxpn|
+|	|   |prusa-slic3r  |brew cask install prusa-slic3r|
+|	|   |psequel  |brew cask install psequel|
+|	|   |psi  |brew cask install psi|
+|	|   |psychopy  |brew cask install psychopy|
+|	|   |pubu  |brew cask install pubu|
+|	|   |pullover  |brew cask install pullover|
+|	|   |punto-switcher  |brew cask install punto-switcher|
+|	|   |pupil  |brew cask install pupil|
+|	|   |puppet-agent  |brew cask install puppet-agent|
+|	|   |purevpn  |brew cask install purevpn|
+|	|   |pusher  |brew cask install pusher|
+|	|   |putio-adder  |brew cask install putio-adder|
+|	|   |putiosync  |brew cask install putiosync|
+|	|   |puush  |brew cask install puush|
+|	|   |puzzles  |brew cask install puzzles|
+|	|   |pwnagetool  |brew cask install pwnagetool|
+|	|   |pycharm-ce  |brew cask install pycharm-ce|
+|	|   |pycharm-edu  |brew cask install pycharm-edu|
+|	|   |pycharm  |brew cask install pycharm|
+|	|   |pydiosync  |brew cask install pydiosync|
+|	|   |pyfa  |brew cask install pyfa|
+|	|   |pyzo  |brew cask install pyzo|
+|	|   |qbittorrent  |brew cask install qbittorrent|
+|	|   |qblocker  |brew cask install qblocker|
+|	|   |qbserve  |brew cask install qbserve|
+|	|   |qcad  |brew cask install qcad|
+|	|   |qcma  |brew cask install qcma|
+|	|   |qctools  |brew cask install qctools|
+|	|   |qdesktop  |brew cask install qdesktop|
+|	|   |qdslrdashboard  |brew cask install qdslrdashboard|
+|	|   |qfinder-pro  |brew cask install qfinder-pro|
+|	|   |qget  |brew cask install qget|
+|	|   |qgroundcontrol  |brew cask install qgroundcontrol|
+|	|   |qif-master  |brew cask install qif-master|
+|	|   |qingg  |brew cask install qingg|
+|	|   |qiniu-devtools  |brew cask install qiniu-devtools|
+|	|   |qiyimedia  |brew cask install qiyimedia|
+|	|   |ql-ansilove  |brew cask install ql-ansilove|
+|	|   |qlab  |brew cask install qlab|
+|	|   |qladdict  |brew cask install qladdict|
+|	|   |qlcolorcode  |brew cask install qlcolorcode|
+|	|   |qlcommonmark  |brew cask install qlcommonmark|
+|	|   |qldds  |brew cask install qldds|
+|	|   |qlfits  |brew cask install qlfits|
+|	|   |qlgradle  |brew cask install qlgradle|
+|	|   |qlimagesize  |brew cask install qlimagesize|
+|	|   |qlmarkdown  |brew cask install qlmarkdown|
+|	|   |qlmobi  |brew cask install qlmobi|
+|	|   |qlnetcdf  |brew cask install qlnetcdf|
+|	|   |qlplayground  |brew cask install qlplayground|
+|	|   |qlprettypatch  |brew cask install qlprettypatch|
+|	|   |qlrest  |brew cask install qlrest|
+|	|   |qlstephen  |brew cask install qlstephen|
+|	|   |qlswift  |brew cask install qlswift|
+|	|   |qlvideo  |brew cask install qlvideo|
+|	|   |qmapshack  |brew cask install qmapshack|
+|	|   |qmind  |brew cask install qmind|
+|	|   |qnapi  |brew cask install qnapi|
+|	|   |qobuz  |brew cask install qobuz|
+|	|   |qownnotes  |brew cask install qownnotes|
+|	|   |qq  |brew cask install qq|
+|	|   |qqbrowser  |brew cask install qqbrowser|
+|	|   |qqinput  |brew cask install qqinput|
+|	|   |qqlive  |brew cask install qqlive|
+|	|   |qqmacmgr  |brew cask install qqmacmgr|
+|	|   |qqmusic  |brew cask install qqmusic|
+|	|   |qr-journal  |brew cask install qr-journal|
+|	|   |qrfcview  |brew cask install qrfcview|
+|	|   |qrq  |brew cask install qrq|
+|	|   |qsync-client  |brew cask install qsync-client|
+|	|   |qsyncthingtray  |brew cask install qsyncthingtray|
+|	|   |qt-creator  |brew cask install qt-creator|
+|	|   |qtox  |brew cask install qtox|
+|	|   |qtpass  |brew cask install qtpass|
+|	|   |qtspim  |brew cask install qtspim|
+|	|   |quadrosync  |brew cask install quadrosync|
+|	|   |quail  |brew cask install quail|
+|	|   |quakespasm  |brew cask install quakespasm|
+|	|   |quassel-client  |brew cask install quassel-client|
+|	|   |quassel  |brew cask install quassel|
+|	|   |querious  |brew cask install querious|
+|	|   |quickbooks-online  |brew cask install quickbooks-online|
+|	|   |quickbooks  |brew cask install quickbooks|
+|	|   |quickboot  |brew cask install quickboot|
+|	|   |quickcal  |brew cask install quickcal|
+|	|   |quicken  |brew cask install quicken|
+|	|   |quickgeojson  |brew cask install quickgeojson|
+|	|   |quickhash  |brew cask install quickhash|
+|	|   |quickhue  |brew cask install quickhue|
+|	|   |quickjson  |brew cask install quickjson|
+|	|   |quicklock  |brew cask install quicklock|
+|	|   |quicklook-csv  |brew cask install quicklook-csv|
+|	|   |quicklook-json  |brew cask install quicklook-json|
+|	|   |quicklook-pat  |brew cask install quicklook-pat|
+|	|   |quicklook-pfm  |brew cask install quicklook-pfm|
+|	|   |quicklookapk  |brew cask install quicklookapk|
+|	|   |quicklookase  |brew cask install quicklookase|
+|	|   |quicknfo  |brew cask install quicknfo|
+|	|   |quickpvr  |brew cask install quickpvr|
+|	|   |quickradar  |brew cask install quickradar|
+|	|   |quicksilver  |brew cask install quicksilver|
+|	|   |quicksync  |brew cask install quicksync|
+|	|   |quik  |brew cask install quik|
+|	|   |quip  |brew cask install quip|
+|	|   |quitter  |brew cask install quitter|
+|	|   |quodlibet  |brew cask install quodlibet|
+|	|   |quotefix  |brew cask install quotefix|
+|	|   |qupzilla  |brew cask install qupzilla|
+|	|   |qutebrowser  |brew cask install qutebrowser|
+|	|   |qvod-player  |brew cask install qvod-player|
+|	|   |qz-tray  |brew cask install qz-tray|
+|	|   |r-app  |brew cask install r-app|
+|	|   |r-name  |brew cask install r-name|
+|	|   |r128x-gui  |brew cask install r128x-gui|
+|	|   |rabbitmq-app  |brew cask install rabbitmq-app|
+|	|   |race-for-the-galaxy  |brew cask install race-for-the-galaxy|
+|	|   |race-into-space  |brew cask install race-into-space|
+|	|   |racket  |brew cask install racket|
+|	|   |radarr  |brew cask install radarr|
+|	|   |radi  |brew cask install radi|
+|	|   |radiant-player  |brew cask install radiant-player|
+|	|   |radio-silence  |brew cask install radio-silence|
+|	|   |raindropio  |brew cask install raindropio|
+|	|   |rainlendar-pro  |brew cask install rainlendar-pro|
+|	|   |rambox  |brew cask install rambox|
+|	|   |ramme  |brew cask install ramme|
+|	|   |ransomwhere  |brew cask install ransomwhere|
+|	|   |rapidminer-studio  |brew cask install rapidminer-studio|
+|	|   |rapidweaver  |brew cask install rapidweaver|
+|	|   |raptor  |brew cask install raptor|
+|	|   |rar  |brew cask install rar|
+|	|   |rasoft  |brew cask install rasoft|
+|	|   |rationalplan-viewer  |brew cask install rationalplan-viewer|
+|	|   |raven-lite  |brew cask install raven-lite|
+|	|   |raven  |brew cask install raven|
+|	|   |raw-photo-processor  |brew cask install raw-photo-processor|
+|	|   |rawtherapee  |brew cask install rawtherapee|
+|	|   |razorsql  |brew cask install razorsql|
+|	|   |rb-app-checker-lite  |brew cask install rb-app-checker-lite|
+|	|   |rbtools  |brew cask install rbtools|
+|	|   |rcdefaultapp  |brew cask install rcdefaultapp|
+|	|   |rcenvironment  |brew cask install rcenvironment|
+|	|   |rclone-browser  |brew cask install rclone-browser|
+|	|   |react-native-debugger  |brew cask install react-native-debugger|
+|	|   |react-studio  |brew cask install react-studio|
+|	|   |reactotron  |brew cask install reactotron|
+|	|   |readcube  |brew cask install readcube|
+|	|   |readefine  |brew cask install readefine|
+|	|   |readytalk-desktop  |brew cask install readytalk-desktop|
+|	|   |readytalk  |brew cask install readytalk|
+|	|   |real-vnc  |brew cask install real-vnc|
+|	|   |realm-browser  |brew cask install realm-browser|
+|	|   |realm-studio  |brew cask install realm-studio|
+|	|   |reaper  |brew cask install reaper|
+|	|   |recd  |brew cask install recd|
+|	|   |receiptquicklook  |brew cask install receiptquicklook|
+|	|   |receipts  |brew cask install receipts|
+|	|   |receitanet  |brew cask install receitanet|
+|	|   |recent-menu  |brew cask install recent-menu|
+|	|   |recordit  |brew cask install recordit|
+|	|   |recovery-disk-assistant  |brew cask install recovery-disk-assistant|
+|	|   |red  |brew cask install red|
+|	|   |redcine-x-pro  |brew cask install redcine-x-pro|
+|	|   |redis-app  |brew cask install redis-app|
+|	|   |redkik  |brew cask install redkik|
+|	|   |reduce  |brew cask install reduce|
+|	|   |reeddit  |brew cask install reeddit|
+|	|   |reflector  |brew cask install reflector|
+|	|   |regexhibit  |brew cask install regexhibit|
+|	|   |reggy  |brew cask install reggy|
+|	|   |rekordbox  |brew cask install rekordbox|
+|	|   |relativewave-form  |brew cask install relativewave-form|
+|	|   |relaunch64  |brew cask install relaunch64|
+|	|   |remarkable  |brew cask install remarkable|
+|	|   |rember  |brew cask install rember|
+|	|   |remembear  |brew cask install remembear|
+|	|   |remember-the-milk  |brew cask install remember-the-milk|
+|	|   |remomix  |brew cask install remomix|
+|	|   |remonit  |brew cask install remonit|
+|	|   |remote-buddy  |brew cask install remote-buddy|
+|	|   |remote-desktop-manager  |brew cask install remote-desktop-manager|
+|	|   |remote-mouse  |brew cask install remote-mouse|
+|	|   |remote-play  |brew cask install remote-play|
+|	|   |remoteviewer  |brew cask install remoteviewer|
+|	|   |renamer  |brew cask install renamer|
+|	|   |renpy  |brew cask install renpy|
+|	|   |repetier-host  |brew cask install repetier-host|
+|	|   |reqlpro  |brew cask install reqlpro|
+|	|   |rescuetime  |brew cask install rescuetime|
+|	|   |resilio-sync  |brew cask install resilio-sync|
+|	|   |resolume-arena  |brew cask install resolume-arena|
+|	|   |resolume-avenue  |brew cask install resolume-avenue|
+|	|   |resolutionator  |brew cask install resolutionator|
+|	|   |rest-time  |brew cask install rest-time|
+|	|   |rest  |brew cask install rest|
+|	|   |restool  |brew cask install restool|
+|	|   |resxtreme  |brew cask install resxtreme|
+|	|   |retas-studio  |brew cask install retas-studio|
+|	|   |retini  |brew cask install retini|
+|	|   |retinizer  |brew cask install retinizer|
+|	|   |retro-virtual-machine  |brew cask install retro-virtual-machine|
+|	|   |retroarch-cg  |brew cask install retroarch-cg|
+|	|   |retroarch  |brew cask install retroarch|
+|	|   |retroshare  |brew cask install retroshare|
+|	|   |reveal  |brew cask install reveal|
+|	|   |review-sherlock  |brew cask install review-sherlock|
+|	|   |revisions  |brew cask install revisions|
+|	|   |rhinoceros  |brew cask install rhinoceros|
+|	|   |rhodes-kite  |brew cask install rhodes-kite|
+|	|   |ricochet  |brew cask install ricochet|
+|	|   |rider  |brew cask install rider|
+|	|   |ridibooks  |brew cask install ridibooks|
+|	|   |rightfont  |brew cask install rightfont|
+|	|   |rightzoom  |brew cask install rightzoom|
+|	|   |ring  |brew cask install ring|
+|	|   |ringcentral  |brew cask install ringcentral|
+|	|   |ringtones  |brew cask install ringtones|
+|	|   |riot  |brew cask install riot|
+|	|   |ripit  |brew cask install ripit|
+|	|   |ripple-wallet  |brew cask install ripple-wallet|
+|	|   |riverdesign-sparkle  |brew cask install riverdesign-sparkle|
+|	|   |riverflow  |brew cask install riverflow|
+|	|   |robo-3t  |brew cask install robo-3t|
+|	|   |robofont  |brew cask install robofont|
+|	|   |roboform  |brew cask install roboform|
+|	|   |rocket-chat  |brew cask install rocket-chat|
+|	|   |rocket  |brew cask install rocket|
+|	|   |rocketcake  |brew cask install rocketcake|
+|	|   |rocks-n-diamonds  |brew cask install rocks-n-diamonds|
+|	|   |rodeo  |brew cask install rodeo|
+|	|   |roger  |brew cask install roger|
+|	|   |roon  |brew cask install roon|
+|	|   |rosaimagewriter  |brew cask install rosaimagewriter|
+|	|   |rosetta-stone-totale  |brew cask install rosetta-stone-totale|
+|	|   |routebuddy  |brew cask install routebuddy|
+|	|   |routeconverter  |brew cask install routeconverter|
+|	|   |rowanj-gitx  |brew cask install rowanj-gitx|
+|	|   |rowmote-helper  |brew cask install rowmote-helper|
+|	|   |royal-tsx  |brew cask install royal-tsx|
+|	|   |rpn-scientific  |brew cask install rpn-scientific|
+|	|   |rq  |brew cask install rq|
+|	|   |rrootage  |brew cask install rrootage|
+|	|   |rss  |brew cask install rss|
+|	|   |rssowl  |brew cask install rssowl|
+|	|   |rstudio  |brew cask install rstudio|
+|	|   |rsyncosx  |brew cask install rsyncosx|
+|	|   |rtx  |brew cask install rtx|
+|	|   |rubitrack-pro  |brew cask install rubitrack-pro|
+|	|   |rubymine  |brew cask install rubymine|
+|	|   |rubymotion  |brew cask install rubymotion|
+|	|   |runescape  |brew cask install runescape|
+|	|   |runtastic-connect  |brew cask install runtastic-connect|
+|	|   |runtimebrowser  |brew cask install runtimebrowser|
+|	|   |rythem  |brew cask install rythem|
+|	|   |ryver  |brew cask install ryver|
+|	|   |sabaki  |brew cask install sabaki|
+|	|   |sabnzbd  |brew cask install sabnzbd|
+|	|   |sachsen  |brew cask install sachsen|
+|	|   |safari-tab-switching  |brew cask install safari-tab-switching|
+|	|   |safaricookiecutter  |brew cask install safaricookiecutter|
+|	|   |safarisort  |brew cask install safarisort|
+|	|   |safe  |brew cask install safe|
+|	|   |safeincloud-password-manager  |brew cask install safeincloud-password-manager|
+|	|   |sage  |brew cask install sage|
+|	|   |salesx  |brew cask install salesx|
+|	|   |sandman  |brew cask install sandman|
+|	|   |sandvox  |brew cask install sandvox|
+|	|   |santa  |brew cask install santa|
+|	|   |saoimage-ds9  |brew cask install saoimage-ds9|
+|	|   |sassquatch  |brew cask install sassquatch|
+|	|   |satellite-eyes  |brew cask install satellite-eyes|
+|	|   |sauce-connect  |brew cask install sauce-connect|
+|	|   |sauce  |brew cask install sauce|
+|	|   |sauerbraten  |brew cask install sauerbraten|
+|	|   |save-hollywood  |brew cask install save-hollywood|
+|	|   |savoir-faire-linux-ring  |brew cask install savoir-faire-linux-ring|
+|	|   |sbrowserq  |brew cask install sbrowserq|
+|	|   |scala-ide  |brew cask install scala-ide|
+|	|   |scansion  |brew cask install scansion|
+|	|   |scap-workbench  |brew cask install scap-workbench|
+|	|   |scapple  |brew cask install scapple|
+|	|   |scenebuilder  |brew cask install scenebuilder|
+|	|   |scenery  |brew cask install scenery|
+|	|   |schnapps  |brew cask install schnapps|
+|	|   |scidvsmac  |brew cask install scidvsmac|
+|	|   |sciencefair  |brew cask install sciencefair|
+|	|   |scilab  |brew cask install scilab|
+|	|   |scopebox  |brew cask install scopebox|
+|	|   |scout  |brew cask install scout|
+|	|   |scrabble3d  |brew cask install scrabble3d|
+|	|   |scratch  |brew cask install scratch|
+|	|   |screaming-frog-seo-spider  |brew cask install screaming-frog-seo-spider|
+|	|   |screen-blacker  |brew cask install screen-blacker|
+|	|   |screencast  |brew cask install screencast|
+|	|   |screencat  |brew cask install screencat|
+|	|   |screenflick  |brew cask install screenflick|
+|	|   |screenflow  |brew cask install screenflow|
+|	|   |screenmailer  |brew cask install screenmailer|
+|	|   |screenotate  |brew cask install screenotate|
+|	|   |screens-connect  |brew cask install screens-connect|
+|	|   |screens  |brew cask install screens|
+|	|   |screenshot-designer  |brew cask install screenshot-designer|
+|	|   |screensleeves  |brew cask install screensleeves|
+|	|   |screenstagram  |brew cask install screenstagram|
+|	|   |screensteps  |brew cask install screensteps|
+|	|   |scribbleton  |brew cask install scribbleton|
+|	|   |scribus  |brew cask install scribus|
+|	|   |script-debugger  |brew cask install script-debugger|
+|	|   |scriptql  |brew cask install scriptql|
+|	|   |scrivener  |brew cask install scrivener|
+|	|   |scroll-reverser  |brew cask install scroll-reverser|
+|	|   |scrolls  |brew cask install scrolls|
+|	|   |scrutiny  |brew cask install scrutiny|
+|	|   |scummvm  |brew cask install scummvm|
+|	|   |scythebill  |brew cask install scythebill|
+|	|   |sdformatter  |brew cask install sdformatter|
+|	|   |sdrdx  |brew cask install sdrdx|
+|	|   |seafile-client  |brew cask install seafile-client|
+|	|   |seamonkey  |brew cask install seamonkey|
+|	|   |seashore  |brew cask install seashore|
+|	|   |second-life-viewer  |brew cask install second-life-viewer|
+|	|   |secure-pipes  |brew cask install secure-pipes|
+|	|   |securedownloadmanager  |brew cask install securedownloadmanager|
+|	|   |securesafe  |brew cask install securesafe|
+|	|   |securid  |brew cask install securid|
+|	|   |security-growler  |brew cask install security-growler|
+|	|   |securityspy  |brew cask install securityspy|
+|	|   |segmentant  |brew cask install segmentant|
+|	|   |seil  |brew cask install seil|
+|	|   |sejda-pdf  |brew cask install sejda-pdf|
+|	|   |sekey  |brew cask install sekey|
+|	|   |selfcontrol  |brew cask install selfcontrol|
+|	|   |selflanguage-self-control  |brew cask install selflanguage-self-control|
+|	|   |semaphor  |brew cask install semaphor|
+|	|   |semulov  |brew cask install semulov|
+|	|   |sencha  |brew cask install sencha|
+|	|   |sensiblesidebuttons  |brew cask install sensiblesidebuttons|
+|	|   |senuti  |brew cask install senuti|
+|	|   |sequel-pro  |brew cask install sequel-pro|
+|	|   |sequential  |brew cask install sequential|
+|	|   |sequin  |brew cask install sequin|
+|	|   |serial-tools  |brew cask install serial-tools|
+|	|   |serial  |brew cask install serial|
+|	|   |serialcloner  |brew cask install serialcloner|
+|	|   |servetome  |brew cask install servetome|
+|	|   |serviio  |brew cask install serviio|
+|	|   |servo  |brew cask install servo|
+|	|   |setapp  |brew cask install setapp|
+|	|   |sfdx  |brew cask install sfdx|
+|	|   |shades  |brew cask install shades|
+|	|   |shadowsocksx-ng  |brew cask install shadowsocksx-ng|
+|	|   |shadowsocksx  |brew cask install shadowsocksx|
+|	|   |shadowsweeper  |brew cask install shadowsweeper|
+|	|   |shady  |brew cask install shady|
+|	|   |shapes  |brew cask install shapes|
+|	|   |sharemouse  |brew cask install sharemouse|
+|	|   |sharepod  |brew cask install sharepod|
+|	|   |sharepointbrowserplugin  |brew cask install sharepointbrowserplugin|
+|	|   |shazzlemailclient  |brew cask install shazzlemailclient|
+|	|   |shelf-leveler  |brew cask install shelf-leveler|
+|	|   |shellhere  |brew cask install shellhere|
+|	|   |shiba  |brew cask install shiba|
+|	|   |shiftit  |brew cask install shiftit|
+|	|   |shifty  |brew cask install shifty|
+|	|   |shimeike-formulatepro  |brew cask install shimeike-formulatepro|
+|	|   |shimo  |brew cask install shimo|
+|	|   |shiori  |brew cask install shiori|
+|	|   |shoes  |brew cask install shoes|
+|	|   |short-menu  |brew cask install short-menu|
+|	|   |shortcat  |brew cask install shortcat|
+|	|   |shortcuts  |brew cask install shortcuts|
+|	|   |shotcut  |brew cask install shotcut|
+|	|   |showyedge  |brew cask install showyedge|
+|	|   |shrinkit  |brew cask install shrinkit|
+|	|   |shruplay  |brew cask install shruplay|
+|	|   |shupapan  |brew cask install shupapan|
+|	|   |shuttle  |brew cask install shuttle|
+|	|   |sia-ui  |brew cask install sia-ui|
+|	|   |sickbeard-anime  |brew cask install sickbeard-anime|
+|	|   |sidekick  |brew cask install sidekick|
+|	|   |sidestep  |brew cask install sidestep|
+|	|   |sidneys-pb  |brew cask install sidneys-pb|
+|	|   |sierra-cache-cleaner  |brew cask install sierra-cache-cleaner|
+|	|   |sigil  |brew cask install sigil|
+|	|   |signal  |brew cask install signal|
+|	|   |silo  |brew cask install silo|
+|	|   |silverback  |brew cask install silverback|
+|	|   |silverlight  |brew cask install silverlight|
+|	|   |sim-daltonism  |brew cask install sim-daltonism|
+|	|   |simon  |brew cask install simon|
+|	|   |simpholders  |brew cask install simpholders|
+|	|   |simple-comic  |brew cask install simple-comic|
+|	|   |simple-css  |brew cask install simple-css|
+|	|   |simple-hub  |brew cask install simple-hub|
+|	|   |simplecap  |brew cask install simplecap|
+|	|   |simplefloatingclock  |brew cask install simplefloatingclock|
+|	|   |simplemoviex  |brew cask install simplemoviex|
+|	|   |simplenote  |brew cask install simplenote|
+|	|   |simpless  |brew cask install simpless|
+|	|   |simplesynth  |brew cask install simplesynth|
+|	|   |simpletag  |brew cask install simpletag|
+|	|   |simplifyextras  |brew cask install simplifyextras|
+|	|   |simplistic  |brew cask install simplistic|
+|	|   |simply-fortran  |brew cask install simply-fortran|
+|	|   |simsim  |brew cask install simsim|
+|	|   |singularity  |brew cask install singularity|
+|	|   |sip  |brew cask install sip|
+|	|   |sirimote  |brew cask install sirimote|
+|	|   |sixtyforce  |brew cask install sixtyforce|
+|	|   |sizeup  |brew cask install sizeup|
+|	|   |sizzlingkeys  |brew cask install sizzlingkeys|
+|	|   |skadi  |brew cask install skadi|
+|	|   |skala-preview  |brew cask install skala-preview|
+|	|   |sketch-toolbox  |brew cask install sketch-toolbox|
+|	|   |sketch  |brew cask install sketch|
+|	|   |sketchbook  |brew cask install sketchbook|
+|	|   |sketchpacks  |brew cask install sketchpacks|
+|	|   |sketchup-pro  |brew cask install sketchup-pro|
+|	|   |sketchup  |brew cask install sketchup|
+|	|   |sketchupviewer  |brew cask install sketchupviewer|
+|	|   |skim  |brew cask install skim|
+|	|   |skitch  |brew cask install skitch|
+|	|   |skreenics  |brew cask install skreenics|
+|	|   |skyfonts  |brew cask install skyfonts|
+|	|   |skype-for-business  |brew cask install skype-for-business|
+|	|   |skype  |brew cask install skype|
+|	|   |skypewebplugin  |brew cask install skypewebplugin|
+|	|   |slack  |brew cask install slack|
+|	|   |slate  |brew cask install slate|
+|	|   |sleep-monitor  |brew cask install sleep-monitor|
+|	|   |sleepyhead  |brew cask install sleepyhead|
+|	|   |sleipnir  |brew cask install sleipnir|
+|	|   |slender  |brew cask install slender|
+|	|   |slic3r  |brew cask install slic3r|
+|	|   |slice  |brew cask install slice|
+|	|   |slicer  |brew cask install slicer|
+|	|   |slicy  |brew cask install slicy|
+|	|   |slimbatterymonitor  |brew cask install slimbatterymonitor|
+|	|   |sling  |brew cask install sling|
+|	|   |slingplayer  |brew cask install slingplayer|
+|	|   |slingshot  |brew cask install slingshot|
+|	|   |sloth  |brew cask install sloth|
+|	|   |smaller  |brew cask install smaller|
+|	|   |smallpdf  |brew cask install smallpdf|
+|	|   |smart-scroll  |brew cask install smart-scroll|
+|	|   |smart-trash  |brew cask install smart-trash|
+|	|   |smartconverter  |brew cask install smartconverter|
+|	|   |smartcutter  |brew cask install smartcutter|
+|	|   |smartgit  |brew cask install smartgit|
+|	|   |smartsvn  |brew cask install smartsvn|
+|	|   |smartsynchronize  |brew cask install smartsynchronize|
+|	|   |smcfancontrol  |brew cask install smcfancontrol|
+|	|   |smoothmouse  |brew cask install smoothmouse|
+|	|   |smooze  |brew cask install smooze|
+|	|   |snagit  |brew cask install snagit|
+|	|   |snapheal-ck  |brew cask install snapheal-ck|
+|	|   |snapndrag  |brew cask install snapndrag|
+|	|   |snappy  |brew cask install snappy|
+|	|   |snapz-pro-x  |brew cask install snapz-pro-x|
+|	|   |snes9x  |brew cask install snes9x|
+|	|   |snip  |brew cask install snip|
+|	|   |snipaste  |brew cask install snipaste|
+|	|   |snippet-edit  |brew cask install snippet-edit|
+|	|   |snippets  |brew cask install snippets|
+|	|   |snowflake-snowsql  |brew cask install snowflake-snowsql|
+|	|   |soapui  |brew cask install soapui|
+|	|   |socket-io-tester  |brew cask install socket-io-tester|
+|	|   |sococo  |brew cask install sococo|
+|	|   |soda-player  |brew cask install soda-player|
+|	|   |softorino-youtube-converter  |brew cask install softorino-youtube-converter|
+|	|   |softraid  |brew cask install softraid|
+|	|   |softu2f  |brew cask install softu2f|
+|	|   |sogouinput  |brew cask install sogouinput|
+|	|   |soleol  |brew cask install soleol|
+|	|   |solvespace  |brew cask install solvespace|
+|	|   |sonarr-menu  |brew cask install sonarr-menu|
+|	|   |sonarr  |brew cask install sonarr|
+|	|   |sonic-pi  |brew cask install sonic-pi|
+|	|   |sonic-visualiser  |brew cask install sonic-visualiser|
+|	|   |sonoair  |brew cask install sonoair|
+|	|   |sookasa  |brew cask install sookasa|
+|	|   |sopcast  |brew cask install sopcast|
+|	|   |soqlxplorer  |brew cask install soqlxplorer|
+|	|   |soube  |brew cask install soube|
+|	|   |soulseek  |brew cask install soulseek|
+|	|   |soulver  |brew cask install soulver|
+|	|   |sound-control  |brew cask install sound-control|
+|	|   |sound-siphon  |brew cask install sound-siphon|
+|	|   |soundcleod  |brew cask install soundcleod|
+|	|   |soundcloud-downloader  |brew cask install soundcloud-downloader|
+|	|   |soundflower  |brew cask install soundflower|
+|	|   |soundflowerbed  |brew cask install soundflowerbed|
+|	|   |soundmate  |brew cask install soundmate|
+|	|   |soundnode  |brew cask install soundnode|
+|	|   |soundnote  |brew cask install soundnote|
+|	|   |soundplant  |brew cask install soundplant|
+|	|   |soundsource  |brew cask install soundsource|
+|	|   |soundstand  |brew cask install soundstand|
+|	|   |soundtoys  |brew cask install soundtoys|
+|	|   |sourcetree  |brew cask install sourcetree|
+|	|   |spacelauncher  |brew cask install spacelauncher|
+|	|   |spacemonkey  |brew cask install spacemonkey|
+|	|   |spaceradar  |brew cask install spaceradar|
+|	|   |spacious  |brew cask install spacious|
+|	|   |spamsieve  |brew cask install spamsieve|
+|	|   |spark-inspector  |brew cask install spark-inspector|
+|	|   |spark  |brew cask install spark|
+|	|   |sparkle  |brew cask install sparkle|
+|	|   |sparkleshare  |brew cask install sparkleshare|
+|	|   |spatial  |brew cask install spatial|
+|	|   |spatterlight  |brew cask install spatterlight|
+|	|   |spear  |brew cask install spear|
+|	|   |spechtlite  |brew cask install spechtlite|
+|	|   |spectacle-editor  |brew cask install spectacle-editor|
+|	|   |spectacle  |brew cask install spectacle|
+|	|   |speechify  |brew cask install speechify|
+|	|   |speedcrunch  |brew cask install speedcrunch|
+|	|   |speedify  |brew cask install speedify|
+|	|   |speeds-at-ver  |brew cask install speeds-at-ver|
+|	|   |speedy  |brew cask install speedy|
+|	|   |spek  |brew cask install spek|
+|	|   |spideroakone  |brew cask install spideroakone|
+|	|   |spillo  |brew cask install spillo|
+|	|   |splashtop-business  |brew cask install splashtop-business|
+|	|   |splashtop-personal  |brew cask install splashtop-personal|
+|	|   |splashtop-streamer  |brew cask install splashtop-streamer|
+|	|   |splayerx  |brew cask install splayerx|
+|	|   |splice  |brew cask install splice|
+|	|   |splitshow  |brew cask install splitshow|
+|	|   |spotdox  |brew cask install spotdox|
+|	|   |spotifree  |brew cask install spotifree|
+|	|   |spotify-notifications  |brew cask install spotify-notifications|
+|	|   |spotify  |brew cask install spotify|
+|	|   |spotmenu  |brew cask install spotmenu|
+|	|   |spreaker-studio  |brew cask install spreaker-studio|
+|	|   |spriteilluminator  |brew cask install spriteilluminator|
+|	|   |sql-operations-studio  |brew cask install sql-operations-studio|
+|	|   |sql-power-architect-jdbc  |brew cask install sql-power-architect-jdbc|
+|	|   |sql-tabs  |brew cask install sql-tabs|
+|	|   |sqlectron  |brew cask install sqlectron|
+|	|   |sqleditor  |brew cask install sqleditor|
+|	|   |sqlexplorer  |brew cask install sqlexplorer|
+|	|   |sqlitemanager  |brew cask install sqlitemanager|
+|	|   |sqlitestudio  |brew cask install sqlitestudio|
+|	|   |sqlpro-for-mssql  |brew cask install sqlpro-for-mssql|
+|	|   |sqlpro-for-mysql  |brew cask install sqlpro-for-mysql|
+|	|   |sqlpro-for-postgres  |brew cask install sqlpro-for-postgres|
+|	|   |sqlpro-for-sqlite  |brew cask install sqlpro-for-sqlite|
+|	|   |sqlpro-studio  |brew cask install sqlpro-studio|
+|	|   |sqlworkbenchj  |brew cask install sqlworkbenchj|
+|	|   |squad  |brew cask install squad|
+|	|   |squeak  |brew cask install squeak|
+|	|   |squidman  |brew cask install squidman|
+|	|   |squire  |brew cask install squire|
+|	|   |squirrel  |brew cask install squirrel|
+|	|   |squirrelsql  |brew cask install squirrelsql|
+|	|   |srware-iron  |brew cask install srware-iron|
+|	|   |ssh-tunnel-manager  |brew cask install ssh-tunnel-manager|
+|	|   |stack-exchange-notifier  |brew cask install stack-exchange-notifier|
+|	|   |stack  |brew cask install stack|
+|	|   |stackato  |brew cask install stackato|
+|	|   |stackroom  |brew cask install stackroom|
+|	|   |stamp  |brew cask install stamp|
+|	|   |stand  |brew cask install stand|
+|	|   |standard-notes  |brew cask install standard-notes|
+|	|   |staraccess  |brew cask install staraccess|
+|	|   |starcraft  |brew cask install starcraft|
+|	|   |stargazer  |brew cask install stargazer|
+|	|   |starleaf-breeze  |brew cask install starleaf-breeze|
+|	|   |starleaf  |brew cask install starleaf|
+|	|   |startninja  |brew cask install startninja|
+|	|   |startupizer  |brew cask install startupizer|
+|	|   |staruml  |brew cask install staruml|
+|	|   |station  |brew cask install station|
+|	|   |stattransfer  |brew cask install stattransfer|
+|	|   |statusfy  |brew cask install statusfy|
+|	|   |stay  |brew cask install stay|
+|	|   |steam  |brew cask install steam|
+|	|   |steamcmd  |brew cask install steamcmd|
+|	|   |steermouse  |brew cask install steermouse|
+|	|   |stella  |brew cask install stella|
+|	|   |stellarium  |brew cask install stellarium|
+|	|   |stemcreator  |brew cask install stemcreator|
+|	|   |stepmania  |brew cask install stepmania|
+|	|   |stereo-tool  |brew cask install stereo-tool|
+|	|   |steveschow-gfxcardstatus  |brew cask install steveschow-gfxcardstatus|
+|	|   |sticker  |brew cask install sticker|
+|	|   |stockbarjp  |brew cask install stockbarjp|
+|	|   |story-writer  |brew cask install story-writer|
+|	|   |storyboarder  |brew cask install storyboarder|
+|	|   |streakerbar  |brew cask install streakerbar|
+|	|   |streamlink-twitch-gui  |brew cask install streamlink-twitch-gui|
+|	|   |streamtools  |brew cask install streamtools|
+|	|   |stremio  |brew cask install stremio|
+|	|   |stretchly  |brew cask install stretchly|
+|	|   |stride  |brew cask install stride|
+|	|   |stringsfile  |brew cask install stringsfile|
+|	|   |strongvpn-client  |brew cask install strongvpn-client|
+|	|   |structurer  |brew cask install structurer|
+|	|   |sts  |brew cask install sts|
+|	|   |studio-3t  |brew cask install studio-3t|
+|	|   |studiolinkcomponent  |brew cask install studiolinkcomponent|
+|	|   |studiolinkstandalone  |brew cask install studiolinkstandalone|
+|	|   |stykz  |brew cask install stykz|
+|	|   |subclassed-mnemosyne  |brew cask install subclassed-mnemosyne|
+|	|   |subgit  |brew cask install subgit|
+|	|   |subler  |brew cask install subler|
+|	|   |sublercli  |brew cask install sublercli|
+|	|   |sublime-text  |brew cask install sublime-text|
+|	|   |sublime  |brew cask install sublime|
+|	|   |subnetcalc  |brew cask install subnetcalc|
+|	|   |subsmarine  |brew cask install subsmarine|
+|	|   |subsurface  |brew cask install subsurface|
+|	|   |subtitle-master  |brew cask install subtitle-master|
+|	|   |subtitles  |brew cask install subtitles|
+|	|   |subutaip2p  |brew cask install subutaip2p|
+|	|   |subutaitray  |brew cask install subutaitray|
+|	|   |sugarsync  |brew cask install sugarsync|
+|	|   |suidguardng  |brew cask install suidguardng|
+|	|   |suitcase-fusion  |brew cask install suitcase-fusion|
+|	|   |sumbolon  |brew cask install sumbolon|
+|	|   |sunlogin-remote  |brew cask install sunlogin-remote|
+|	|   |sunvox  |brew cask install sunvox|
+|	|   |supaview  |brew cask install supaview|
+|	|   |super-otr  |brew cask install super-otr|
+|	|   |superbeam  |brew cask install superbeam|
+|	|   |supercollider  |brew cask install supercollider|
+|	|   |superduper  |brew cask install superduper|
+|	|   |superhuman  |brew cask install superhuman|
+|	|   |supersync  |brew cask install supersync|
+|	|   |supertuxkart  |brew cask install supertuxkart|
+|	|   |surfeasy-vpn  |brew cask install surfeasy-vpn|
+|	|   |surge  |brew cask install surge|
+|	|   |suspicious-package  |brew cask install suspicious-package|
+|	|   |svgcleaner  |brew cask install svgcleaner|
+|	|   |svnx  |brew cask install svnx|
+|	|   |sweet-home3d  |brew cask install sweet-home3d|
+|	|   |swift-clean  |brew cask install swift-clean|
+|	|   |swift-explorer  |brew cask install swift-explorer|
+|	|   |swift-publisher  |brew cask install swift-publisher|
+|	|   |swift  |brew cask install swift|
+|	|   |swiftybeaver  |brew cask install swiftybeaver|
+|	|   |swikauthor  |brew cask install swikauthor|
+|	|   |swimat  |brew cask install swimat|
+|	|   |swinsian  |brew cask install swinsian|
+|	|   |switch  |brew cask install switch|
+|	|   |switchhosts  |brew cask install switchhosts|
+|	|   |switchresx  |brew cask install switchresx|
+|	|   |switchup  |brew cask install switchup|
+|	|   |sylo  |brew cask install sylo|
+|	|   |symboliclinker  |brew cask install symboliclinker|
+|	|   |synalyze-it-pro  |brew cask install synalyze-it-pro|
+|	|   |sync-my-l2p  |brew cask install sync-my-l2p|
+|	|   |sync  |brew cask install sync|
+|	|   |syncany  |brew cask install syncany|
+|	|   |syncmate  |brew cask install syncmate|
+|	|   |syncterm  |brew cask install syncterm|
+|	|   |syncthing-bar  |brew cask install syncthing-bar|
+|	|   |synergy  |brew cask install synergy|
+|	|   |synth1-au  |brew cask install synth1-au|
+|	|   |synth1-vst  |brew cask install synth1-vst|
+|	|   |synthesia  |brew cask install synthesia|
+|	|   |syphon-virtual-screen  |brew cask install syphon-virtual-screen|
+|	|   |syrinscape  |brew cask install syrinscape|
+|	|   |sysdig-inspect  |brew cask install sysdig-inspect|
+|	|   |sysex-librarian  |brew cask install sysex-librarian|
+|	|   |tablauncher  |brew cask install tablauncher|
+|	|   |table-tool  |brew cask install table-tool|
+|	|   |tableau-public  |brew cask install tableau-public|
+|	|   |tableau-reader  |brew cask install tableau-reader|
+|	|   |tableau  |brew cask install tableau|
+|	|   |tableedit  |brew cask install tableedit|
+|	|   |tableflip  |brew cask install tableflip|
+|	|   |tableplus  |brew cask install tableplus|
+|	|   |tabula  |brew cask install tabula|
+|	|   |tad  |brew cask install tad|
+|	|   |tag  |brew cask install tag|
+|	|   |tagaini-jisho  |brew cask install tagaini-jisho|
+|	|   |tagalicious  |brew cask install tagalicious|
+|	|   |tagant  |brew cask install tagant|
+|	|   |tagger  |brew cask install tagger|
+|	|   |tagspaces  |brew cask install tagspaces|
+|	|   |tal-chorus-lx  |brew cask install tal-chorus-lx|
+|	|   |tales-of-majeyal  |brew cask install tales-of-majeyal|
+|	|   |tangerine  |brew cask install tangerine|
+|	|   |tanki-online  |brew cask install tanki-online|
+|	|   |tankix  |brew cask install tankix|
+|	|   |tap-bpm  |brew cask install tap-bpm|
+|	|   |tap  |brew cask install tap|
+|	|   |tapaal  |brew cask install tapaal|
+|	|   |taskade  |brew cask install taskade|
+|	|   |taskexplorer  |brew cask install taskexplorer|
+|	|   |taskpaper  |brew cask install taskpaper|
+|	|   |taskr  |brew cask install taskr|
+|	|   |taskwarrior-pomodoro  |brew cask install taskwarrior-pomodoro|
+|	|   |tateditor  |brew cask install tateditor|
+|	|   |tau  |brew cask install tau|
+|	|   |tcl  |brew cask install tcl|
+|	|   |td-agent  |brew cask install td-agent|
+|	|   |td-toolbelt  |brew cask install td-toolbelt|
+|	|   |teambition  |brew cask install teambition|
+|	|   |teamdeck  |brew cask install teamdeck|
+|	|   |teamdrive  |brew cask install teamdrive|
+|	|   |teamspeak-client  |brew cask install teamspeak-client|
+|	|   |teamsql  |brew cask install teamsql|
+|	|   |teamviewer-host  |brew cask install teamviewer-host|
+|	|   |teamviewer-quickjoin  |brew cask install teamviewer-quickjoin|
+|	|   |teamviewer-quicksupport  |brew cask install teamviewer-quicksupport|
+|	|   |teamviewer-supportcollector  |brew cask install teamviewer-supportcollector|
+|	|   |teamviewer  |brew cask install teamviewer|
+|	|   |teamviz  |brew cask install teamviz|
+|	|   |teensy  |brew cask install teensy|
+|	|   |teeworlds  |brew cask install teeworlds|
+|	|   |teitoku  |brew cask install teitoku|
+|	|   |telegram-desktop  |brew cask install telegram-desktop|
+|	|   |telegram  |brew cask install telegram|
+|	|   |temperature-monitor  |brew cask install temperature-monitor|
+|	|   |tenor  |brew cask install tenor|
+|	|   |termhere  |brew cask install termhere|
+|	|   |terminology  |brew cask install terminology|
+|	|   |terminus  |brew cask install terminus|
+|	|   |teseve  |brew cask install teseve|
+|	|   |testnav  |brew cask install testnav|
+|	|   |tether  |brew cask install tether|
+|	|   |tex-live-utility  |brew cask install tex-live-utility|
+|	|   |texmacs  |brew cask install texmacs|
+|	|   |texmaker  |brew cask install texmaker|
+|	|   |texnicle  |brew cask install texnicle|
+|	|   |texpad  |brew cask install texpad|
+|	|   |texshop  |brew cask install texshop|
+|	|   |texstudio  |brew cask install texstudio|
+|	|   |textadept  |brew cask install textadept|
+|	|   |textbar  |brew cask install textbar|
+|	|   |textexpander  |brew cask install textexpander|
+|	|   |textmate  |brew cask install textmate|
+|	|   |texts  |brew cask install texts|
+|	|   |textsoap  |brew cask install textsoap|
+|	|   |textual  |brew cask install textual|
+|	|   |texturepacker  |brew cask install texturepacker|
+|	|   |texworks  |brew cask install texworks|
+|	|   |tftpserver  |brew cask install tftpserver|
+|	|   |tg-pro  |brew cask install tg-pro|
+|	|   |th-makerx  |brew cask install th-makerx|
+|	|   |the-archive-browser  |brew cask install the-archive-browser|
+|	|   |the-cheat  |brew cask install the-cheat|
+|	|   |the-clock  |brew cask install the-clock|
+|	|   |the-escapers-flux  |brew cask install the-escapers-flux|
+|	|   |the-hit-list  |brew cask install the-hit-list|
+|	|   |the-mut  |brew cask install the-mut|
+|	|   |the-tagger  |brew cask install the-tagger|
+|	|   |the-unarchiver  |brew cask install the-unarchiver|
+|	|   |the-ur-quan-masters  |brew cask install the-ur-quan-masters|
+|	|   |thebrain  |brew cask install thebrain|
+|	|   |theine  |brew cask install theine|
+|	|   |themeengine  |brew cask install themeengine|
+|	|   |therm  |brew cask install therm|
+|	|   |thetube  |brew cask install thetube|
+|	|   |thingsmacsandboxhelper  |brew cask install thingsmacsandboxhelper|
+|	|   |thington  |brew cask install thington|
+|	|   |thinkorswim  |brew cask install thinkorswim|
+|	|   |thisservice  |brew cask install thisservice|
+|	|   |thonny  |brew cask install thonny|
+|	|   |thrustshell  |brew cask install thrustshell|
+|	|   |thumbsup  |brew cask install thumbsup|
+|	|   |thunder  |brew cask install thunder|
+|	|   |thunderbird  |brew cask install thunderbird|
+|	|   |thyme  |brew cask install thyme|
+|	|   |ti-connect-ce  |brew cask install ti-connect-ce|
+|	|   |tibco-jaspersoft-studio  |brew cask install tibco-jaspersoft-studio|
+|	|   |tickets  |brew cask install tickets|
+|	|   |tickeys  |brew cask install tickeys|
+|	|   |ticktick  |brew cask install ticktick|
+|	|   |tidal  |brew cask install tidal|
+|	|   |tiddly  |brew cask install tiddly|
+|	|   |tifig  |brew cask install tifig|
+|	|   |tigervnc-viewer  |brew cask install tigervnc-viewer|
+|	|   |tigervpn  |brew cask install tigervpn|
+|	|   |tikz-editor  |brew cask install tikz-editor|
+|	|   |tikzit  |brew cask install tikzit|
+|	|   |tiled  |brew cask install tiled|
+|	|   |tilemill  |brew cask install tilemill|
+|	|   |time-lapse-assembler  |brew cask install time-lapse-assembler|
+|	|   |time-out  |brew cask install time-out|
+|	|   |time-sink  |brew cask install time-sink|
+|	|   |time-tracker  |brew cask install time-tracker|
+|	|   |timecamp  |brew cask install timecamp|
+|	|   |timeedition  |brew cask install timeedition|
+|	|   |timely  |brew cask install timely|
+|	|   |timemachineeditor  |brew cask install timemachineeditor|
+|	|   |timemachinescheduler  |brew cask install timemachinescheduler|
+|	|   |timer  |brew cask install timer|
+|	|   |timestamp  |brew cask install timestamp|
+|	|   |timing  |brew cask install timing|
+|	|   |timings  |brew cask install timings|
+|	|   |tinderbox  |brew cask install tinderbox|
+|	|   |tiny  |brew cask install tiny|
+|	|   |tinymediamanager  |brew cask install tinymediamanager|
+|	|   |tinyumbrella  |brew cask install tinyumbrella|
+|	|   |tipp10  |brew cask install tipp10|
+|	|   |tiptyper  |brew cask install tiptyper|
+|	|   |tistoryeditor  |brew cask install tistoryeditor|
+|	|   |tla-plus-toolbox  |brew cask install tla-plus-toolbox|
+|	|   |tn5250  |brew cask install tn5250|
+|	|   |tnefs-enough  |brew cask install tnefs-enough|
+|	|   |toau  |brew cask install toau|
+|	|   |tocaro  |brew cask install tocaro|
+|	|   |today-scripts  |brew cask install today-scripts|
+|	|   |todometer  |brew cask install todometer|
+|	|   |todos  |brew cask install todos|
+|	|   |todotxt  |brew cask install todotxt|
+|	|   |todour  |brew cask install todour|
+|	|   |tofu  |brew cask install tofu|
+|	|   |together  |brew cask install together|
+|	|   |toggl  |brew cask install toggl|
+|	|   |toji  |brew cask install toji|
+|	|   |tokaido  |brew cask install tokaido|
+|	|   |tokens  |brew cask install tokens|
+|	|   |tomighty  |brew cask install tomighty|
+|	|   |toneprint  |brew cask install toneprint|
+|	|   |tongbu  |brew cask install tongbu|
+|	|   |tonido  |brew cask install tonido|
+|	|   |tonidosync  |brew cask install tonidosync|
+|	|   |toodledo  |brew cask install toodledo|
+|	|   |toontown-rewritten  |brew cask install toontown-rewritten|
+|	|   |topcat  |brew cask install topcat|
+|	|   |torbrowser  |brew cask install torbrowser|
+|	|   |torguard  |brew cask install torguard|
+|	|   |tormessenger  |brew cask install tormessenger|
+|	|   |torrent-file-editor  |brew cask install torrent-file-editor|
+|	|   |tortoisehg  |brew cask install tortoisehg|
+|	|   |torustrooper  |brew cask install torustrooper|
+|	|   |totals  |brew cask install totals|
+|	|   |touch-bar-pong  |brew cask install touch-bar-pong|
+|	|   |touch-bar-simulator  |brew cask install touch-bar-simulator|
+|	|   |touchbarserver  |brew cask install touchbarserver|
+|	|   |touchdesigner  |brew cask install touchdesigner|
+|	|   |touche  |brew cask install touche|
+|	|   |touchosc-bridge  |brew cask install touchosc-bridge|
+|	|   |touchosc-editor  |brew cask install touchosc-editor|
+|	|   |touchswitcher  |brew cask install touchswitcher|
+|	|   |tower  |brew cask install tower|
+|	|   |towerim-tower  |brew cask install towerim-tower|
+|	|   |track-o-bot  |brew cask install track-o-bot|
+|	|   |trailer  |brew cask install trailer|
+|	|   |trailrunner  |brew cask install trailrunner|
+|	|   |traktable  |brew cask install traktable|
+|	|   |tranquility  |brew cask install tranquility|
+|	|   |transmission-remote-gui  |brew cask install transmission-remote-gui|
+|	|   |transmission  |brew cask install transmission|
+|	|   |transmit-disk  |brew cask install transmit-disk|
+|	|   |transmit  |brew cask install transmit|
+|	|   |transporter  |brew cask install transporter|
+|	|   |transtype  |brew cask install transtype|
+|	|   |tranzport  |brew cask install tranzport|
+|	|   |trash-it  |brew cask install trash-it|
+|	|   |trayplay  |brew cask install trayplay|
+|	|   |treemaker  |brew cask install treemaker|
+|	|   |treesheets  |brew cask install treesheets|
+|	|   |trenchbroom  |brew cask install trenchbroom|
+|	|   |tresorit  |brew cask install tresorit|
+|	|   |trezor-bridge  |brew cask install trezor-bridge|
+|	|   |tribler  |brew cask install tribler|
+|	|   |trickster  |brew cask install trickster|
+|	|   |trifacta-wrangler  |brew cask install trifacta-wrangler|
+|	|   |trim-enabler  |brew cask install trim-enabler|
+|	|   |trim-ios-screenshots  |brew cask install trim-ios-screenshots|
+|	|   |tripmode  |brew cask install tripmode|
+|	|   |triumph  |brew cask install triumph|
+|	|   |trolcommander  |brew cask install trolcommander|
+|	|   |tropy  |brew cask install tropy|
+|	|   |truefire  |brew cask install truefire|
+|	|   |trufont  |brew cask install trufont|
+|	|   |trusteer-rapport  |brew cask install trusteer-rapport|
+|	|   |trym  |brew cask install trym|
+|	|   |tsprint  |brew cask install tsprint|
+|	|   |ttscoff-mmd-quicklook  |brew cask install ttscoff-mmd-quicklook|
+|	|   |tubbler  |brew cask install tubbler|
+|	|   |tubcloud  |brew cask install tubcloud|
+|	|   |tuck  |brew cask install tuck|
+|	|   |tuneinstructor  |brew cask install tuneinstructor|
+|	|   |tunnelbear  |brew cask install tunnelbear|
+|	|   |tunnelblick  |brew cask install tunnelblick|
+|	|   |tuntap  |brew cask install tuntap|
+|	|   |turbo-boost-switcher  |brew cask install turbo-boost-switcher|
+|	|   |turtl  |brew cask install turtl|
+|	|   |tusk  |brew cask install tusk|
+|	|   |tuxera-ntfs  |brew cask install tuxera-ntfs|
+|	|   |tuxguitar  |brew cask install tuxguitar|
+|	|   |tv-browser  |brew cask install tv-browser|
+|	|   |tvmobili  |brew cask install tvmobili|
+|	|   |tvrenamer  |brew cask install tvrenamer|
+|	|   |tvshows  |brew cask install tvshows|
+|	|   |tweeten  |brew cask install tweeten|
+|	|   |twelf  |brew cask install twelf|
+|	|   |twentytwo  |brew cask install twentytwo|
+|	|   |twindocs  |brew cask install twindocs|
+|	|   |twine  |brew cask install twine|
+|	|   |twist  |brew cask install twist|
+|	|   |twitch  |brew cask install twitch|
+|	|   |tyke  |brew cask install tyke|
+|	|   |typeit4me  |brew cask install typeit4me|
+|	|   |typewriter  |brew cask install typewriter|
+|	|   |typinator  |brew cask install typinator|
+|	|   |typora  |brew cask install typora|
+|	|   |tysimulator  |brew cask install tysimulator|
+|	|   |ubar  |brew cask install ubar|
+|	|   |uber-network-fuser  |brew cask install uber-network-fuser|
+|	|   |ubersicht  |brew cask install ubersicht|
+|	|   |udeler  |brew cask install udeler|
+|	|   |udig  |brew cask install udig|
+|	|   |ui-browser  |brew cask install ui-browser|
+|	|   |uielementinspector  |brew cask install uielementinspector|
+|	|   |ukelele  |brew cask install ukelele|
+|	|   |ukrainian-typographic-keyboard  |brew cask install ukrainian-typographic-keyboard|
+|	|   |ultimaker-cura  |brew cask install ultimaker-cura|
+|	|   |ultimate-control  |brew cask install ultimate-control|
+|	|   |ultimate  |brew cask install ultimate|
+|	|   |ultraedit  |brew cask install ultraedit|
+|	|   |ultrastardeluxe  |brew cask install ultrastardeluxe|
+|	|   |umsatz  |brew cask install umsatz|
+|	|   |uncolored  |brew cask install uncolored|
+|	|   |uncrustifyx  |brew cask install uncrustifyx|
+|	|   |undercover  |brew cask install undercover|
+|	|   |unetbootin  |brew cask install unetbootin|
+|	|   |unicodechecker  |brew cask install unicodechecker|
+|	|   |unicorns  |brew cask install unicorns|
+|	|   |unified-remote  |brew cask install unified-remote|
+|	|   |uninstallpkg  |brew cask install uninstallpkg|
+|	|   |unison  |brew cask install unison|
+|	|   |unity-android-support-for-editor  |brew cask install unity-android-support-for-editor|
+|	|   |unity-download-assistant  |brew cask install unity-download-assistant|
+|	|   |unity-ios-support-for-editor  |brew cask install unity-ios-support-for-editor|
+|	|   |unity-linux-support-for-editor  |brew cask install unity-linux-support-for-editor|
+|	|   |unity-monodevelop  |brew cask install unity-monodevelop|
+|	|   |unity-standard-assets  |brew cask install unity-standard-assets|
+|	|   |unity-web-player  |brew cask install unity-web-player|
+|	|   |unity-webgl-support-for-editor  |brew cask install unity-webgl-support-for-editor|
+|	|   |unity-windows-support-for-editor  |brew cask install unity-windows-support-for-editor|
+|	|   |unity  |brew cask install unity|
+|	|   |universal-media-server  |brew cask install universal-media-server|
+|	|   |universalmailer  |brew cask install universalmailer|
+|	|   |unlox  |brew cask install unlox|
+|	|   |unpkg  |brew cask install unpkg|
+|	|   |unrarx  |brew cask install unrarx|
+|	|   |unseen  |brew cask install unseen|
+|	|   |upeditor  |brew cask install upeditor|
+|	|   |upm  |brew cask install upm|
+|	|   |upterm  |brew cask install upterm|
+|	|   |upthere-home  |brew cask install upthere-home|
+|	|   |upwork  |brew cask install upwork|
+|	|   |usage  |brew cask install usage|
+|	|   |usb-overdrive  |brew cask install usb-overdrive|
+|	|   |ustream-producer  |brew cask install ustream-producer|
+|	|   |utc-menu-clock  |brew cask install utc-menu-clock|
+|	|   |utopia  |brew cask install utopia|
+|	|   |utox  |brew cask install utox|
+|	|   |uxprotect  |brew cask install uxprotect|
+|	|   |v2rayx  |brew cask install v2rayx|
+|	|   |vagishvela-chitchat  |brew cask install vagishvela-chitchat|
+|	|   |vagrant-manager  |brew cask install vagrant-manager|
+|	|   |vagrant  |brew cask install vagrant|
+|	|   |valentina-studio  |brew cask install valentina-studio|
+|	|   |validator-sac  |brew cask install validator-sac|
+|	|   |valley  |brew cask install valley|
+|	|   |vanilla  |brew cask install vanilla|
+|	|   |vapor  |brew cask install vapor|
+|	|   |vassal  |brew cask install vassal|
+|	|   |vaudtax  |brew cask install vaudtax|
+|	|   |vcv-rack  |brew cask install vcv-rack|
+|	|   |vdmx  |brew cask install vdmx|
+|	|   |vectoraster  |brew cask install vectoraster|
+|	|   |vectr  |brew cask install vectr|
+|	|   |veeer  |brew cask install veeer|
+|	|   |veertu  |brew cask install veertu|
+|	|   |vega  |brew cask install vega|
+|	|   |vellum  |brew cask install vellum|
+|	|   |veracrypt  |brew cask install veracrypt|
+|	|   |vernier-graphical-analysis  |brew cask install vernier-graphical-analysis|
+|	|   |versions  |brew cask install versions|
+|	|   |vessel  |brew cask install vessel|
+|	|   |vesta  |brew cask install vesta|
+|	|   |veusz  |brew cask install veusz|
+|	|   |vfuse  |brew cask install vfuse|
+|	|   |viber  |brew cask install viber|
+|	|   |videobox  |brew cask install videobox|
+|	|   |videomonkey  |brew cask install videomonkey|
+|	|   |videospec  |brew cask install videospec|
+|	|   |videostream  |brew cask install videostream|
+|	|   |vidyo  |brew cask install vidyo|
+|	|   |vienna  |brew cask install vienna|
+|	|   |viewit  |brew cask install viewit|
+|	|   |vimediamanager  |brew cask install vimediamanager|
+|	|   |vimr  |brew cask install vimr|
+|	|   |vin047-abgx360  |brew cask install vin047-abgx360|
+|	|   |vine-server  |brew cask install vine-server|
+|	|   |vinoteka  |brew cask install vinoteka|
+|	|   |vip-access  |brew cask install vip-access|
+|	|   |virtaal  |brew cask install virtaal|
+|	|   |virtual-ii  |brew cask install virtual-ii|
+|	|   |virtual-mix-rack  |brew cask install virtual-mix-rack|
+|	|   |virtualbox-extension-pack  |brew cask install virtualbox-extension-pack|
+|	|   |virtualbox  |brew cask install virtualbox|
+|	|   |virtualc64  |brew cask install virtualc64|
+|	|   |virtualhere  |brew cask install virtualhere|
+|	|   |virtualhereserver  |brew cask install virtualhereserver|
+|	|   |virtualhostx  |brew cask install virtualhostx|
+|	|   |virustotaluploader  |brew cask install virustotaluploader|
+|	|   |viscosity  |brew cask install viscosity|
+|	|   |visit  |brew cask install visit|
+|	|   |visitors  |brew cask install visitors|
+|	|   |vistrails  |brew cask install vistrails|
+|	|   |visual-paradigm-ce  |brew cask install visual-paradigm-ce|
+|	|   |visual-paradigm  |brew cask install visual-paradigm|
+|	|   |visual-studio-code  |brew cask install visual-studio-code|
+|	|   |visual-studio  |brew cask install visual-studio|
+|	|   |visualboyadvance-m  |brew cask install visualboyadvance-m|
+|	|   |visualjson  |brew cask install visualjson|
+|	|   |visualvm  |brew cask install visualvm|
+|	|   |vitalsource-bookshelf  |brew cask install vitalsource-bookshelf|
+|	|   |vitamin-r  |brew cask install vitamin-r|
+|	|   |vivaldi  |brew cask install vivaldi|
+|	|   |vk-messenger  |brew cask install vk-messenger|
+|	|   |vlc-webplugin  |brew cask install vlc-webplugin|
+|	|   |vlc  |brew cask install vlc|
+|	|   |vlcstreamer  |brew cask install vlcstreamer|
+|	|   |vmpk  |brew cask install vmpk|
+|	|   |vmware-fusion  |brew cask install vmware-fusion|
+|	|   |vmware-horizon-client  |brew cask install vmware-horizon-client|
+|	|   |vmware-remote-console  |brew cask install vmware-remote-console|
+|	|   |vnc-viewer  |brew cask install vnc-viewer|
+|	|   |vnote  |brew cask install vnote|
+|	|   |voicemac  |brew cask install voicemac|
+|	|   |voikkospellservice  |brew cask install voikkospellservice|
+|	|   |voodoopad  |brew cask install voodoopad|
+|	|   |vorlon  |brew cask install vorlon|
+|	|   |vox-preferences-pane  |brew cask install vox-preferences-pane|
+|	|   |vox  |brew cask install vox|
+|	|   |voxengo-span-au  |brew cask install voxengo-span-au|
+|	|   |voxengo-span-vst  |brew cask install voxengo-span-vst|
+|	|   |voxql  |brew cask install voxql|
+|	|   |vpaint  |brew cask install vpaint|
+|	|   |vpn-enabler  |brew cask install vpn-enabler|
+|	|   |vpnsecure  |brew cask install vpnsecure|
+|	|   |vrep  |brew cask install vrep|
+|	|   |vu  |brew cask install vu|
+|	|   |vuescan  |brew cask install vuescan|
+|	|   |vuo-editor  |brew cask install vuo-editor|
+|	|   |vuze  |brew cask install vuze|
+|	|   |vyprvpn  |brew cask install vyprvpn|
+|	|   |vysor  |brew cask install vysor|
+|	|   |wabbitemu  |brew cask install wabbitemu|
+|	|   |wakeonlan  |brew cask install wakeonlan|
+|	|   |wallpaper-clocks  |brew cask install wallpaper-clocks|
+|	|   |wallpaper-wizard  |brew cask install wallpaper-wizard|
+|	|   |waltr  |brew cask install waltr|
+|	|   |warsow  |brew cask install warsow|
+|	|   |washedoutco-katana  |brew cask install washedoutco-katana|
+|	|   |wasted  |brew cask install wasted|
+|	|   |watch-screenshot-magic  |brew cask install watch-screenshot-magic|
+|	|   |watchguard-mobile-vpn-with-ssl  |brew cask install watchguard-mobile-vpn-with-ssl|
+|	|   |waterfox  |brew cask install waterfox|
+|	|   |watts  |brew cask install watts|
+|	|   |wavebox  |brew cask install wavebox|
+|	|   |waves-central  |brew cask install waves-central|
+|	|   |wavesurfer  |brew cask install wavesurfer|
+|	|   |wavtap  |brew cask install wavtap|
+|	|   |web-sharing  |brew cask install web-sharing|
+|	|   |webarchiveextractor  |brew cask install webarchiveextractor|
+|	|   |webarchiveplayer  |brew cask install webarchiveplayer|
+|	|   |webcatalog  |brew cask install webcatalog|
+|	|   |webex-nbr-player  |brew cask install webex-nbr-player|
+|	|   |webex-wrf-player  |brew cask install webex-wrf-player|
+|	|   |webhook  |brew cask install webhook|
+|	|   |webpack-dashboard  |brew cask install webpack-dashboard|
+|	|   |webponize  |brew cask install webponize|
+|	|   |webpquicklook  |brew cask install webpquicklook|
+|	|   |webrecorder-player  |brew cask install webrecorder-player|
+|	|   |webstorm  |brew cask install webstorm|
+|	|   |webtorrent  |brew cask install webtorrent|
+|	|   |webuildsg  |brew cask install webuildsg|
+|	|   |wechatwebdevtools  |brew cask install wechatwebdevtools|
+|	|   |wedge  |brew cask install wedge|
+|	|   |weibox  |brew cask install weibox|
+|	|   |weiyun  |brew cask install weiyun|
+|	|   |weka  |brew cask install weka|
+|	|   |welly  |brew cask install welly|
+|	|   |wercker-cli  |brew cask install wercker-cli|
+|	|   |wercker  |brew cask install wercker|
+|	|   |wesnoth  |brew cask install wesnoth|
+|	|   |wewechat  |brew cask install wewechat|
+|	|   |whale  |brew cask install whale|
+|	|   |whatpulse  |brew cask install whatpulse|
+|	|   |whatroute  |brew cask install whatroute|
+|	|   |whatsapp-pocket  |brew cask install whatsapp-pocket|
+|	|   |whatsapp  |brew cask install whatsapp|
+|	|   |whatsize  |brew cask install whatsize|
+|	|   |whatsyoursign  |brew cask install whatsyoursign|
+|	|   |whichspace  |brew cask install whichspace|
+|	|   |whiskey  |brew cask install whiskey|
+|	|   |whiteclock  |brew cask install whiteclock|
+|	|   |widelands  |brew cask install widelands|
+|	|   |widgetrunner  |brew cask install widgetrunner|
+|	|   |wifi-explorer  |brew cask install wifi-explorer|
+|	|   |wifimasterkey  |brew cask install wifimasterkey|
+|	|   |wifispoof  |brew cask install wifispoof|
+|	|   |window-switch  |brew cask install window-switch|
+|	|   |windownaut  |brew cask install windownaut|
+|	|   |winds  |brew cask install winds|
+|	|   |windscribe  |brew cask install windscribe|
+|	|   |wine-stable  |brew cask install wine-stable|
+|	|   |wineskin-winery  |brew cask install wineskin-winery|
+|	|   |winfo  |brew cask install winfo|
+|	|   |wingfs  |brew cask install wingfs|
+|	|   |wingide  |brew cask install wingide|
+|	|   |wings3d  |brew cask install wings3d|
+|	|   |wire  |brew cask install wire|
+|	|   |wireframe-sketcher  |brew cask install wireframe-sketcher|
+|	|   |wireless-transfer  |brew cask install wireless-transfer|
+|	|   |wireshark-chmodbpf  |brew cask install wireshark-chmodbpf|
+|	|   |wireshark  |brew cask install wireshark|
+|	|   |wiretap-studio  |brew cask install wiretap-studio|
+|	|   |wiring  |brew cask install wiring|
+|	|   |witch  |brew cask install witch|
+|	|   |witgui  |brew cask install witgui|
+|	|   |wizard101  |brew cask install wizard101|
+|	|   |wiznote  |brew cask install wiznote|
+|	|   |wjoy  |brew cask install wjoy|
+|	|   |wkhtmltopdf  |brew cask install wkhtmltopdf|
+|	|   |wondershare-pdf-editor-pro  |brew cask install wondershare-pdf-editor-pro|
+|	|   |wondershare-player  |brew cask install wondershare-player|
+|	|   |wondershare-video-converter-ultimate  |brew cask install wondershare-video-converter-ultimate|
+|	|   |wordcounter  |brew cask install wordcounter|
+|	|   |wordmark  |brew cask install wordmark|
+|	|   |wordpresscom  |brew cask install wordpresscom|
+|	|   |wordservice  |brew cask install wordservice|
+|	|   |workamajig  |brew cask install workamajig|
+|	|   |workcraft  |brew cask install workcraft|
+|	|   |workflowy  |brew cask install workflowy|
+|	|   |worksnaps-client  |brew cask install worksnaps-client|
+|	|   |world-of-tanks  |brew cask install world-of-tanks|
+|	|   |wowdoge  |brew cask install wowdoge|
+|	|   |wowhead-client  |brew cask install wowhead-client|
+|	|   |wowmatrix  |brew cask install wowmatrix|
+|	|   |wowza-streaming-engine  |brew cask install wowza-streaming-engine|
+|	|   |wraparound  |brew cask install wraparound|
+|	|   |writefull  |brew cask install writefull|
+|	|   |wwdc  |brew cask install wwdc|
+|	|   |wxcrafter  |brew cask install wxcrafter|
+|	|   |wxwork  |brew cask install wxwork|
+|	|   |x-lite  |brew cask install x-lite|
+|	|   |x-mirage  |brew cask install x-mirage|
+|	|   |x-moto  |brew cask install x-moto|
+|	|   |x2goclient  |brew cask install x2goclient|
+|	|   |x48  |brew cask install x48|
+|	|   |xact  |brew cask install xact|
+|	|   |xamarin-android-player  |brew cask install xamarin-android-player|
+|	|   |xamarin-android  |brew cask install xamarin-android|
+|	|   |xamarin-ios  |brew cask install xamarin-ios|
+|	|   |xamarin-jdk  |brew cask install xamarin-jdk|
+|	|   |xamarin-mac  |brew cask install xamarin-mac|
+|	|   |xamarin-studio  |brew cask install xamarin-studio|
+|	|   |xamarin  |brew cask install xamarin|
+|	|   |xampp  |brew cask install xampp|
+|	|   |xaos  |brew cask install xaos|
+|	|   |xbench  |brew cask install xbench|
+|	|   |xca  |brew cask install xca|
+|	|   |xccello  |brew cask install xccello|
+|	|   |xcsoar  |brew cask install xcsoar|
+|	|   |xee  |brew cask install xee|
+|	|   |xeora-cli  |brew cask install xeora-cli|
+|	|   |xfer-ott  |brew cask install xfer-ott|
+|	|   |xfinity-wifi  |brew cask install xfinity-wifi|
+|	|   |xguardian  |brew cask install xguardian|
+|	|   |xiami  |brew cask install xiami|
+|	|   |xld  |brew cask install xld|
+|	|   |xlifftool  |brew cask install xlifftool|
+|	|   |xmarks-safari  |brew cask install xmarks-safari|
+|	|   |xmind-zen  |brew cask install xmind-zen|
+|	|   |xmind  |brew cask install xmind|
+|	|   |xmplify  |brew cask install xmplify|
+|	|   |xmrouter  |brew cask install xmrouter|
+|	|   |xnconvert  |brew cask install xnconvert|
+|	|   |xnviewmp  |brew cask install xnviewmp|
+|	|   |xoctave  |brew cask install xoctave|
+|	|   |xpra  |brew cask install xpra|
+|	|   |xquartz  |brew cask install xquartz|
+|	|   |xrg  |brew cask install xrg|
+|	|   |xscope  |brew cask install xscope|
+|	|   |xscreensaver  |brew cask install xscreensaver|
+|	|   |xtabulator  |brew cask install xtabulator|
+|	|   |xtorrent  |brew cask install xtorrent|
+|	|   |yabumi  |brew cask install yabumi|
+|	|   |yacreader  |brew cask install yacreader|
+|	|   |yahoo-messenger  |brew cask install yahoo-messenger|
+|	|   |yakyak  |brew cask install yakyak|
+|	|   |yammer  |brew cask install yammer|
+|	|   |yandex  |brew cask install yandex|
+|	|   |yarbs  |brew cask install yarbs|
+|	|   |yasu  |brew cask install yasu|
+|	|   |yate  |brew cask install yate|
+|	|   |yed  |brew cask install yed|
+|	|   |yemuzip  |brew cask install yemuzip|
+|	|   |yep  |brew cask install yep|
+|	|   |yimello  |brew cask install yimello|
+|	|   |ynab  |brew cask install ynab|
+|	|   |yoda  |brew cask install yoda|
+|	|   |yojimbo  |brew cask install yojimbo|
+|	|   |youdaodict  |brew cask install youdaodict|
+|	|   |youdaonote  |brew cask install youdaonote|
+|	|   |youku  |brew cask install youku|
+|	|   |youll-never-take-me-alive  |brew cask install youll-never-take-me-alive|
+|	|   |younity  |brew cask install younity|
+|	|   |yourkit-java-profiler  |brew cask install yourkit-java-profiler|
+|	|   |youtrack-workflow  |brew cask install youtrack-workflow|
+|	|   |youtube-to-mp3  |brew cask install youtube-to-mp3|
+|	|   |youview  |brew cask install youview|
+|	|   |yu-writer  |brew cask install yu-writer|
+|	|   |yujitach-menumeters  |brew cask install yujitach-menumeters|
+|	|   |yummy-ftp  |brew cask install yummy-ftp|
+|	|   |yy  |brew cask install yy|
+|	|   |zandronum  |brew cask install zandronum|
+|	|   |zapsnap  |brew cask install zapsnap|
+|	|   |zazu  |brew cask install zazu|
+|	|   |zcash4mac  |brew cask install zcash4mac|
+|	|   |zdoom  |brew cask install zdoom|
+|	|   |zed  |brew cask install zed|
+|	|   |zeebe-modeler  |brew cask install zeebe-modeler|
+|	|   |zekr  |brew cask install zekr|
+|	|   |zend-studio  |brew cask install zend-studio|
+|	|   |zendserver  |brew cask install zendserver|
+|	|   |zenmap  |brew cask install zenmap|
+|	|   |zenmate-vpn  |brew cask install zenmate-vpn|
+|	|   |zepheer  |brew cask install zepheer|
+|	|   |zeplin  |brew cask install zeplin|
+|	|   |zerobranestudio  |brew cask install zerobranestudio|
+|	|   |zeroinstall  |brew cask install zeroinstall|
+|	|   |zeronet  |brew cask install zeronet|
+|	|   |zerotier-one  |brew cask install zerotier-one|
+|	|   |zesarux  |brew cask install zesarux|
+|	|   |zest  |brew cask install zest|
+|	|   |zettelkasten  |brew cask install zettelkasten|
+|	|   |zipcleaner  |brew cask install zipcleaner|
+|	|   |zipeg  |brew cask install zipeg|
+|	|   |zoc  |brew cask install zoc|
+|	|   |zoho-docs  |brew cask install zoho-docs|
+|	|   |zoolz  |brew cask install zoolz|
+|	|   |zoom  |brew cask install zoom|
+|	|   |zoomus-outlook-plugin  |brew cask install zoomus-outlook-plugin|
+|	|   |zoomus  |brew cask install zoomus|
+|	|   |zotero  |brew cask install zotero|
+|	|   |zterm  |brew cask install zterm|
+|	|   |zulip  |brew cask install zulip|
+|	|   |zulu  |brew cask install zulu|
+|	|   |zxpinstaller  |brew cask install zxpinstaller|
