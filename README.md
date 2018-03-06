@@ -20,25 +20,25 @@
 
 |分类|名称| 包名|命令|
 |---|---|---|---|
-|	|   | 0ad |brew cask install 0ad|
-|	|   |0xed  |brew cask install 0xed|
-|	|   |1clipboard  |brew cask install 1clipboard|
-|	|   |1password-cli  |brew cask install 1password-cli|
-|	|1password   |1password  |brew cask install 1password|
-|	|   |3cxphone  |brew cask install 3cxphone|
-|	|   |4k-slideshow-maker  |brew cask install 4k-slideshow-maker|
-|	|   |4k-stogram  |brew cask install 4k-stogram|
-|	|   |4k-video-downloader  |brew cask install 4k-video-downloader|
-|	|   |4k-video-to-mp3  |brew cask install 4k-video-to-mp3|
-|	|   |4k-youtube-to-mp3  |brew cask install 4k-youtube-to-mp3|
-|	|   |4peaks  |brew cask install 4peaks|
-|	|   |5kplayer  |brew cask install 5kplayer|
-|	|   |8bitshaper  |brew cask install 8bitshaper|
-|	|   |8tracksradiohelper  |brew cask install 8tracksradiohelper|
-|	|   |010-editor  |brew cask install 010-editor|
-|	|   |33-rpm  |brew cask install 33-rpm|
-|	|   |115browser  |brew cask install 115browser|
-|	|   |360safe  |brew cask install 360safe|
+|游戏    |0.A.D   |0ad |brew cask install 0ad|
+|编辑器    |0xED   |0xed  |brew cask install 0xed|
+|    |1Clipboard   |1clipboard  |brew cask install 1clipboard|
+|    |1Password CLI  |1password-cli  |brew cask install 1password-cli|
+|    |1Password   |1password  |brew cask install 1password|
+|    |3CX Phone   |3cxphone  |brew cask install 3cxphone|
+|    |4K Slideshow Maker   |4k-slideshow-maker  |brew cask install 4k-slideshow-maker|
+|    |4K Stogram   |4k-stogram  |brew cask install 4k-stogram|
+|    |4K Video Downloader   |4k-video-downloader  |brew cask install 4k-video-downloader|
+|    |4K Video to MP3   |4k-video-to-mp3  |brew cask install 4k-video-to-mp3|
+|    |4K YouTube to MP3   |4k-youtube-to-mp3  |brew cask install 4k-youtube-to-mp3|
+|    |4Peaks   |4peaks  |brew cask install 4peaks|
+|播放器    |5K Player   |5kplayer  |brew cask install 5kplayer|
+|    |8-Bit Shaper   |8bitshaper  |brew cask install 8bitshaper|
+|    |8tracks Radio   |8tracksradiohelper  |brew cask install 8tracksradiohelper|
+|编辑器     |010 Editor   |010-editor  |brew cask install 010-editor|
+|    |33 RPM   |33-rpm  |brew cask install 33-rpm|
+|浏览器 |115浏览器   |115browser  |brew cask install 115browser|
+|    |360安全卫士   |360safe  |brew cask install 360safe|
 |	|   |a-better-finder-attributes  |brew cask install a-better-finder-attributes|
 |	|   |a-better-finder-rename  |brew cask install a-better-finder-rename|
 |	|   |a-slower-speed-of-light  |brew cask install a-slower-speed-of-light|
